@@ -46,7 +46,7 @@
 37.text;{taunt}\n{gift} - Donne +2/+2 a une créature aléatoire dans votre main.
 38.name;Garde du Roi
 38.text;{taunt}\n{combat} - Piochez une carte.
-39.name;Héros improbable
+39.name;Héroïne improbable
 39.text;La première fois qu'elle combat et si elle survit, cette créature gagne +3/+3 et {charge|2}.
 40.name;Magnus, Roi de Meroval
 40.text;{charge|3}\n{combat} - Piochez une carte. Elle coûte {faeria|0}.
@@ -522,7 +522,7 @@
 354.text;{dash|3}\n{gift} - Fixez les PV d'une divinité à 10.
 355.name;Kodama sauvage
 355.text;{jump}\nNe peut pas récolter de faeria.\nÀ chaque fois que cette créature attaque une divinité, vous gagnez 5 PV.
-356.name;Traqueur de Dieux
+356.name;Chasseur de Dieux
 356.text;{jump}\nNe peut attaquer que les divinités.\nNe peut pas récolter de faeria.
 357.name;Incantation sanglante
 357.text;Réduisez de {faeria|2} le coût d'une carte aléatoire de votre main, 4 fois. Infligez-vous 4 points de dégâts.
@@ -551,7 +551,7 @@
 369.name;Illusion des grandeurs
 369.text;{charge|2}\nTant que cette carte est dans votre deck ou votre main, elle gagne autant d'attaque et de points de vie que les créatures que vous invoquez et qui coûtent  {faeria|1} ou moins.
 370.name;Tisseuse des Bois Enfouis
-370.text;{gift} - Vous pouvez combattre une créature ennemie.
+370.text;{gift} - Cette créature peut combattre une créature ennemie.
 371.name;Dîner de Krog
 371.text;Krog vous coûte {faeria|7} de moins à invoquer. Quand vous le faites, cette créature est détruite.\n{gift} - Si Krog est déjà mort ou est encore dans votre deck, piochez-le.
 372.name;Sourire de Iona
@@ -804,3 +804,43 @@
 670.text;{production} - Si votre adversaire a 4 cartes ou plus en main, piochez 1 carte et drainez 1 PV à votre adversaire.
 671.name;Anguille foudroyante
 671.text;{flying}\n{gift} - Inflige 2 points de dégât à une creature. Si elle est au dessus de l'océan, lui en inflige 4 à la place.
+673.name;Banon, Capitaine du Radiance
+673.text;{gift} - Si vous n'avez plus de créatures dans votre deck, mélange <b>Radiance, Vaisseau Impérial</b> et 10 créatures neutres aléatoires dans votre deck. Elles gagnent +2/+2.
+674.name;Ulani, Protecteur d'Outreciel
+674.text;{gift} - Gagne {taunt},{protection} et {divine} si Ulani est votre unique créature.
+675.name;Lamacorne
+675.text;{combat} - Chaque joueur pioche une carte et gagne 2 PV.
+676.name;Yak Vagabond
+676.text;{gift} - Crée une prairie.\n{dash|1}
+677.name;Gardienne de Yaks
+677.text;{gift} - Donne +2/+0 et {charge|2} à 2 yaks alliés jusqu'à la fin du tour.
+678.name;Yak d'Outreciel
+678.text;{flying}\nA +2/+2 tant que vous avez 6 prairies.
+679.name;Crapaud ballonné
+679.text;{jump}\n{last_words} - Invoque une <b>Grenouille</b> 2/2 avec {jump} pour votre adversaire sur cet espace.
+680.name;Fantasmagorie miroitante
+680.text;{gift} - Transforme une créature ennemie en <b>etnatiorim eirogamsatnaF</b> 5/3.
+681.name;Tacticien Triton
+681.text;{jump}\n{gift} - Gagne +1/+0 pour chaque triton allié adjacent.
+682.name;Seigneur des marées
+682.text;{jump}\nPeut être invoqué sur une case adjacente à un triton allié, et gagne alors +1/+1.
+683.name;Banquet animé
+683.text;{dash|1}\nA la fin de votre tour, une créature adjacente aléatoire gobe cette créature et gagne +1/+1.
+684.name;Têtard des coraux
+684.text;Cette créature peut collecter le tour ou elle arrive en jeu.\n{gift} - Vous pouvez déplacer le terrain de cette créature.
+685.name;Chrysalide
+685.text;{gift} - {swallow} une créature alliée.\n{production} - La créature gobée gagne +1/+1.\n{activate} - Détruisez cette structure.
+686.name;Émissaire Verduralde
+686.text;{last_words} - Donne +1/+1 à toutes les créatures de votre main.
+687.name;Prêtre d'Éternité
+687.text;{gift} - Donne +2/+4 à la prochaine créature que vous piochez.
+688.name;Kodama bourgeonnant
+688.text;{gift} - Crée 3 forêts.
+689.name;Goupil Zéphyréen
+689.text;Quand cette créature se déplace sur une forêt, vous pouvez la téléporter sur une forêt que vous contrôlez.
+690.name;Dwordia, chef de la Tribu du Renard Argenté
+690.text;Quand Dwordia se déplace sur une forêt, vous pouvez le téléporter sur une forêt que vous contrôlez. Il gagne alors +1/+1.
+691.name;Célébration de la Victoire
+691.text;Chaque joueur gagne {faeria|1} de plus chaque tour durant le reste de la partie.
+692.name;Sauveur des humbles
+692.text;{gift} - Donne +2/+2 et {divine} à une autre créature alliée avec exactement 1 point d'attaque.
