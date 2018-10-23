@@ -489,7 +489,7 @@
 307.name;Erstickender Sandsturm
 307.text;Zerstöre eine Kreatur mit 3 Angriff oder weniger.
 308.name;Schicksalspforte, Tor zur Verwüstung
-308.text;Wenn dieses Bauwerk 13Leben oder mehr hat, zerstöre es und beschwöre <b>Ostregoth</b> an dieser Position.\n{activate} - Opfere eine Kreatur, ziehe eine Karte, dieses Bauwerk erhält +0/+2.
+308.text;Wenn Schicksalspforte 13 oder mehr Leben hat, zerstöre sie und beschwöre <b>Ostregoth</b> an ihrer Position.\n{activate} - Opfere eine Kreatur, ziehe eine Karte und Schicksalspforte erhält +0/+2.
 309.name;Sturmschütze
 309.text;{ranged_attack}\nErhält jedes Mal, wenn du ein Ereignis spielst, +1/+0 für diesen Zug.
 310.name;Sturmreiter
@@ -551,7 +551,7 @@
 369.name;Illusion von Erhabenheit
 369.text;{charge|2}\nJedes Mal, wenn du eine Kreatur beschwörst, die {faeria|1} oder weniger kostet, erhält diese Karte Angriff und Leben gleich den Werten jener Kreatur (solange sie in deiner Hand oder deinem Deck ist).
 370.name;Düsterforst-Pirscher
-370.text;{gift} - Du kannst eine gegnerische Kreatur bekämpfen.
+370.text;{gift} - Dies kann eine gegnerische Kreatur bekämpfen.
 371.name;Krogs Abendessen
 371.text;Dein Krog kostet {faeria|7} weniger. Wenn du Krog beschwörst, zerstöre diese Kreatur. \n {gift} Wenn Krog gestorben ist oder in deinem Deck ist, ziehe ihn.
 372.name;Ionas Lächeln
@@ -661,7 +661,7 @@
 520.name;Wandelbarer Oktopus
 520.text;{options|Erhält +2/+0.|Erhält +0/+2.|Erhält {jump}.|Erhält {taunt}.}, zweimal:\n- Erhält +2/+0\n- Erhält +0/+2\n- Erhält {jump}\n- Erhält {taunt}
 521.name;Frosch-Werfer
-521.text;{gift} - Kämpfe mit einer gegnerischen Kreatur. Beschwöre einen 2/2 <b>Frosch</b> mit {jump} auf einem zufällig ausgewählten, an das Ziel angrenzenden Feld.
+521.text;{gift} - Dies bekämpft eine gegnerische Kreatur. Beschwöre einen 2/2 <b>Frosch</b> mit {jump} auf einem zufälligen Feld, das an das Ziel angrenzt.
 522.name;Weg ins Paradies
 522.text;{options|Erschaffe einen Wald.|Erschaffe einen See.|Erschaffe einen Berg.|Erschaffe eine Wüste.} - Erschaffe ein farbiges Land. \n Die erste Kreatur, die du in diesem Zug darauf beschwörst, erhält +2/+0.
 523.name;Smaragdgrüner Salamander
@@ -735,11 +735,11 @@
 626.name;Saphiryak
 626.text;Immer wenn ein verbündeter Yak Faeria von einem gegnerischen Brunnen sammelt, gib ihm +2/+2.
 627.name;Erlegen
-627.text;Gib einer verbündeten Bestie +2/+0. Dann kämpft es gegen eine gegnerische Kreatur.
+627.text;Gib einer verbündeten Bestie +2/+0. Dann bekämpft sie eine gegnerische Kreatur.
 628.name;Smaragdtyak
 628.text;{gift}- Beschwöre ein 1/1 <b>Baby Yak</b> mit {taunt} und <b> Kann kein Faeria sammeln</b> auf einer Prärie unter deiner Kontrolle.
 629.name;Majinata, Geist des Ewigen Lebens
-629.text;{protection}, {divine}\n{gift}- Eine verbündete Kreatur verschlingt dies. Sie erhält +5/+5, {flying} und {charge|2}.
+629.text;{protection}, {divine}\n{gift} - Eine verbündete Kreatur verschlingt Majinata. Sie erhält +5/+5, {flying} und {charge|2}.
 630.name;Lavastrom Axolotl
 630.text;
 640.name;Rakoakopter
@@ -791,7 +791,7 @@
 664.name;Flammenentfacher
 664.text;Erhält +1/+1 jedes mal das du +{faeria|1} von dem Kraftrad wählst.
 665.name;Wolkenödlands Pest
-665.text;{gift} - Bekämpfe deinen Gegner.
+665.text;{gift} - Dies bekämpft deinen Gegner.
 666.name;Aasige Blähfliege
 666.text;{flying}{corrupt} - Nimm eine <b>Aasige Blähfliege</b> auf die Hand.
 667.name;Schandbrut Schemen
@@ -804,3 +804,43 @@
 670.text;{production} - Falls dein Gegner 4 oder mehr Karten in der Hand hat, ziehe eine Karte und entziehe deinem Gegner 1 Leben.
 671.name;Donner Aal
 671.text;{flying}\n {gift} - Füge einer Kreatur 2 Schaden zu. Falls Sie sich auf einem Ozean Feld befindet, füge Ihr stattdessen 4 Schaden zu.
+673.name;Banon, Kapitän von Silberstrahl
+673.text;{gift} - Wenn du keine Kreaturen mehr in deinem Deck hast, mische <b>Silberstrahl, Imperiales Lufschiff</b> und 10 zufällige neutrale Kreaturen in dein Deck. Sie erhaIten +2/+2.
+674.name;Ulani, Verteidigerin der Himmelswelt
+674.text;{gift} - Wenn dies deine einzige Kreatur ist, erhält sie {taunt},{protection} und {divine}.
+675.name;Llamacorn
+675.text;{combat} - Jeder Spieler zieht eine Karte und erhält 2 Leben.
+676.name;Wandernder Yak
+676.text;{dash|1}\n{gift} - Erschaffe eine Prärie.
+677.name;Yakhirtin
+677.text;{gift} - Gib 2 verbündeten Yaks +2/+0 und {charge|2} bis zum Ende der Runde.
+678.name;Himmelswelt Yak
+678.text;{flying}\nHat +2/+2 solange du 6 Prärien kontrollierst.
+679.name;Aufgeblähte Kröte
+679.text;{jump}\n{last_words} - Beschwöre einen 2/2 <b>Frosch</b> mit {jump} für deinen Gegner auf diesem Land.
+680.name;Verzerrtes Trugbild
+680.text;{gift} - Verwandle eine andere Kreatur in ein 5/3 <b>dlibgurT setrrezreV</b>.
+681.name;Triton Taktiker
+681.text;{jump}\n{gift} - Erhält +1/+0 für jeden angrenzenden verbündeten Triton.
+682.name;Gezeitenlord
+682.text;{jump}\nKann neben angrenzenden verbündeten Tritons beschworen werden. Wenn dies passiert, erhält diese Kreatur +1/+1.
+683.name;Unterhaltsames Bankett
+683.text;{dash|1}\nAm ende deiner Runde verschlingt eine zufällige angrenzende verbündete Kreatur dies und erhält +1/+1.
+684.name;Korallenkaulquappe
+684.text;Diese Kreatur kann in der Runde Faeria sammeln, in der sie gespielt wurde.\n{gift} - Du kannst das Land, auf dem diese Kreatur steht, einmal bewegen.
+685.name;Kokon
+685.text;{gift} - {swallow} eine verbündete Kreatur.\n{production} - Die verschlungene Kreatur erhält +1/+1.\n{activate} - Zerstöre dies.
+686.name;Botschafter der Pflanzenwelt
+686.text;{last_words} - Gib allen Kreaturen in deiner Hand +1/+1.
+687.name;Priester des Ewigen Lebens
+687.text;{gift} - Gib der nächsten Kreatur, die du ziehst, +2/+4.
+688.name;Blühendes Kodama
+688.text;{gift} - Erschaffe 3 Wälder.
+689.name;Wirbelwindfuchs
+689.text;Immer, wenn diese Kreatur einen Wald betritt, kann sie auf einen Wald unter deiner Kontrolle teleportiert werden.
+690.name;Dwordia, Häuptling des Stammes des Strahlenden Fuchses
+690.text;Immer, wenn Dwordia einen Wald betritt, kann er zu einem Wald unter deiner Kontrolle teleportiert werden. Passiert dies, erhält er +1/+1.
+691.name;Siegesfeier
+691.text;Für den Rest des Spiels erhält jeder Spieler {faeria|1} mehr pro Runde.
+692.name;Retter der Sanftmütigen
+692.text;{gift} - Gib einer verbündeten Kreatur mit genau 1 Angriff +2/+2 und {divine}.
