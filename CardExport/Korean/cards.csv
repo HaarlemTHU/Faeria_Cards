@@ -189,7 +189,7 @@
 121.name;파도의 선지자
 121.text;{gift} - 이 생물이 있는 땅을 두 번 움직입니다.
 122.name;겸손
-122.text;Halve a creature's base Attack and Life (rounded down).
+122.text;생물 하나의 공격력과 생명력을 절반으로 줄입니다. (내림)
 123.name;고대의 전령
 123.text;{gift} - 다음으로 뽑는 생명력이 5 이상인 생물의 비용이 {faeria|2} 감소합니다.
 124.name;트라이튼 연회
@@ -213,7 +213,7 @@
 133.name;사가미 강령술사
 133.text;{last_words} - 무작위 아군 생물에게 +3/+5를 부여합니다.
 134.name;사가미 숲소환사
-134.text;{gift} - You may teleport another friendly creature to a forest you control.
+134.text;{gift} - 다른 아군 생물 하나를 내가 조종하는 숲으로 이동시킬 수 있습니다.
 135.name;고대 야수조련사
 135.text;내가 생명력이 5 이상인 생물을 소환하면 그 생물에게 +1/+1을 부여합니다.
 136.name;가이아의 은총
@@ -385,7 +385,7 @@
 243.name;화염 폭탄
 243.text;생물 또는 건물에 4 피해를 줍니다.
 244.name;화염 폭풍
-244.text;Choose a space. Deal 3 damage to all enemy creatures on or adjacent to that space.
+244.text;공간을 하나 지정합니다. 그 공간과 인접 공간에 있는 모든 적 생물에게 피해를 3 줍니다.
 245.name;전투 격노자
 245.text;피해를 입은만큼 상대에게 피해를 줍니다.
 246.name;바스러지는 골렘
@@ -409,7 +409,7 @@
 255.name;오라드림 사수
 255.text;{ranged_attack}\n아군 생물이 신을 공격할 때 마다 {faeria|1} 을 얻습니다.
 256.name;오라드림 광신도
-256.text;{jump}\n{gift} - You may move a friendly creature.
+256.text;{jump}\n{gift} - 아군 생물 하나를 이동시킬 수 있습니다.
 257.name;데저트 트위스터
 257.text;생물 하나를 내 사막으로 이동합니다.
 258.name;바람 관문
@@ -489,7 +489,7 @@
 307.name;조여오는 모래
 307.text;공격력이 3 이하인 생물 하나를 파괴합니다.
 308.name;둠게이트, 종언의 문
-308.text;생명력이 13 이상이면 파괴하고 <b>Ostregoth</b>를 그자리에 소환합니다.\n{activate} - 아군 생물 하나를 희생합니다. 카드를 한장 뽑고 이 건물이 생명력 2를 얻습니다.
+308.text;When Doomgate has 13 Life or more, destroy it and summon <b>Ostregoth</b> in its place.\n{activate} - Sacrifice a creature, draw a card and Doomgate gains +0/+2.
 309.name;모래폭풍 궁수
 309.text;{ranged_attack}\n이벤트를 사용할 때 마다 이번 턴 동안 +1/+0을 얻습니다.
 310.name;모래폭풍 기수
@@ -539,7 +539,7 @@
 363.name;트라이튼 교관
 363.text;{jump}\n{gift} - 내가 다음에 소환하는 {jump} 생물에게 +1/+1을 부여합니다.
 364.name;진실의 목소리
-364.text;{gift} - You may return a creature to its original Attack and Life.
+364.text;{gift} - 생물 하나의 공격력과 생명력을 원래 수치로 바꿀 수 있습니다.
 365.name;전쟁의 전령
 365.text;{combat} - 내가 다음번에 소환하는 {combat} 생물에게 +1/+1을 줍니다.
 366.name;미스트랄 인도자
@@ -551,7 +551,7 @@
 369.name;웅장한 환상
 369.text;{charge|2}\n내가 비용이 {faeria|1} 이하인 생물을 소환할 때마다 그 생물의 공격력과 생명력만큼 공격력과 생명력을 얻습니다(손이나 덱에 있는 동안).
 370.name;깊은숲 추적자
-370.text;{gift} - You may fight an enemy creature.
+370.text;{gift} - This may fight an enemy creature.
 371.name;크로그의 저녁거리
 371.text;내 <b>크로그</b>의 비용이 {faeria|7} 줄어듭니다. 내가 크로그를 소환하면 이 생물을 파괴합니다.\n{gift} - <b>크로그</b>를 덱에서 뽑습니다. <b>크로그</b>가 죽었다면 <b>크로그</b>를 손으로 가져옵니다.
 372.name;이오나의 미소
@@ -661,7 +661,7 @@
 520.name;변신 문어
 520.text;두 번 {options|+2/+0을 얻습니다.|+0/+2를 얻습니다.|{jump}를 얻습니다.|{taunt}을 얻습니다.} 합니다:\n- +2/+0을 얻습니다.\n- +0/+2를 얻습니다.\n- {jump}를 얻습니다.\n- {taunt}를 얻습니다.
 521.name;개구리 투척수
-521.text;{gift} - 적 생물 하나와 싸웁니다. 대상 근처 무작위 공간에 2/2 {jump} 개구리를 소환합니다.
+521.text;{gift} - This fights an enemy creature. Summon a 2/2 <b>Frog</b> with {jump} in a random space adjacent to the target.
 522.name;낙원을 향해
 522.text;{options|숲을 생성 합니다.|호수를 생성 합니다.|산을 생성 합니다.|사막을 생성 합니다.} - 속성 땅을 생성 합니다.\n이번 턴 동안 이 땅에 소환된 첫번째 생물에게 +2/+0를 부여합니다.
 523.name;에메랄드 불도마뱀
@@ -735,11 +735,11 @@
 626.name;사파이어 야크
 626.text;아군 야크가 상대 우물에서 수확할 때 마다 +2/+2를 얻습니다.
 627.name;추적
-627.text;아군 야수 하나에게 +2/+0을 부여하고 적 생물 하나와 싸우게 합니다.
+627.text;Give a friendly beast +2/+0. Then it fights an enemy creature.
 628.name;에메랄드 야크
 628.text;{gift} - <b>페어리아를 수확할 수 없고</b> {taunt}을 가진 1/1 <b>아기 야크</b>를 내 평원에 소환합니다.
 629.name;영생의 정령 마지나타
-629.text;{protection}, {divine}\n{gift} - 아군 생물 하나에게 포식 당하고 그 생물에게 +5/+5, {flying}, {charge|2}를 부여합니다.
+629.text;{protection}, {divine}\n{gift} - A friendly creature swallows Majinata. Give it +5/+5, {flying} and {charge|2}.
 630.name;용암을 휘감는 우파루파
 630.text;
 640.name;라코아콥터
@@ -757,50 +757,90 @@
 646.name;라코아 포수
 646.text;{gift} - 아군 라코아 하나를 파괴하고 적 하나에게 3 피해를 줍니다.
 647.name;라코아 환영술사
-647.text;{gift} - You may transform another friendly Rakoan into a 4/4 {flying} {charge|2} <b>Dune Drake</b> until the start of your next turn.
+647.text;{gift} - 다른 아군 라코아 하나를 내 다음 턴이 오기까지 {flying}, {charge|2}를 가진 4/4 <b>사막 비룡</b>으로 변신시킬 수 있습니다.
 648.name;라코아 방패병
 648.text;{last_words} - 이 생물이 있던 자리에 1/1 <b>라코아</b>를 하나 소환합니다.
 649.name;라코아 전투대장
 649.text;{combat} - 손에 있는 무작위 라코아 하나에게 +1/+1을 부여합니다.
 650.name;라코아 모병관
 650.text;{gift} - 1/1 라코아를 내 손으로 가져옵니다. 그 카드의 비용은 {faeria|0}이 됩니다.
-652.name;Enslaved Priest
-652.text;Whenever a creature you control triggers a {corrupt} ability, you drain 2 life from your opponent.
+652.name;노예가 된 사제
+652.text;내가 조종하는 생물이 {corrupt} 능력을 발동할 때마다, 상대방으로부터 생명력을 2 흡수합니다.
 653.name;저주의 탑
 653.text;{activate} - 생물 하나에게 -1/-1을 줍니다. 이 건물에 피해를 1 줍니다.
-654.name;Shozen, the Sky Eater
-654.text;{flying}, {charge|3}\nThe first time Shozen would kill a creature in combat, instead swallow and gain control of it.
-655.name;Imperial Outpost
-655.text;All friendly neutral creatures have +1/+0.
-656.name;Destructive Volley
-656.text;Deal 2 damage to a creature. If it is a {flying} creature, deal 5 damage instead.
-657.name;Gagana, Rainbow Birdship
-657.text;{flying}\nCards in your hand are {wild}.\n{gift} - Add a random Gagana crew member to your hand. It costs {faeria|0}.
-658.name;Radiance, Scourge of Oversky
-658.text;{flying}\n{gift} - Enemy creatures can't move or attack next turn.
-659.name;Bursting Hippo
-659.text;{combat} - Deal 2 damage to all adjacent enemies.
-660.name;Beast Trainer
-660.text;{gift} - Reduce the cost of a random Beast in your hand by {faeria|5}.
-661.name;Kobold Smuggler
-661.text;{corrupt} - Summon a 4/3 <b>Seifer's Fodder</b> in a random adjacent land.
-662.name;Wrath of Ignus
-662.text;Deal 4 damage randomly split among enemies.\nCosts {faeria|1} less for each time you have selected +{faeria|1} from the power wheel this game (while in your hand or deck).
-663.name;Ignusi Ritualist
-663.text;{gift} - Refresh your power wheel.\n{corrupt} - Refresh your power wheel.
-664.name;Flamestoker
-664.text;Whenever you select +{faeria|1} from the power wheel, this gains +1/+1.
-665.name;Barrensky Vermin
-665.text;{gift} - Fight your opponent.
-666.name;Vile Bloatfly
-666.text;{flying}\n{corrupt} - Add a <b>Vile Bloatfly</b> to your hand.
-667.name;Blightborn Spectre
-667.text;{charge|2}\n{production} - If your opponent has 4 or more cards in hand, this gains +1/+1.
-668.name;Dustbringer Wraith
-668.text;{corrupt} - Increase the cost of each card in your opponent's hand by {faeria|1}.
-669.name;Barrensky Vulture
-669.text;{flying}\n{gift} - Destroy a creature with 1 life and drain its attack.
-670.name;Haunted Husk
-670.text;{production} - If your opponent has 4 or more cards in hand, draw 1 card and drain 1 life from your opponent.
-671.name;Thunder Eel
-671.text;{flying}\n{gift} - Deal 2 damage to a creature. If it is on an ocean space, deal 4 damage instead.
+654.name;하늘을 먹는 자 쇼즌
+654.text;{flying}, {charge|3}\n쇼즌이 교전을 통해 처음으로 생물을 죽였을 시, 대신 그 생물을 포식하고 그 생물의 소유권을 얻습니다.
+655.name;제국 전초기지
+655.text;모든 아군 중립 생물들이 +1/+0을 얻습니다.
+656.name;일제 사격
+656.text;생물 하나에게 피해를 2 줍니다. 만약 그 생물이 {flying} 생물이라면, 피해를 5 줍니다.
+657.name;무지갯빛 오리배 가가나
+657.text;{flying}\n내 손에 있는 카드의 지형 요구치가 전부 {wild}이 됩니다. \n{gift} - 가가나 승무원 한 장을 손으로 가져옵니다. 그 카드의 비용은 {faeria|0}이 됩니다.
+658.name;창공의 재앙 래디언스
+658.text;{flying}\n{gift} - 다음 턴에 적 생물들은 이동하거나 공격할 수 없습니다.
+659.name;폭발하는 하마
+659.text;{combat} - 인접한 적들에게 피해를 2 줍니다.
+660.name;야수 조련사
+660.text;{gift} - 내 손에 있는 무작위 야수 하나의 비용을 {faeria|5} 줄입니다.
+661.name;코볼트 밀수꾼
+661.text;{corrupt} - 4/3 <b>사이퍼의 화살받이</b>를 근처 무작위 땅 하나에 소환합니다.
+662.name;이그누스의 분노
+662.text;적들에게 4 피해를 무작위로 나누어 입힙니다. \n이번 게임동안 능력 바퀴에서 +{faeria|1}을 선택한 만큼 비용이 {faeria|1} 줄어듭니다.
+663.name;이그누스교 의식술사
+663.text;{gift} - 능력 바퀴를 재생합니다. \n{corrupt} - 능력 바퀴를 재생합니다.
+664.name;불꽃 먹보
+664.text;능력 바퀴에서 +{faeria|1}을 선택할 때마다 이 생물은 +1/+1을 얻습니다.
+665.name;황폐한 하늘의 해충
+665.text;{gift} - This fights your opponent.
+666.name;사악한 거대파리
+666.text;{flying}\n{corrupt} - <b>사악한 거대파리</b> 한 장을 손으로 가져옵니다.
+667.name;역병에서 태어난 악령
+667.text;{charge|2}\n{production} - 만약 상대방이 손에 카드를 4장 이상 들고 있다면, 이 생물은 +1/+1을 얻습니다.
+668.name;모래먼지 유령
+668.text;{corrupt} - 적이 손에 들고 있는 카드들의 비용을 {faeria|1}만큼 올립니다.
+669.name;황폐한 하늘의 독수리
+669.text;{flying}\n{gift} - 생명력이 1인 생물 하나를 파괴하고 그 공격력을 얻습니다.
+670.name;귀신 들린 껍질
+670.text;{production} - 만약 상대방이 손에 카드를 4장 이상 들고 있다면, 카드를 1장 뽑고 상대방의 생명력을 1 흡수합니다.
+671.name;전기뱀장어
+671.text;{flying}\n{gift} - 생물에게 피해를 2 줍니다. 그 생물이 바다 위에 있다면, 피해를 4 줍니다.
+673.name;Banon, Captain of the Radiance
+673.text;{gift} - If you have no creature left in your deck, shuffle <b>Radiance, Imperial Airship</b> and 10 random neutral creatures into your deck. They gain +2/+2.
+674.name;Ulani, Defender of Oversky
+674.text;{gift} - If Ulani is your only creature, this gains {taunt}, {protection} and {divine}.
+675.name;Llamacorn
+675.text;{combat} - Each player draws a card and gains 2 Life.
+676.name;Roaming Yak
+676.text;{gift} - Create a prairie.\n{dash|1}
+677.name;Yak Shepherd
+677.text;{gift} - Give 2 friendly yaks +2/+0 and {charge|2} until end of turn.
+678.name;Oversky Yak
+678.text;{flying}\nHas +2/+2 while you control 6 prairies.
+679.name;Bloated Toad
+679.text;{jump}\n{last_words} - Summon a 2/2 <b>Frog</b> with {jump} for your opponent in this space.
+680.name;Looking Glass Phantasm
+680.text;{gift} - Transform an enemy creature into a 5/3 <b>msatnahP ssalG gnikooL</b>.
+681.name;Triton Tactician
+681.text;{jump}\n{gift} - Gains +1/+0 for each adjacent friendly triton.
+682.name;Tide Lord
+682.text;{jump}\nCan be summoned adjacent to friendly tritons. If it is, this gets +1/+1.
+683.name;Animated Banquet
+683.text;{dash|1}\nAt the end of your turn, a random adjacent friendly creature swallows this and gains +1/+1.
+684.name;Coral Polliwog
+684.text;This creature can collect the turn you play it.\n{gift} - You may move this creature's land.
+685.name;Chrysalis
+685.text;{gift} - {swallow} a friendly creature.\n{production} - The swallowed creature gains +1/+1.\n{activate} - Destroy this.
+686.name;Verduran Emissary 
+686.text;{last_words} - Give +1/+1 to all creatures in your hand.
+687.name;Priest of Everlife
+687.text;{gift} - Give the next creature you draw +2/+4.
+688.name;Blossoming Kodama
+688.text;{gift} - Create 3 forests.
+689.name;Zephyr Vulpine
+689.text;Whenever this moves into a forest, you may teleport it to a forest you control.
+690.name;Dwordia, Chief of the Bright Fox Tribe
+690.text;Whenever Dwordia moves into a forest, you may teleport him to a forest you control. If you do he gains +1/+1.
+691.name;Victory Celebration
+691.text;For the rest of the game, each player gains {faeria|1} extra each turn.
+692.name;Savior of the Meek
+692.text;{gift} - Give +2/+2 and {divine} to another friendly creature with exactly 1 Attack.
