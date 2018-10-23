@@ -489,7 +489,7 @@
 307.name;Škrtící písek
 307.text;Zníčí bytost s útokem 3 nebo nižším.
 308.name;Zkázobrána, dvěře do Zapomnění
-308.text;Když má tato budova 13 nebo více životů, zničte ji a přivolejte na jejím místě <b>Ostregotha</b>.\n{activate} - Zničí spojeneckou bytost, líznete si kartu a tato budova získá +0/+2.
+308.text;Když má Zkázobrána 13 nebo více životů, zničte ji a přivolejte na jejím místě <b>Ostregotha</b>.\n{activate} - Obětuje spojeneckou bytost, líznete si kartu a Zkázobrána získá +0/+2.
 309.name;Větrobouřný lučištník
 309.text;{ranged_attack}\nKdykoliv zahrajete událost, tato bytost získá pro daný tah +1/+0.
 310.name;Větrobouřný nájezdník
@@ -735,11 +735,11 @@
 626.name;Safírový jak
 626.text;Kdykoliv spojenecký jak sklidí faerii z nepřátelské studny, přidá mu +2/+2.
 627.name;Uštvat
-627.text;Přidá spojenecké šelmě +2/+0. Ta poté zaútočí na zvolenou nepřátelskou bytost.
+627.text;Přidá spojenecké šelmě +2/+0. Ta poté zaútočí na libovolnou nepřátelskou bytost.
 628.name;Smaragdový jak
 628.text;{gift} - Vyvolá <b>Jačátko</b> (1/1 s vlastnostmi {taunt} a <b>Nemůže sklízet faerii</b>) na vámi ovládané prérii.
 629.name;Majinata, duch Nesmrtelna
-629.text;{protection}, {divine}\n{gift} - Spojenecká bytost ji spolkne a získá +5/+5 a vlastnosti {flying} a {charge|2}.
+629.text;{protection}, {divine}\n{gift} - Přátelská bytost spolkne Majinatu a získá +5/+5, vlastnosti {flying} a {charge|2}.
 630.name;Magmatický axolotl
 630.text;
 640.name;Rakoakoptéra
@@ -804,3 +804,43 @@
 670.text;{production} - Pokud má váš protivník v ruce 4 či více karet, líznete si 1 kartu a vysajete ze svého protivníka 1 život.
 671.name;Hromový úhoř
 671.text;{flying}\n{gift} - Udělí bytosti 2 poškození. Pokud je ona bytost na oceánu, udělí jí 4.
+673.name;Banon, kapitán Třpytu
+673.text;{gift} - Pokud již v balíčku nemáte žádné bytosti, zamíchá do něj <b>Třpyt, zánebskou vzducholoď</b> a 10 náhodných neutrálních bytostí. Všichni získají +2/+2.
+674.name;Ulani, ochránkyně Zánebí
+674.text;{gift} - Pokud je Ulani vaší jedinou bytostí, získá {taunt}, {protection} a {divine}.
+675.name;Lamorožec
+675.text;{combat} - Každý hráč si lízne kartu a získá 2 životy.
+676.name;Toulavý jak
+676.text;{gift} - Vytvoří prérii.\n{dash|1}
+677.name;Pasáček jaků
+677.text;{gift} - Dvěma spojeneckým jakům přidá až do konce tahu +2/+0 a vlastnost {charge|2}.
+678.name;Zánebský jak
+678.text;{flying}\nPokud ovládáte 6 prérií, má +2/+2.
+679.name;Nafouklá ropucha
+679.text;{jump}\n{last_words} - Vyvolá pro vašeho protihráče na tomto místě <b>Žábu</b> (2/2) s vlastností {jump}.
+680.name;Přízrak odrazu
+680.text;{gift} - Přemění nepřátelskou bytost na <b>uzardo karzířP</b> (5/3).
+681.name;Tritónský taktik
+681.text;{jump}\n{gift} - Za každého přilehlého tritóna získá +1/+0.
+682.name;Pán přílivu
+682.text;{jump}\nMůže být vyvolán kdekoliv vedle spojeneckých tritónů. V takovém případě záská +1/+1.
+683.name;Pojízdná hostina
+683.text;{dash|1}\nNa konci tahu tuto bytost spolkne náhodná přilehlá spojenecká bytost a získá +1/+1.
+684.name;Korálový pulec
+684.text;Tato bytost může sklízet hned po zahrání.\n{gift} - Můžete posunout pevninou, kde tato bytost stojí.
+685.name;Kukla
+685.text;{gift} - {swallow} spojeneckou bytost.\n{production} - Spolknutá bytost získá +1/+1.\n{activate} - Zničí tuto budovu.
+686.name;Vyslanec zeleně
+686.text;{last_words} - Všem bytostem ve vaší ruce přidá +1/+1.
+687.name;Kněží Nesmrtelna
+687.text;{gift} - Další bytosti, kterou si líznete, přidá +2/+4.
+688.name;Kvetoucí kodama
+688.text;{gift} - Vytvoří 3 lesy.
+689.name;Zephyrský lišák
+689.text;Kdykoliv tato bytost vstoupí do lesa, můžete ji teleportovat do lesa, který ovládáte.
+690.name;Dwordia, náčelník kmene blyštivých lišek
+690.text;Kdykoliv Dwordia vstoupí do lesa, můžete jej teleportovat do lesa, který ovládáte. V takovém případě získá +1/+1.
+691.name;Oslava vítězství
+691.text;Až do konce hry všichni hráči získají v každém tahu {faeria|1} navíc.
+692.name;Spasitel slabých
+692.text;{gift} - Přidá jiné přátelské bytosti, jejíž útok je přesně 1, +2/+2 a vlastnost {divine}.
