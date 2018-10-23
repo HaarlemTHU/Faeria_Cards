@@ -489,7 +489,7 @@
 307.name;Sabbie Strangolatrici
 307.text;Distruggi una creatura con un valore di attacco pari o inferiore a 3.
 308.name;I Cancelli dell'Oblio
-308.text;Quando questa struttura raggiunge 13 o più punti vita distruggila ed evoca <b>Ostreotgh</b>.\n{activate} - Sacrifica una creatura, pesca una carta e questa struttura ottiene 2 punti vita.
+308.text;Quando questa struttura ha 13 o più punti vita, distruggila ed evoca <b>Ostregoth</b> al suo posto.\n{activate} - Sacrifica una creatura, pesca una carta e questa struttura ottiene 2 punti vita.
 309.name;Arciere delle Tempeste
 309.text;{ranged_attack}\nOgniqualvolta giochi un evento, questa creatura ottiene +1/+0 fino alla fine del turno.
 310.name;Scatena-tempeste
@@ -551,7 +551,7 @@
 369.name;Illusione di grandezza
 369.text;{charge|2}\n Ogniqualvolta evochi una creatura con un costo pari o inferiore a {faeria|1}, questa creatura ottiene un valore di attacco e punti vita pari all'ammontare di quello della creatura evocata (se questa carta si trova nella tua mano o nel tuo mazzo).
 370.name;Cacciatore di Bosco Cupo
-370.text;{gift} - Può combattere con una creatura nemica
+370.text;{gift} - Può combattere con una creatura nemica.
 371.name;Banchetto di Krog
 371.text;Il tuo Krog costa {faeria|7} in meno. Quando evochi Krog, distruggi questa creatura.\n{gift} - Se Krog è morto o è nel tuo mazzo, pescalo.
 372.name;Sorriso di Iona
@@ -661,7 +661,7 @@
 520.name;Polpo Mutevole
 520.text;{options|Ottiene +2/+0.|Ottiene +0/+2.|Ottiene {jump}.|Gain {taunt}.}, twice:\n- Gain +2/+0\n- Gain +0/+2\n- Gain {jump}\n- Gain {taunt}
 521.name;Lancia-Rane
-521.text;{gift} - Combatti una creatura nemica. Evoca una <b>Rana</b> 2/2 con {jump} in uno spazio casuale adiacente al bersaglio.
+521.text;{gift} - Combattte con una creatura nemica. Evoca una <b>Rana</b> 2/2 con {jump} in uno spazio casuale adiacente al bersaglio.
 522.name;Strada per il Paradiso
 522.text;{options|Crea una foresta.|Crea un lago.|Crea una montagna.|Crea un deserto.} - Crea una terra speciale.\nLa prima creatura evocata su quella terra in questo turno ottiene +2/+0.
 523.name;Salamandra Smeraldina
@@ -735,11 +735,11 @@
 626.name;Yak di Zaffiro
 626.text;Ogniqualvolta uno yak alleato raccoglie faeria da un pozzo avversario, esso ottiene +2/+2.
 627.name;Cacciare
-627.text;Una bestia alleata ottiene +2/+0. Poi Combatte con una creatura nemica.
+627.text;Una bestia alleata ottiene +2/+0. Poi combatte con una creatura nemica.
 628.name;Yak di Smeraldo
 628.text;{gift} - Evoca un <b>Cucciolo di Yak</b> 1/1 con {taunt} e <b>Non può raccogliere faeria<b> in una prateria che controlli.
 629.name;Majinata, Spirito di Eternavita
-629.text;{protection}, {divine}\n{gift} - Una creatura alleata divora questa creatura. Ottiene +5/+5, {flying} e {charge|2}.
+629.text;{protection}, {divine}\n{gift} - Una creatura alleata divora Majinata. Ottiene +5/+5, {flying} e {charge|2}.
 630.name;Axolotl impeto di lava
 630.text;
 640.name;Rakoakoptero
@@ -804,3 +804,43 @@
 670.text;{production} - Se il tuo avversario ha 4 o più carte nella sua mano, pesca una carta e sottrai 1 punto vita al tuo avversario.
 671.name;Anguilla Tuonante
 671.text;{flying}\n{gift} - Infliggi 2 danni ad una creatura. Se si trova su di un oceano, infliggi invece 4 danni.
+673.name;Banon, Capitano di Splendore
+673.text;{gift} - Se non ci sono altre creature nel tuo deck, mischia <b>Splendore, Dirigibile Imperiale</b> e 10 creature neutrali casuali nel tuo mazzo. Ottengono +2/+2.
+674.name;Ulani, Difenditrice di Altocielo
+674.text;{gift} - Se Ulani è la tua unica creatura, ottiene {taunt}, {protection} e {divine}-
+675.name;Lamacorno
+675.text;{combat} - Ogni giocatore pesca una carta e ottiene 2 di Vita.
+676.name;Yak Vagabondo
+676.text;{gift} - Crea una prateria.\n{dash|1}
+677.name;Pastore di Yak
+677.text;{gift} - 2 yak alleati ottengono +2/+0 e {charge|2} fino alla fine del turno.
+678.name;Yak di Altocielo
+678.text;{flying}\nHa +2/+2 finchè controlli 6 praterie.
+679.name;Rospo Gonfio
+679.text;{jump}\n{last_words} - Evoca una <b>Rana</b> 2/2 con {jump} per l'avversario in questo spazio.
+680.name;Fantasma Riflesso
+680.text;{gift} - Trasforma una creatura nemica in un <b>osselfiR amsatnaF</b> 5/3.
+681.name;Stratega Tritone
+681.text;{jump}\n{gift} - Ottiene +1/+0 per ogni tritone alleato adiacente.
+682.name;Signore della marea
+682.text;{jump}\nPuò essere evocato vicino ad un tritone alleato. Se lo fa, ottien +1/+1.
+683.name;Banchetto Animato
+683.text;{dash|1}\nAlla fine del tuo turno, una creatura adiacente casuale divora questa creatura ed ottiene +1/+1.
+684.name;Girino di Corallo
+684.text;Questa creatura può collezionare nel turno in cui viene giocata.\n{gift} - Puoi muovere la terra di questa creatura.
+685.name;Crisalide
+685.text;{gift} - {swallow} una creatura alleata.\n{production} - La creatura divorata ottiene +1/+1.\n{activate} - Distruggi questa struttura.
+686.name;Emissario Verde del Bosco
+686.text;{last_words} - Le creature nella tua mano ottengono +1/+1.
+687.name;Sacerdote di Eternavita
+687.text;{gift} - La prossima creatura che peschi ottiene +2/+4.
+688.name;Kodama Fiorente
+688.text;{gift} - Crea 3 foreste.
+689.name;Volpe dello Zefiro
+689.text;Ogniqualvolta questa creatura si muove in una foresta, puoi teletrasportarla in una foresta che controlli.
+690.name;Dwordia, Comandante della Tribù delle Volpi Chiare
+690.text;Ogniqualvolta Dwordia si sposta su di una foresta, puoi teletrasportarlo in una foresta che controlli. Se lo fai, ottiene +1/+1.
+691.name;Celebrazione della Vitttoria
+691.text;Per il resto della partita, ogni giocatore ottiene {faeria|1} extra ogni turno.
+692.name;Salvatore dei Mansueti
+692.text;{gift} - Un'altra creatura alleata con esattamente 1 di attacco ottiene +2/+2 e {divine}-
