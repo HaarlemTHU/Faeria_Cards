@@ -115,7 +115,7 @@
 141;GREEN;Tiki Piper;creature;;3;;;1;;;1;1;101000;COMMON
 142;GREEN;Shamanic Dance;event;;2;;;2;;;;;101000;COMMON
 143;GREEN;Tiki Totem;structure;;3;;;2;;;;3;101000;RARE
-144;GREEN;Possessed Ursus;creature;beast;5;;;2;;;1;6;101000;EPIC
+144;GREEN;Possessed Ursus;creature;beast;4;;;2;;;1;6;101000;EPIC
 149;GREEN;Oakling;creature;;5;;;2;;;1;5;101000;RARE
 150;GREEN;Thyrian Golem;creature;;5;;;5;;;5;10;100007;RARE
 151;GREEN;Seed Sower;creature;;6;;;1;;;4;6;100007;COMMON
@@ -248,7 +248,7 @@
 310;YELLOW;Windstorm Charger;creature;;4;;;;;2;2;4;101000;COMMON
 311;HUMAN;Apex Predator;creature;beast;7;;3;3;;;3;3;101000;EPIC
 312;HUMAN;Icerock Behemoth;creature;beast;7;;3;;3;;7;7;101000;EPIC
-313;HUMAN;Twinsoul Spirit;creature;;4;;3;;;3;4;3;101000;EPIC
+313;HUMAN;Twinsoul Spirit;creature;;5;;3;;;3;4;3;101000;EPIC
 314;HUMAN;Crackthorn Beast;creature;beast;6;;;3;3;;3;3;101000;EPIC
 315;HUMAN;Soul Eater;creature;;5;;;3;;3;1;1;101000;EPIC
 316;HUMAN;Scourgeflame Specter;creature;;7;;;;3;3;2;5;101000;EPIC
@@ -327,7 +327,7 @@
 516;RED;CAP-10, Sky Pirate;creature;;4;2;;;2;;3;7;102004;LEGENDARY
 517;YELLOW;Flash Salmon;creature;;1;;;;;2;1;1;102004;EPIC
 518;YELLOW;Manta Rider;creature;rakoan;5;;;;;3;5;3;102004;RARE
-519;YELLOW;Istanu, Eternal Light;creature;;6;4;;;;2;6;6;102003;LEGENDARY
+519;YELLOW;Istanu, Eternal Light;creature;;6;4;;;;2;5;5;102003;LEGENDARY
 520;HUMAN;Shifting Octopus;creature;beast;4;1;1;1;;;3;3;102003;RARE
 521;HUMAN;Frog-Tosser;creature;rakoan;5;2;2;2;;;4;4;102002;EPIC
 522;HUMAN;Path to Paradise;event;;2;;;1;1;;;;102003;RARE
@@ -366,7 +366,7 @@
 624;BLUE;Orphan Fugu;creature;beast;4;1;1;;;;3;5;102007;COMMON
 625;BLUE;Rapala, the Dopefish;creature;;1;3;1;;;;1;1;102007;LEGENDARY
 626;BLUE;Sapphire Yak;creature;yak;4;;1;;;;2;4;102007;COMMON
-627;GREEN;Hunt Down;event;;3;2;;1;;;;;102007;EPIC
+627;GREEN;Hunt Down;event;;3;2;;2;;;;;102007;EPIC
 628;GREEN;Emerald Yak;creature;yak;3;;;1;;;3;3;102007;COMMON
 629;GREEN;Majinata, Spirit of Everlife;creature;;10;3;;2;;;5;5;102007;LEGENDARY
 630;RED;Lavasurge Axolotl;creature;beast;4;3;;;2;;12;3;102007;COMMON
@@ -381,7 +381,7 @@
 648;HUMAN;Rakoan Shield Mates;creature;rakoan;2;;;1;;1;2;2;102007;COMMON
 649;HUMAN;Rakoan Warleader;creature;rakoan;4;;;1;1;;3;5;102007;RARE
 650;HUMAN;Rakoan Recruiter;creature;rakoan;4;;1;1;;;3;4;102007;COMMON
-652;HUMAN;Enslaved Priest;creature;;3;;;;;;2;3;102008;COMMON
+652;HUMAN;Enslaved Priest;creature;rakoan;3;;;;;;2;3;102008;COMMON
 653;HUMAN;Tower of Curses;structure;;4;4;;;;;;4;102008;RARE
 654;HUMAN;Shozen, the Sky Eater;creature;;6;6;;;;;6;6;102008;LEGENDARY
 655;HUMAN;Imperial Outpost;structure;;2;;;;;;;2;102008;COMMON
@@ -401,4 +401,24 @@
 669;YELLOW;Barrensky Vulture;creature;beast;4;;;;;4;0;3;102008;COMMON
 670;YELLOW;Haunted Husk;structure;;1;;;;;2;;3;102008;EPIC
 671;HUMAN;Thunder Eel;creature;;6;;;;2;2;6;4;102008;COMMON
+673;HUMAN;Banon, Captain of the Radiance;creature;;7;;;;;;4;5;102009;LEGENDARY
+674;HUMAN;Ulani, Defender of Oversky;creature;rakoan;2;4;;;;;2;4;102009;LEGENDARY
+675;HUMAN;Llamacorn;creature;beast;5;2;;;;;5;5;102009;EPIC
+676;HUMAN;Roaming Yak;creature;yak;2;;;;;;1;1;102009;COMMON
+677;HUMAN;Yak Shepherd;creature;;3;3;;;;;2;3;102009;RARE
+678;HUMAN;Oversky Yak;creature;yak;4;1;;;;;2;4;102009;COMMON
+679;BLUE;Bloated Toad;creature;triton;1;;2;;;;3;3;102009;RARE
+680;BLUE;Looking Glass Phantasm;creature;;5;;5;;;;3;5;102009;EPIC
+681;BLUE;Triton Tactician;creature;triton;3;;2;;;;2;4;102009;COMMON
+682;BLUE;Tide Lord;creature;triton;5;2;2;;;;5;5;102009;RARE
+683;BLUE;Animated Banquet;creature;;2;;1;;;;2;2;102009;COMMON
+684;BLUE;Coral Polliwog;creature;beast;7;;2;;;;5;7;102009;RARE
+685;GREEN;Chrysalis;structure;;0;;;1;;;;2;102009;EPIC
+686;GREEN;Verduran Emissary ;creature;;5;;;1;;;4;5;102009;RARE
+687;GREEN;Priest of Everlife;creature;rakoan;3;;;2;;;1;1;102009;COMMON
+688;GREEN;Blossoming Kodama;creature;;6;;;5;;;5;7;102009;COMMON
+689;GREEN;Zephyr Vulpine;creature;beast;3;;;1;;;3;3;102009;COMMON
+690;GREEN;Dwordia, Chief of the Bright Fox Tribe;creature;rakoan;6;;;4;;;6;6;102009;LEGENDARY
+691;HUMAN;Victory Celebration;event;;0;2;1;1;;;;;102009;EPIC
+692;HUMAN;Savior of the Meek;creature;;3;;2;2;;;1;2;102009;COMMON
 
