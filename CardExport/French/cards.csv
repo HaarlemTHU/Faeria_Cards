@@ -99,17 +99,17 @@
 64.name;Siphon à faeria
 64.text;Les puits de faeria sont vides.\n{production} - S'inflige 1 point de dégâts.\n{last_words} - Remplit les puits de Faeria.
 65.name;Explorateur de la forêt pluviale
-65.text;A +1/+1 tant que vous contrôlez au moins 2 lacs et +0/+2 tant que vous contrôlez au moins 2 forêts.
+65.text;A +1/+1 tant que vous contrôlez {blue}{blue} et +0/+2 tant que vous contrôlez {green}{green}.
 66.name;Explorateur de la caldeira
-66.text;A +1/+1 tant que vous contrôlez au moins 2 lacs et +2/+0 tant que vous contrôlez au moins 2 montagnes.
+66.text;A +1/+1 tant que vous contrôlez {blue}{blue} et +2/+0 tant que vous contrôlez {red}{red}.
 67.name;Explorateur de l'oasis
-67.text;A +1/+1 tant que vous contrôlez au moins 2 lacs et +1/+1 tant que vous contrôlez au moins 2 déserts.
+67.text;A +1/+1 tant que vous contrôlez {blue}{blue} et +1/+1 tant que vous contrôlez {yellow}{yellow}.
 68.name;Explorateur de la taïga
-68.text;A +2/+0 tant que vous contrôlez au moins 2 montagnes et +0/+2 tant que vous contrôlez au moins 2 forêts.
+68.text;A +2/+0 tant que vous contrôlez {red}{red} et +0/+2 tant que vous contrôlez {green}{green}.
 69.name;Explorateur de la savane
-69.text;A +1/+1 tant que vous contrôlez au moins 2 déserts et +0/+2 tant que vous contrôlez au moins 2 forêts.
+69.text;A +1/+1 tant que vous contrôlez {yellow}{yellow} et +0/+2 tant que vous contrôlez {green}{green}.
 70.name;Explorateur des rocheuses
-70.text;A +2/+0 tant que vous contrôlez au moins 2 montagnes et +1/+1 tant que vous contrôlez au moins 2 déserts.
+70.text;A +1/+1 tant que vous contrôlez {red}{red} et +1/+1 tant que vous contrôlez {yellow}{yellow}.
 71.name;Poisson-rubis
 71.text;{aquatic}
 72.name;Voleur de légendes
@@ -121,7 +121,7 @@
 75.name;Enchanteresse de Gabria
 75.text;{gift} - L'attaque d'une autre créature devient égale à ses PV.
 76.name;Commandant de Gabria
-76.text;{aquatic}, {charge|3}\nGagne +1/+1 et {flying} la première fois que vous piochez une carte avec un coût de base d'au moins {faeria|7}.
+76.text;{aquatic}, {charge|2}\nLa première fois que vous piochez une carte coûtant au moins {faeria|7} de base, cette carte gagne +1/+1 et {flying}.
 77.name;Protecteur de Gabria
 77.text;{gift} - Donne {protection} à une créature.
 82.name;Mochi de la source
@@ -153,7 +153,7 @@
 103.name;Carapace robuste
 103.text;{aquatic}
 104.name;Baeru, la Vague Originelle
-104.text;{aquatic}\n{production} - Transforme tous les terrains adjacents en lacs.
+104.text;{aquatic}\n{production} - Transforme tous les terrains adjacents en {blue}
 105.name;Rejeton des tempêtes
 105.text;{last_words} - Gagnez {faeria|10}.
 106.name;Fable de la Vieille Tortue
@@ -163,8 +163,8 @@
 108.name;Oroseï, Songe des Profondeurs
 108.text;{flying}, {charge|2}\n{gift} - Transforme toutes vos autres créatures en créatures au coût accru de {faeria|2}.
 109.name;Élémentaire des eaux
-109.text;{jump}\n{gift} - Crée un lac.
-110.name;Fée de Gemmesoie
+109.text;{jump}\n{gift} - Crée un {blue}
+110.name;Faë de Gemmesoie
 110.text;{flying}\nGagne +2/+2 et {charge|2} la première fois que vous piochez un évènement.
 111.name;Tour engloutie
 111.text;{activate} - Déplacez un terrain. Cette structure s'inflige 1 point de dégâts.
@@ -213,7 +213,7 @@
 133.name;Sagami à l'âme recluse
 133.text;{last_words} - Donne +3/+5 à une créature alliée aléatoire.
 134.name;Clameur des bosquets Sagami
-134.text;{gift} - Vous pouvez téléporter une autre créature alliée sur l'une de vos forêts.
+134.text;{gift} - Vous pouvez téléporter une autre créature alliée vers une {green} que vous contrôlez.
 135.name;Belluaire antique
 135.text;Quand vous invoquez une créature ayant au moins 5 PV, lui donne +1/+1.
 136.name;Grâce de Gaïa
@@ -239,9 +239,9 @@
 150.name;Golem Thyrian
 150.text;
 151.name;Semeur
-151.text;{gift} - Crée une forêt sur une case adjacente aléatoire.
+151.text;{gift} - Crée une {green} adjacente aléatoirement.
 152.name;Mur de vignes
-152.text;{taunt}\n{last_words} - Crée une forêt de façon aléatoire.
+152.text;{taunt}{last_words} - Crée une {green} aléatoirement.
 153.name;Grizzly des Bois Enfouis
 153.text;
 154.name;Guérisseuse Tiki
@@ -249,25 +249,25 @@
 155.name;Temple de Ruunin
 155.text;{gift} - Gagnez {faeria|2}.\n{last_words} - Votre adversaire gagne {faeria|2}.
 156.name;Chêne patriarche
-156.text;{gift} - Gagne +0/+1 pour chaque forêt que vous contrôlez.
+156.text;{gift} - Gagne +0/+1 pour chaque {green} que vous contrôlez.
 157.name;Arbre à Faeria
 157.text;{production} - Gagne 1 point de vie.\nQuand cette structure atteint 5 PV ou plus, elle s'autodétruit et vous gagnez {faeria|10}.
 158.name;Saule vivant
 158.text;{taunt}
 159.name;Croissance sauvage
-159.text;Crée une forêt sur une case aléatoire.
+159.text;Crée une {green} aléatoirement.
 168.name;Colosse primordial
 168.text;Coûte {faeria|1} de moins pour chaque terrain spécial que vous contrôlez (minimum : {faeria|6}).
 169.name;Tethra, Âme Sauvage
 169.text;{flying}, {charge|2}\n{gift} - Donne +5/+5 à une créature.
 170.name;Élémentaire des bois
-170.text;{taunt}\n{gift} - Crée une forêt.
-171.name;Fée de Fleursoie
+170.text;{taunt}\n{gift} - Crée une {green}
+171.name;Faë de Fleursoie
 171.text;{flying}\nGagne +1/+4, {taunt} et {charge|2} la première fois que vous piochez un évènement.
 172.name;Tour embrousaillée
 172.text;{activate} - Donne +1/+1 à une créature. Cette structure s'inflige 1 point de dégâts.
 173.name;Follet perpétuel
-173.text;Gagne +1/+1 à chaque fois que vous créez une forêt.
+173.text;Gagne +1/+0 à chaque fois que vous créez une {green}.
 174.name;Esprit du renouveau
 174.text;Donne +1/+1 à une créature aléatoire de votre main à chaque fois qu'une autre créature alliée meurt.
 175.name;Étreinte de la Forêt Ancestrale
@@ -283,7 +283,7 @@
 180.name;Idole en pleurs
 180.text;Chaque fois qu'on vous inflige des blessures, gagnez {faeria|1}.
 181.name;Jaillissement terrestre
-181.text;Transforme un de vos terrains en terrain d'une autre couleur {options|Transforme un de vos terrains en forêt|Transforme un de vos terrains en lac|Transforme un de vos terrains en montagne|Transforme un de vos terrains en désert}.
+181.text;{options|Transforme un de vos terrains en {green}|Transforme un de vos terrains en {blue}|Transforme un de vos terrains en {red}|Transforme un de vos terrains en {yellow}}\nTransforme la couleur d'un terrain que vous contrôlez.\nPiochez une carte.
 182.name;Vengeur sauvage
 182.text;{taunt},{dash|2}\nA +0/+1 pour chaque fois où vous avez reçu des points de dégâts durant la partie.
 183.name;Sanglier antique
@@ -363,8 +363,8 @@
 232.name;Garudan, Cœur de la Montagne
 232.text;{flying}, {charge|2}\n{gift} - Inflige 3 points de dégâts à toutes les créatures ennemies.
 233.name;Élémentaire de feu
-233.text;{gift} - Crée une montagne.
-234.name;Fée de Flammesoie
+233.text;{gift} - Crée une {red}
+234.name;Faë de Flammesoie
 234.text;{flying}\nGagne +3/+1 et {ranged_attack} la première fois que vous piochez un évènement.
 235.name;Tour délabrée
 235.text;{activate} - Infligez 1 point de dégâts à une cible. Cette structure s'inflige 1 point de dégâts.
@@ -411,7 +411,7 @@
 256.name;Fanatique Oradrim
 256.text;{jump}\n{gift} - Vous pouvez déplacer une créature alliée.
 257.name;Tornade du désert
-257.text;Téléporte une créature vers un désert que vous contrôlez.
+257.text;Téléportez une créature vers un {yellow} que vous contrôlez.
 258.name;Porte du vent
 258.text;Vous pouvez invoquer des créatures sur les cases adjacentes à cette structure.\n{activate} - Déplace la Porte du vent.
 259.name;Esprit malfaisant
@@ -451,8 +451,8 @@
 288.name;Azaraï, Courroux du Désert
 288.text;{flying}, {charge|2}\n{gift} - Azaraï draine 2 points d'attaque à chaque créature ennemie.
 289.name;Élémentaire des airs
-289.text;{flying}\n{gift} - Crée un désert.
-290.name;Fée d'Héliosoie
+289.text;{flying}\n{gift} - Crée un {yellow}
+290.name;Faë d'Heliosoie
 290.text;{flying}\nGagne +3/+1 et {charge|3} la première fois que vous piochez un évènement.
 291.name;Tour céleste
 291.text;{activate} - Donne {charge|3} à une créature ce tour. S'inflige 1 point de dégâts.
@@ -511,13 +511,13 @@
 335.name;Frondeur rebelle
 335.text;{gift} - Inflige 2 points de dégâts à votre adversaire.
 350.name;Trois voeux
-350.text;Vous gagnez 3 PV et une copie des 3 premières cartes du deck adverse. Leur coût est réduit de {faeria|1}. Vous ne pouvez souhaiter avoir plus de souhaits.
+350.text;Vous gagnez 3 points de vie. Ajoute une copie des trois cartes du dessus de la pioche de votre adversaie, elles coûtent {faeria|1} de moins et sont {wild}. Vous ne pouvez souhaiter avoir plus de vœux.
 351.name;Planeur rebelle
 351.text;{flying}, {dash|2}\nNe peut pas récolter de faeria.
 352.name;Radiance, Vaisseau Impérial
 352.text;{flying}, {dash|3}\nLe coût de Radiance est égal à votre nombre de PV.\n{gift} - Gagnez 1 PV pour chaque carte dans votre main.
 353.name;Bibliothèque interdite
-353.text;{production} - Piochez une carte. Vous gagnez {faeria|2} et 2 points de dégâts vous sont infligés.
+353.text;{production} - Piochez une carte, vous gagnez {faeria|1} et recevez 2 points de dégâts.
 354.name;Dévoreur de rêves
 354.text;{dash|3}\n{gift} - Fixez les PV d'une divinité à 10.
 355.name;Kodama sauvage
@@ -579,7 +579,7 @@
 413.name;Attrape-nuages
 413.text;Donne +1/+0, {flying}, et {jump} aux créatures alliées.
 414.name;Anneau de domination
-414.text;{options|Transforme un terrain en forêt. Vous en prenez le contrôle.|Transforme un terrain en lac. Vous en prenez le contrôle.|Transforme un terrain en montagne. Vous en prenez le contrôle.|Transforme un terrain en désert. Vous en prenez le contrôle.}\nTransforme un terrain en terrain de la couleur de votre choix. Vous en prenez le contrôle.
+414.text;{options|Transforme un terrain en {green}. Vous en prenez le contrôle.|Transforme un terrain en {blue}. Vous en prenez le contrôle.|Transforme un terrain en {red}. Vous en prenez le contrôle.|Transforme un terrain en {yellow}. Vous en prenez le contrôle.}\nTransforme la couleur d'un terrain de votre choix. Vous en prenez le contrôle.
 415.name;La Larme du Monde
 415.text;Transforme une créature qui a attaqué une divinité durant ce tour en <b>Dévoreur Céleste</b> 10/10 avec {flying}.
 416.name;Yak mécanique
@@ -617,7 +617,7 @@
 432.name;Roue du Chaos
 432.text;{options|Détruit 2 terrains inoccupés.|Détruit une créature à l'attaque inférieure ou égale à 5.|Gagnez 7 PV.}\n- Détruit 2 terrains inoccupés.\n- Détruit une créature à l'attaque inférieure ou égale à 5.\n- Gagnez 7 PV.
 433.name;Médaillon d'Ulani
-433.text;Choisissez une créature alliée. Toutes vos créatures en deviennent des copies.
+433.text;Choisit une créature alliée. Toutes vos créatures deviennent des copies de la créature choisie.
 500.name;Singe savant
 500.text;{taunt}\n{gift} - Lors du tour de votre adversaire, cette créature gagne +2/+2 à chaque fois qu'une créature ennemie récolte de la faeria.
 501.name;Éclaireur intrépide
@@ -635,7 +635,7 @@
 507.name;Empereur Kaios
 507.text;{production} - Donne -1/-0 à toutes les créatures ennemies. Puis détruit toutes les créatures ennemies qui ont 0 d'attaque.
 508.name;Graine du Paradis
-508.text;{flying}, {dash|1}\n{gift} - {options|Quand cette créature récolte sur l'océan, elle meurt et crée une forêt.|Quand cette créature récolte sur l'océan, elle meurt et crée un lac.|Quand cette créature récolte sur l'océan, elle meurt et crée une montagne.|Quand cette créature récolte sur l'océan, elle meurt et crée un désert.}\nQuand cette créature récolte sur l'océan, elle meurt et crée un terrain de la couleur choisie.\n
+508.text;{flying}, {dash|1}\n{gift} - {options|Quand cette créature récolte au dessus de l'océan, elle meurt et crée une {green}.|Quand cette créature récolte au dessus de l'océan, elle meurt et crée un {blue}.|Quand cette créature récolte au dessus de l'océan, elle meurt et crée une {red}.|Quand cette créature récolte au dessus de l'océan, elle meurt et crée un {yellow}.}\nQuand cette créature récolte au dessus de l'océan, elle meurt et crée un terrain de la couleur choisie.\n
 509.name;L'Arbre d'Éternité
 509.text;{production} - Vous gagnez 7 points de vie.\n Donne +7/+7 à une créature au hasard dans votre main.
 510.name;Don des Rakoa
@@ -663,7 +663,7 @@
 521.name;Lanceur de grenouilles
 521.text;{gift} - Combat une créature ennemie. Invoquez une <b>Grenouille</b> 2/2 avec {jump} sur un espace adjacent à sa cible.
 522.name;Sentier du Paradis
-522.text;{options|Créez une forêt|Créez un lac.|Créez une montagne.|Créez un désert.} - Créez un terrain spécial.\nLa première créature à être invoquée sur celui-ci lors de ce tour gagne +2/+0.
+522.text;{options|Crée une {green}|Crée un {blue}|Crée une {red}|Crée un {yellow}} - Crée un terrain spécial.\nLa première créature à être invoquée sur celui-ci lors de ce tour gagne +2/+0.
 523.name;Salamandre d'émeraude
 523.text;{gift} - Inflige 2 points de dégât aux créatures adjacentes. Donne +2/+2 aux créatures alliées adjacentes.
 524.name;Espadon du Firmament
@@ -696,7 +696,7 @@
 605.text;{corrupt} - Piochez une carte. Vous gagnez {faeria|1}.
 606.name;Chevalier du Fléau
 606.text;Les dégâts infligés à cette créature vous sont également infligés.
-607.name;Fée d'Ombresoie
+607.name;Faë d'Ombresoie
 607.text;{flying}, {charge|2}, {protection}\n{corrupt} - Piochez 2 évènements de votre deck.
 608.name;Kaios, Génie Démentiel
 608.text;{divine}\nLe nombre de points d'attaque de Kaios est toujours égal à ses PV.\n{corrupt} - Draine 1 PV à TOUTES les cibles.
@@ -777,7 +777,7 @@
 657.name;Gagana, Oiseau Barque-en-Ciel
 657.text;{flying}\nLes cartes de votre main sont {wild}.\n{gift} - Ajoute un équipier de Gagana aléatoire à votre main. Il coûte {faeria|0}.
 658.name;Radiance, Fléau d'Outreciel
-658.text;{flying}\n{gift} - Les créatures ennemies ne peuvent pas se déplacer ou attaquer durant le prochain tour.
+658.text;{flying}\n{gift} - Les créatures ennemies ne peuvent plus se déplacer au prochain tour.
 659.name;Hippo explosif
 659.text;{combat} - Inflige 2 points de dégât à tous les ennemis adjacents.
 660.name;Dresseur de bêtes
@@ -785,7 +785,7 @@
 661.name;Contrebandier Kobold
 661.text;{corrupt} - Invoque un <b>Sbire de Seifer</b> 4/3 sur un terrain adjacent aléatoire.
 662.name;Rage d'Ignus
-662.text;Inflige 4 points de dégâts répartis aléatoirement entre les ennemis.\nTant que cette carte est dans votre deck ou votre main, elle coûte {faeria|1} de moins pour chaque fois où vous avez sélectionné +{faeria|1} dans la roue des pouvoirs.
+662.text;Inflige {dynamic_number|0|0} points de dégâts répartis aléatoirement entre les ennemis.\nInflige +1 point de dégâts pour chaque fois où vous avez sélectionné +{faeria|1} dans la roue des pouvoirs durant la partie (tant que la carte est dans votre main ou dans votre deck).
 663.name;Ritualiste Ignusi
 663.text;{gift} - Réinitialise votre roue des pouvoirs.\n{corrupt} - Réinitialise votre roue des pouvoirs.
 664.name;Glouton flamboyant
@@ -801,9 +801,9 @@
 669.name;Vautour des Hautes-Landes
 669.text;{flying}\n{gift} - Détruit une créature avec 1 PV et draine son attaque.
 670.name;Souche hantée
-670.text;{production} - Si votre adversaire a 4 cartes ou plus en main, piochez 1 carte et drainez 1 PV à votre adversaire.
+670.text;À la fin de votre tour, si votre adversaire a 4 cartes ou plus dans sa main, vous piochez une carte et lui drainez un point de vie.
 671.name;Anguille foudroyante
-671.text;{flying}\n{gift} - Inflige 2 points de dégât à une creature. Si elle est au dessus de l'océan, lui en inflige 4 à la place.
+671.text;{flying}\n{gift} - Vous pouvez infliger 2 dégâts à une créature ennemie. Si elle est au dessus de l'océan, lui en inflige 4 à la place.
 673.name;Banon, Capitaine du Radiance
 673.text;{gift} - Si vous n'avez plus de créatures dans votre deck, mélange <b>Radiance, Vaisseau Impérial</b> et 10 créatures neutres aléatoires dans votre deck. Elles gagnent +2/+2.
 674.name;Ulani, Protecteur d'Outreciel
@@ -817,7 +817,7 @@
 678.name;Yak d'Outreciel
 678.text;{flying}\nA +2/+2 tant que vous avez 6 prairies.
 679.name;Crapaud ballonné
-679.text;{jump}\n{last_words} - Invoque une <b>Grenouille</b> 2/2 avec {jump} pour votre adversaire sur cet espace.
+679.text;{jump}\nEntre en jeu avec une <b>Grenouille</b> 2/2 ennemie avec {jump}, gobée.
 680.name;Fantasmagorie miroitante
 680.text;{gift} - Transforme une créature ennemie en <b>etnatiorim eirogamsatnaF</b> 5/3.
 681.name;Tacticien Triton
@@ -827,7 +827,7 @@
 683.name;Banquet animé
 683.text;{dash|1}\nA la fin de votre tour, une créature adjacente aléatoire gobe cette créature et gagne +1/+1.
 684.name;Têtard des coraux
-684.text;Cette créature peut collecter le tour ou elle arrive en jeu.\n{gift} - Vous pouvez déplacer le terrain de cette créature.
+684.text;Cette créature peut récolter le tour où elle est jouée.\n{gift} - Vous pouvez déplacer le terrain de cette créature.
 685.name;Chrysalide
 685.text;{gift} - {swallow} une créature alliée.\n{production} - La créature gobée gagne +1/+1.\n{activate} - Détruisez cette structure.
 686.name;Émissaire Verduralde
@@ -835,11 +835,11 @@
 687.name;Prêtre d'Éternité
 687.text;{gift} - Donne +2/+4 à la prochaine créature que vous piochez.
 688.name;Kodama bourgeonnant
-688.text;{gift} - Crée 3 forêts.
+688.text;{gift} - Crée {green}{green}{green} aléatoirement.
 689.name;Goupil Zéphyréen
-689.text;Quand cette créature se déplace sur une forêt, vous pouvez la téléporter sur une forêt que vous contrôlez.
+689.text;À chaque fois que cette créature se déplace sur une {green}, vous pouvez la téléporter vers une {green} alliée.
 690.name;Dwordia, chef de la Tribu du Renard Argenté
-690.text;Quand Dwordia se déplace sur une forêt, vous pouvez le téléporter sur une forêt que vous contrôlez. Il gagne alors +1/+1.
+690.text;Lorsque Dwordia se déplace sur une {green}, vous pouvez la téléporter vers une {green} alliée. Il gagne alors +1/+1.
 691.name;Célébration de la Victoire
 691.text;Chaque joueur gagne {faeria|1} de plus chaque tour durant le reste de la partie.
 692.name;Sauveur des humbles

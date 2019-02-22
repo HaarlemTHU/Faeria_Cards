@@ -99,17 +99,17 @@
 64.name;Torre di Drenaggio
 64.text;I pozzi di faeria sono vuoti.\n{production} - Infliggi un danno a questa struttura.\n{last_words} - Riempi tutti i pozzi di faeria.
 65.name;Esploratore della Giungla
-65.text;Ha +1/+1 se controlli almeno 2 laghi e +0/+2 se controlli almeno 2 foreste.
+65.text;Ha +1/+1 mentre controlli {blue}{blue} e +0/+2 mentre controlli {green}{green}
 66.name;Esploratore di Vulcani
-66.text;Ottiene +1/+1 se controlli almeno 2 laghi e +2/+0 se controlli almeno 2 montagne.
+66.text;Ha +1/+1 mentre controlli {blue}{blue} e +2/+0 mentre controlli {red}{red}
 67.name;Esploratore di Oasi
-67.text;Ottiene +1/+1 se controlli almeno 2 laghi e +1/+1 se controlli almeno 2 deserti.
+67.text;Ha +1/+1 mentre controlli {blue}{blue} e +1/+1 mentre controlli {yellow}{yellow}
 68.name;Esploratore della Taiga
-68.text;Ottiene +2/+0 se controlli almeno 2 montagne e +0/+2 se controlli almeno 2 foreste.
+68.text;Ha +2/+0 mentre controlli {red}{red} e +0/+2 mentre controlli {green}{green}
 69.name;Esploratore della Savana
-69.text;Ha +1/+1 se controlli almeno 2 deserti e +0/+2 se controlli almeno 2 foreste.
+69.text;Ha +1/+1 mentre controlli {yellow}{yellow} e +0/+2 mentre controlli {green}{green}
 70.name;Esploratore delle Rocce
-70.text;Ha +2/+0 se controlli almeno 2 montagne e +1/+1 se controlli almeno 2 deserti.
+70.text;Ha +2/+0 mentre controlli {red}{red} e +1/+1 mentre controlli {yellow}{yellow}
 71.name;Pesce Rubino
 71.text;{aquatic}
 72.name;Ladruncolo
@@ -121,7 +121,7 @@
 75.name;Incantatrice Gabriana
 75.text;{gift} - Il valore di attacco di un'altra creatura diventa pari all'ammontare dei suoi punti vita.
 76.name;Comandante Gabriano
-76.text;{aquatic}, {charge|3}\nLa prima volta che peschi una carta con costo base {faeria|7} o più, ottiene +1/+1 e {flying}.
+76.text;{aquatic}, {charge|2}\nThe first time you draw a card with a base cost of {faeria|7} or higher, this gains +1/+1 and {flying}.
 77.name;Guardiano Gabriano
 77.text;{gift} - Fornisci {protection} a una creatura.
 82.name;Mochi di Primavera
@@ -153,7 +153,7 @@
 103.name;Guscio Corazzato
 103.text;{aquatic}
 104.name;Baeru, l'Onda Primordiale
-104.text;{aquatic}\n{production} - Trasforma tutte i territori confinanti in laghi.
+104.text;{aquatic}\n{production} - Trasforma tutte le terre adiacenti in {blue}
 105.name;Tempesta
 105.text;{last_words} - Ottieni {faeria|10}.
 106.name;Fiaba della Vecchia Tartaruga
@@ -163,7 +163,7 @@
 108.name;Orosei, Sogno degli Abissi
 108.text;{flying}, {charge|2}\n{gift} - Trasforma tutte le tue creature in creature che costano {faeria|2} in più.
 109.name;Elementale dell'Acqua
-109.text;{jump}\n{gift} - Genera un lago.
+109.text;{jump}\n{gift} - Crea un {blue}
 110.name;Perla di Seta
 110.text;{flying}\nOttiene +2/+2 e {charge|2} la prima volta che peschi una carta evento.
 111.name;Torre Sommersa
@@ -213,7 +213,7 @@
 133.name;Vincolatore Sagami
 133.text;{last_words} - Una creatura alleata casuale ottiene 3/+5.
 134.name;Sagami Evocatore del Bosco
-134.text;{gift} - Puoi teletrasportare un'altra creatura alleata in una foresta che controlli.
+134.text;{gift} - Puoi teletrasportare un'altra creatura alleata in una {green} che controlli.
 135.name;Vecchio Addestratore
 135.text;Quando evoci una creatura con almeno 5 punti vita, essa ottiene +1/+1.
 136.name;Grazia di Gaia
@@ -239,9 +239,9 @@
 150.name;Golem di Thyrian
 150.text;
 151.name;Seminatore
-151.text;{gift} - Crea a caso una foresta confinante.
+151.text;{gift} -Crea una {green} adiacente casuale.
 152.name;Muro Rampicante
-152.text;{taunt}\n{last_words} - Posiziona una foresta a caso.
+152.text;{taunt}{last_words} - Crea una {green} casuale.
 153.name;Grizzly della Foresta Nera
 153.text;
 154.name;Taumaturgo Tiki
@@ -249,25 +249,25 @@
 155.name;Santuario di Ruunin
 155.text;{gift} - Ottiene {faeria|2}.\n{last_words} - Il tuo nemico ottiene {faeria|2}.
 156.name;Padre Quercia
-156.text;{gift} - Ottiene +0/+1 per ogni foresta che controlli.
+156.text;{gift} - Ottiene +0/+1 per ogni {green} che controlli.
 157.name;Albero di Faeria
 157.text;{production} - Questa struttura ottiene 1 punto vita.\nQuando ha almeno 5 punti vita, distruggila e ottieni {faeria|10}.
 158.name;Salice Vivente
 158.text;{taunt}
 159.name;Crescita Selvaggia
-159.text;Crea una foresta casuale
+159.text;Crea una {green} casuale.
 168.name;Colosso Primordiale
 168.text;Costa {faeria|1} in meno per ogni territorio speciale che controlli (costo minimo {faeria|6}).
 169.name;Tethra, Anima Selvaggia
 169.text;{flying}, {charge|2}\n{gift} - Dona a una creatura +5/+5.
 170.name;Elementale del Legno
-170.text;{taunt}\n{gift} - Crea una foresta.
+170.text;{taunt}\n{gift} - Crea una {green}
 171.name;Fiore di Seta
 171.text;{flying}\nOttiene +1/+4, {taunt} e {charge|2} la prima volta che peschi un evento.
 172.name;Torre Abbandonata
 172.text;{activate} - Una creatura ottiene +1/+1. Infliggi un danno a questa struttura.
 173.name;Spiritello Silvano
-173.text;Ottiene +1/+1 ogniqualvolta crei una foresta.
+173.text;Ottiene +1/+1 ogniqualvolta crei una {green}
 174.name;Spirito della Rinascita
 174.text;Ogniqualvolta una creatura alleata muore, una creatura casuale nella tua mano ottiene +1/+1.
 175.name;Abbraccio del Bosco Antico
@@ -283,7 +283,7 @@
 180.name;Idolo Piangente
 180.text;Ogniqualvolta subisci danno, ottieni {faeria|1}.
 181.name;Arte della Terra
-181.text;{options|Trasforma una delle tue terre in una foresta|Trasforma una delle tue terre in un lago|Trasforma una delle tue terre in una montagna|Trasforma una delle tue terre in un deserto} colore.\nTrasforma una terra che controlli in una terra speciale a tua scelta, poi pesca una carta.
+181.text;{options|Trasforma una delle tue terre in una {green}|Trasforma una delle tue terre in un {blue}|Trasforma una delle tue terre in una {red}|Trasforma una delle tue terre in un {yellow}} colore.\nTrasforma una terra che controlli in una terra del colore scelto e pesca una carta.
 182.name;Vendicatore Selvaggio
 182.text;{taunt}, {dash|2}\nHa +0/+1 per ogni volta che ti è stato inflitto danno in questa partita.
 183.name;Antico Cinghiale
@@ -363,7 +363,7 @@
 232.name;Garudan, Cuore della Montagna
 232.text;{flying}, {charge|2}\n{gift} - Infliggi 3 danni a tutte le creature nemiche.
 233.name;Elementale del Fuoco
-233.text;{gift} - Crea una montagna.
+233.text;{gift} - Crea una {red}
 234.name;Fiamma di Seta
 234.text;{flying}\nOttiene +3/+1 e {ranged_attack} la prima volta che peschi un evento.
 235.name;Torre Derelitta
@@ -411,7 +411,7 @@
 256.name;Fanatico Oradriano
 256.text;{jump}\n{gift} - Puoi muovere una creatura alleata.
 257.name;Tornado del Deserto
-257.text;Teletrasporta una creatura in un deserto sotto il tuo controllo.
+257.text;Teletrasporta una creatura in un {yellow} che controlli.
 258.name;Porta del Vento
 258.text;Puoi posizionare creature nelle zone adiacenti a questa struttura.\n{activate} - Sposta la Porta del Vento.
 259.name;Spirito Maligno
@@ -451,7 +451,7 @@
 288.name;Azarai, Ira del Deserto
 288.text;{flying}, {charge|2}\n{gift} - Azarai sottrae 2 punti di attacco da ogni creatura nemica.
 289.name;Elementale dell'Aria
-289.text;{flying}\n{gift} - Crea un deserto.
+289.text;{flying}\n{gift} - Crea un {yellow}
 290.name;Luce di Seta
 290.text;{flying}\nOttiene +3/+1 e {charge|3} la prima volta che peschi un evento.
 291.name;Torre Celestiale
@@ -459,7 +459,7 @@
 292.name;Spiritello del Vento
 292.text;{flying}, {charge|3}\nOttiene +3/+0 ogniqualvolta una creatura alleata attacca un dio.
 293.name;Lampo nel Vento
-293.text;Move a friendly creature or pay {faeria|2} and move an enemy creature.
+293.text;Muovi una creatura alleata o paga {faeria|2} e muovi una cretura nemica.
 294.name;Voliera Dorata
 294.text;Tutte le creature volanti che controlli ottengono +1/+0.
 295.name;Crociato Zelante
@@ -511,13 +511,13 @@
 335.name;Fromboliere Ribelle
 335.text;{gift} - Infliggi 2 danni al tuo avversario.
 350.name;Tre Desideri
-350.text;Ottieni 3 punti vita. Copia le prime 3 carte del mazzo del tuo avversario. Costano {faeria|1} in meno. Non puoi desiderare altri desideri.
+350.text;Gain 3 Life. Copy the top 3 cards of your opponent's deck. They cost {faeria|1} less and are {wild}. You cannot wish for more wishes.
 351.name;Aliante Ribelle
 351.text;{flying}, {dash|2}\nNon può estrarre faeria.
 352.name;Splendore, Dirigibile Imperiale
 352.text;{flying}, {dash|3}\n Il costo di Splendore è uguale ai tuoi punti vita.\n{gift} - Ottieni 1 punto vita per ogni carta nella tua mano.
 353.name;Biblioteca Proibita
-353.text;{production} - Pesca una carta, ottieni {faeria|2} e infliggi 2 danni a te stesso.
+353.text;{production} - Draw a card, gain {faeria|1}, and deal 2 damage to yourself.
 354.name;Saccheggiasogni
 354.text;{dash|3}\n{gift} - Imposta l'ammontare dei punti vita di un dio a 10.
 355.name;Kodama Feroce
@@ -579,7 +579,7 @@
 413.name;Macchina delle Nuvole
 413.text;Le creature alleate hanno +1/+0, {flying} e {jump}.
 414.name;Anello del Dominio
-414.text;{options|Trasforma un territorio in una foresta e prendine possesso.|Trasforma un territorio in un lago e prendine possesso.|Trasforma un territorio in una montagna e prendine possesso.|Trasforma un territorio in un deserto e prendine possesso.}\nTrasforma un territorio nel colore che preferisci e prendine possesso.
+414.text;{options|Trasforma una terra in una {green}. Prendine il controllo.|Trasforma una terra in un {blue}. Prendine il controllo.|Trasforma una terra in una {red}. Prendine il controllo.|Trasforma una terra in un {yellow}. Prendine il controllo.}\nTrasforma una terra in un colore a tua scelta. Prendine il controllo.
 415.name;La Lacrima del Mondo
 415.text;Trasforma in un <b>Divoratore di Cieli</b> 10/10 con {flying} una creatura che ha attaccato un dio in questo turno.
 416.name;Yak Meccanico
@@ -617,7 +617,7 @@
 432.name;Ruota del Caos
 432.text;{options|Distruggi 2 territori non occupati.|Distruggi una creatura con un valore di attacco pari o inferiore a 5.|Ottieni 7 punti Vita.}\n- Distruggi 2 territori non occupati.\n- Distruggi una creatura con un valore di attacco pari o inferiore a 5.\n- Ottieni 7 punti vita.
 433.name;Medaglione di Ulani
-433.text;Scegli una creatura alleata. Tutte le tue creature alleate diventano una copia di essa.
+433.text;Choose a friendly creature. All your other creatures become a copy of it.
 500.name;Genio Scimmia
 500.text;{taunt}\n{gift} - Nel prosimo turno del tuo avversario, ottiene +2/+2 ogniqualvolta una creatura nemica raccoglie faeria.
 501.name;Esploratore Intrepido
@@ -635,7 +635,7 @@
 507.name;Imperatore Kaios
 507.text;{production} - dona a tutte le creature nemiche -1/-0. Distruggi tutte le creature nemiche con un valore di attacco pari a 0.
 508.name;Seme del Paradiso
-508.text;{flying}, {dash|1}\n{gift} - {options|Quando questa creatura estrae faeria sull'oceano, muore e crea una foresta.|Quando questa creatura estrae faeria sull'oceano, muore e crea un lago.|Quando questa creatura estrae faeria sull'oceano, muore e crea una montagna.|Quando questa creatura estrae faeria sull'oceano, muore e crea un deserto.}\nQuando questa creatura estrae faeria sull'oceano, muore e crea una terra del colore scelto.\n
+508.text;{flying}, {dash|1}\n{gift} - {options|Quando questa creatura raccoglie faeria sopra l'oceano, muore e crea una {green}|Quando questa creatura raccoglie faeria sopra l'oceano, muore e crea un {blue}|Quando questa creatura raccoglie faeria sopra l'oceano, muore e crea una {red}|Quando questa creatura raccoglie faeria sopra l'oceano, muore e crea un {yellow}}\nQuando questa creatura raccoglie faeria sopra l'oceano, muore e crea una terra del colore scelto.\n
 509.name;L'Albero di Eternavita
 509.text;{production} - Guadagna 7 punti vita.\nDona +7/+7 a una creatura casuale nella tua mano.
 510.name;Dono dei Rakoa
@@ -643,7 +643,7 @@
 511.name;Biomante Curioso
 511.text;{gift} - Per ogni creatura nemica, pesca una creatura non blu dal tuo mazzo.
 512.name;Fugoro, Mercante di Meraviglie
-512.text;{jump}\n{gift} - {options|Pesca una <b>Urna di Gabria</b>|Pesca un <b>Drgo di Cristallo</b>|Pesca <b>Medaglione di Ulani</b>}\n- Pesca una <b>Urna di Gabria</b>\n- Pesca un <b>Drgo di Cristallo</b>\n- Pesca <b>Medaglione di Ulani</b>
+512.text;{jump}\n{gift} - {options|Pesca una <b>Urna di Gabria</b>|Pesca un <b>Drago di Cristallo</b>|Pesca <b>Medaglione di Ulani</b>}\n- Pesca una <b>Urna di Gabria</b>\n- Pesca un <b>Drago di Cristallo</b>\n- Pesca <b>Medaglione di Ulani</b>
 513.name;Fugu Saltellante
 513.text;{jump}\n{gift} - Se controlli 8 o più terre speciali, ottiene +3/+3.
 514.name;Rampino
@@ -659,17 +659,17 @@
 519.name;Istanu, Luce Eterna
 519.text;{flying}, {charge|3}\n{last_words} - Una creatura amica casuale diventa la nuova <b>Istanu</b>.
 520.name;Polpo Mutevole
-520.text;{options|Ottiene +2/+0.|Ottiene +0/+2.|Ottiene {jump}.|Gain {taunt}.}, twice:\n- Gain +2/+0\n- Gain +0/+2\n- Gain {jump}\n- Gain {taunt}
+520.text;{options|Ottiene +2/+0.|Ottiene +0/+2.|Ottiene {jump}.|Ottiene {taunt}.}, due volte:\n- Ottiene +2/+0\n- Ottiene +0/+2\n- Ottiene {jump}\n- Ottiene {taunt}
 521.name;Lancia-Rane
 521.text;{gift} - Combattte con una creatura nemica. Evoca una <b>Rana</b> 2/2 con {jump} in uno spazio casuale adiacente al bersaglio.
 522.name;Strada per il Paradiso
-522.text;{options|Crea una foresta.|Crea un lago.|Crea una montagna.|Crea un deserto.} - Crea una terra speciale.\nLa prima creatura evocata su quella terra in questo turno ottiene +2/+0.
+522.text;{options|Crea una {green}|Crea un {blue}|Crea una {red}|Crea un {yellow}} - Crea una terra speciale.\nLa prima creatura evocata su di essa in questo turno ottiene +2/+0.
 523.name;Salamandra Smeraldina
 523.text;{gift} - Infliggi 2 danni alle creature nemiche adiacenti. Dona alle creature amiche adiacenti +2/+2.
 524.name;Pesce Spada Guardiano del Cielo
 524.text;{flying}, {taunt}, {dash|1}
 525.name;Banco di carassi
-525.text;{flying}\nPuò essere evocato in una casella adiacente ad una creatura alleata.\n{gift} - Evoca un <b>Swarming Carassius</b> per ogni creatura alleata che è morta in questa partita.
+525.text;{flying}\nPuò essere evocato in una casella adiacente ad una creatura alleata.\n{gift} - Evoca un <b>Banco di Carassi</b> per ogni creatura alleata che è morta in questa partita.
 526.name;Custode dei Sogni
 526.text;{taunt}\n{gift} - Riduci il costo di tutte le carte nella tua mano di {faeria|1}, quindi rimescolale nel tuo mazzo e pesca un uguale numero di carte.
 527.name;Tartaruga Gemmata
@@ -694,7 +694,7 @@
 604.text;{corrupt} - Ottieni il controllo della terra su cui si trova questa creatura.
 605.name;Esploratore Smarrito
 605.text;{corrupt}- Pesca una carta e ottieni {faeria|1}.
-606.name;Cavaliere dalla spada rovinata
+606.name;Cavaliere dalla Spada Rovinata
 606.text;Il danno inflitto a questa creatura viene anche inflitto a te.
 607.name;Ombra di Seta
 607.text;{flying},{charge|2},{protection}\n{corrupt} - Pesca due eventi dal tuo mazzo.
@@ -777,7 +777,7 @@
 657.name;Gagana, Navevolatile Arcobaleno
 657.text;{flying}\nLe carte nella tua mano sono {wild}.\n{gift} - Aggiungi un membro della ciurma di Gagana casuale alla tua mano. Costa {faeria|0}
 658.name;Splendore, Flagello di Altocielo
-658.text;{flying}\n{gift} - Le creature nemiche non possono muoversi e/o attaccare il prossimo turno.
+658.text;{flying}\n{gift} - Enemy creatures can't move next turn.
 659.name;Ippopotamo Prorompente
 659.text;{combat} - Infliggi 2 danni a tutti i nemici adiacenti.
 660.name;Addestratore di Bestie
@@ -785,7 +785,7 @@
 661.name;Contrabbandiere Koboldo
 661.text;{corrupt} - Evoca uno <b>Scagnozzo di Seifer</b> 4/5 in una terra adiacente casuale.
 662.name;Ira di Ignius
-662.text;Infliggi 4 danni distribuiti casualmente tra i tuoi nemici.\nCosta {faeria|1} in meno per ogni volta che hai selezionato +{faeria|1} dalla ruota del potere in questa partita (mentre si trova nella tua mano o nel mazzo).
+662.text;Deal {dynamic_number|0|0} damage randomly split among enemies.\nDeals +1 damage for each time you have selected +{faeria|1} from the power wheel this game (while in your hand or deck).
 663.name;Ritualista di Ignius
 663.text;{gift} - Ricarica la tua ruota del potere.\n{corrupt} - Ricarica la tua ruota del potere.
 664.name;Fuochista
@@ -794,16 +794,16 @@
 665.text;{gift} - Combatte con il tuo avversario.
 666.name;Moscone Spregevole
 666.text;{flying}\n{corrupt} - Aggiungi un <b>Moscone Spregievole</b> alla tua mano.
-667.name;Spettro della Rovina
+667.name;Blightborn Specter
 667.text;{charge|2}\n{production} - Se il tuo avversario ha 4 o più carte in mano, ottiene +1/+1.
 668.name;Spettro della Polvere
 668.text;{corrupt} - Aumenta il costo di ogni carta nella mano del tuo avversario di {faeria|1}-
 669.name;Avvoltoio del Cielo Arido
 669.text;{flying}\n{gift} - Distruggi una creatura con 1 punto vita e sottrae il suo attacco.
 670.name;Guscio Posseduto
-670.text;{production} - Se il tuo avversario ha 4 o più carte nella sua mano, pesca una carta e sottrai 1 punto vita al tuo avversario.
+670.text;At the end of your turn, if your opponent has 4 or more cards in hand, draw 1 card and drain 1 life from your opponent.
 671.name;Anguilla Tuonante
-671.text;{flying}\n{gift} - Infliggi 2 danni ad una creatura. Se si trova su di un oceano, infliggi invece 4 danni.
+671.text;{flying}\n{gift} - You may deal 2 damage to a creature. If it is on an ocean space, deal 4 damage instead.
 673.name;Banon, Capitano di Splendore
 673.text;{gift} - Se non ci sono altre creature nel tuo deck, mischia <b>Splendore, Dirigibile Imperiale</b> e 10 creature neutrali casuali nel tuo mazzo. Ottengono +2/+2.
 674.name;Ulani, Difenditrice di Altocielo
@@ -817,7 +817,7 @@
 678.name;Yak di Altocielo
 678.text;{flying}\nHa +2/+2 finchè controlli 6 praterie.
 679.name;Rospo Gonfio
-679.text;{jump}\n{last_words} - Evoca una <b>Rana</b> 2/2 con {jump} per l'avversario in questo spazio.
+679.text;{jump}\nThis enters play with an enemy 2/2 <b>Frog</b> with {jump} swallowed.
 680.name;Fantasma Riflesso
 680.text;{gift} - Trasforma una creatura nemica in un <b>osselfiR amsatnaF</b> 5/3.
 681.name;Stratega Tritone
@@ -827,7 +827,7 @@
 683.name;Banchetto Animato
 683.text;{dash|1}\nAlla fine del tuo turno, una creatura adiacente casuale divora questa creatura ed ottiene +1/+1.
 684.name;Girino di Corallo
-684.text;Questa creatura può collezionare nel turno in cui viene giocata.\n{gift} - Puoi muovere la terra di questa creatura.
+684.text;This creature can harvest faeria the turn you play it.\n{gift} - You may move this creature's land.
 685.name;Crisalide
 685.text;{gift} - {swallow} una creatura alleata.\n{production} - La creatura divorata ottiene +1/+1.\n{activate} - Distruggi questa struttura.
 686.name;Emissario Verde del Bosco
@@ -835,11 +835,11 @@
 687.name;Sacerdote di Eternavita
 687.text;{gift} - La prossima creatura che peschi ottiene +2/+4.
 688.name;Kodama Fiorente
-688.text;{gift} - Crea 3 foreste.
+688.text;{gift} - Crea {green}{green}{green} casualmente.
 689.name;Volpe dello Zefiro
-689.text;Ogniqualvolta questa creatura si muove in una foresta, puoi teletrasportarla in una foresta che controlli.
+689.text;Ogniqualvolta questa creatura si muove in una {green}, puoi teletrasportarla in una {green} alleata.
 690.name;Dwordia, Comandante della Tribù delle Volpi Chiare
-690.text;Ogniqualvolta Dwordia si sposta su di una foresta, puoi teletrasportarlo in una foresta che controlli. Se lo fai, ottiene +1/+1.
+690.text;Ogniqualvolta Dwordia si muove in una {green}, puoi teletrasportarlo in una {green} alleata. Se lo fai ottiene+1/+1.
 691.name;Celebrazione della Vitttoria
 691.text;Per il resto della partita, ogni giocatore ottiene {faeria|1} extra ogni turno.
 692.name;Salvatore dei Mansueti
