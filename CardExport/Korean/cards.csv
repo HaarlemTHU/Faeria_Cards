@@ -99,21 +99,21 @@
 64.name;제국 배수관
 64.text;페어리아 우물들이 비워집니다.\n{production} - 이 건물에 피해를 1 줍니다. \n{last_words} - 페어리아 우물을 다시 채웁니다.
 65.name;우림 탐험가
-65.text;호수를 2개 이상 가지고 있으면 +1/+1을 얻습니다. 숲을 2개 이상 가지고 있으면 +0/+2를 얻습니다.
+65.text;Has +1/+1 while you control {blue}{blue} and +0/+2 while you control {green}{green}
 66.name;칼데라 탐험가
-66.text;호수를 2개 이상 가지고 있으면 +1/+1을 얻습니다. 산을 2개 이상 가지고 있으면 +2/+0을 얻습니다.
+66.text;Has +1/+1 while you control {blue}{blue} and +2/+0 while you control {red}{red}
 67.name;오아시스 탐험가
-67.text;호수를 2개 이상 가지고 있으면 +1/+1을 얻습니다. 사막을 2개 이상 가지고 있으면 +1/+1을 얻습니다.
+67.text;Has +1/+1 while you control {blue}{blue} and +1/+1 while you control {yellow}{yellow}
 68.name;타이가 탐험가
-68.text;산을 2개 이상 가지고 있으면 +2/+0을 얻습니다. 숲을 2개 이상 가지고 있으면 +0/+2를 얻습니다.
+68.text;Has +2/+0 while you control {red}{red} and +0/+2 while you control {green}{green}
 69.name;사바나 탐험가
-69.text;사막을 2개 이상 가지고 있으면 +1/+1을 얻습니다. 숲을 2개 이상 가지고 있으면 +0/+2를 얻습니다.
+69.text;Has +1/+1 while you control {yellow}{yellow} and +0/+2 while you control {green}{green}
 70.name;사암 탐험가
-70.text;산을 2개 이상 가지고 있으면 +2/+0을 얻습니다. 사막을 2개 이상 가지고 있으면 +1/+1을 얻습니다.
+70.text;Has +2/+0 while you control {red}{red} and +1/+1 while you control {yellow}{yellow}
 71.name;루비 피시
 71.text;{aquatic}
 72.name;이야기 도둑
-72.text;{options|Gains +2/+2|Draw 2 cards.}\n - +2/+2를 얻습니다. /n - 카드를 두 장 뽑습니다.
+72.text;{options|Gains +2/+2|Draw 2 cards.}\n - +2/+2를 얻습니다. \n - 카드를 두 장 뽑습니다.
 73.name;게이브리아 수조
 73.text;{production} - {faeria|3}을 얻습니다. 이 건물에 피해를 1 줍니다.
 74.name;티라낙스
@@ -121,7 +121,7 @@
 75.name;게이브리아 비술사
 75.text;{gift} - 다른 생물 하나의 공격력을 그 생물의 생명력과 같게 바꿉니다.
 76.name;게이브리아 사령관
-76.text;{aquatic}, {charge|3}\n기본 비용이 {faeria|7} 이상인 카드를 처음 뽑았을 때, +1/+1과 {flying}을 얻습니다.
+76.text;{aquatic}, {charge|2}\nThe first time you draw a card with a base cost of {faeria|7} or higher, this gains +1/+1 and {flying}.
 77.name;게이브리아 수호자
 77.text;{gift} - 아군 생물에게 {protection}을 줍니다.
 82.name;봄의 모치
@@ -153,7 +153,7 @@
 103.name;단단한 등껍질
 103.text;{aquatic}
 104.name;최초의 파도 베이루
-104.text;{aquatic}\n{production} - 모든 인접한 땅들을 호수로 바꿉니다.
+104.text;{aquatic}\n{production} - Transform all adjacent lands into {blue}
 105.name;폭풍의 알
 105.text;{last_words} - {faeria|10} 얻습니다.
 106.name;오래된 거북이 이야기
@@ -163,7 +163,7 @@
 108.name;심연의 꿈 오로세이
 108.text;{flying}, {charge|2}\n{gift} - 내 모든 생물을 비용이 {faeria|2} 높은 무작위 생물로 변신시킵니다.
 109.name;물의 정령
-109.text;{jump}\n{gift} - 호수를 만듭니다.
+109.text;{jump}\n{gift} - Create {blue}
 110.name;보석결 요정
 110.text;{flying}\n이벤트를 뽑으면 +2/+2와 {charge|2}를 얻습니다. (한 번만 적용)
 111.name;물에 잠긴 탑
@@ -213,7 +213,7 @@
 133.name;사가미 강령술사
 133.text;{last_words} - 무작위 아군 생물에게 +3/+5를 부여합니다.
 134.name;사가미 숲소환사
-134.text;{gift} - 다른 아군 생물 하나를 내가 조종하는 숲으로 이동시킬 수 있습니다.
+134.text;{gift} - You may teleport another friendly creature to a {green} you control.
 135.name;고대 야수조련사
 135.text;내가 생명력이 5 이상인 생물을 소환하면 그 생물에게 +1/+1을 부여합니다.
 136.name;가이아의 은총
@@ -239,9 +239,9 @@
 150.name;티리안 골렘
 150.text;
 151.name;씨를 심는 자
-151.text;{gift} - 무작위 인접한 공간에 숲을 생성합니다.
+151.text;{gift} - Create an adjacent {green} at random.
 152.name;덩굴벽
-152.text;{taunt}\n{last_words} - 무작위 위치에 숲을 만듭니다.
+152.text;{taunt}\n{last_words} - Create {green} at random.
 153.name;깊은숲 그리즐리
 153.text;
 154.name;티키 치유사
@@ -249,25 +249,25 @@
 155.name;루닌의 성지
 155.text;{gift} - {faeria|2}를 얻습니다.\n{last_words} - 상대가 {faeria|2}를 얻습니다.
 156.name;아버지 떡갈나무
-156.text;{gift} - 내 숲 하나 당 +0/+1을 얻습니다.
+156.text;{gift} - This gains +0/+1 for each {green} you control.
 157.name;페어리아 나무
 157.text;{production} - 생명력 1을 얻습니다.\n생명력이 5 이상이면 파괴하고 {faeria|10} 을 얻습니다.
 158.name;살아있는 버드나무
 158.text;{taunt}
 159.name;숲의 성장
-159.text;무작위 위치에 숲 하나를 만듭니다.
+159.text;Create {green} at random.
 168.name;태고의 거신
 168.text;가지고 있는 속성 땅 하나 당 비용이 {faeria|1} 줄어듭니다. (최소 비용: {faeria|6})
 169.name;자연의 혼 테스라
 169.text;{flying}, {charge|2}\n{gift} - 생물 하나에게 +5/+5를 줍니다.
 170.name;나무의 정령
-170.text;{taunt}\n{gift} - 숲을 만듭니다.
+170.text;{taunt}\n{gift} - Create {green}
 171.name;꽃결 요정
 171.text;{flying}\n이벤트를 뽑으면, +1/+4, {taunt}, {charge|2}를 얻습니다.
 172.name;수풀로 뒤덮인 탑
 172.text;{activate} - 생물 하나에게 +1/+1을 부여합니다. 이 건물에 피해를 1 줍니다.
 173.name;사철꽃 위습
-173.text;내가 숲을 만들 때 마다 +1/+1을 얻습니다.
+173.text;Whenever you create {green}, this gains +1/+1.
 174.name;재생의 정령
 174.text;아군 생물이 죽을 때 마다 손에 있는 무작위 생물에게 +1/+1을 부여합니다.
 175.name;고목의 포옹
@@ -283,7 +283,7 @@
 180.name;우는 우상
 180.text;내가 피해를 입을 때마다 {faeria|1}을 얻습니다.
 181.name;대지창조
-181.text;{options|소유 중인 땅 하나를 숲으로 바꿉니다|소유 중인 땅 하나를 호수로 바꿉니다 | 소유 중인 땅 하나를 산으로 바꿉니다 | 소유 중인 땅 하나를 사막으로 바꿉니다}색.\n소유 중인 땅을 선택한 색으로 바꾼 뒤 카드를 한 장 뽑습니다.
+181.text;{options|Transform one of your lands into {green}|Transform one of your lands into {blue}|Transform one of your lands into {red}|Transform one of your lands into {yellow}} color.\nTransform a land you control into the chosen color then draw a card.
 182.name;야생의 복수자
 182.text;{taunt}, {dash|2}\n이번 경기에서 피해를 입을 때 마다 +0/+1을 얻습니다.
 183.name;고대 멧돼지
@@ -334,7 +334,7 @@
 205.text;{gift} - 상대 우물 근처에 소환되면 +1/+1을 얻습니다.
 206.name;바위 투척자
 206.text;{ranged_attack}\n공격하는 대상의 인접한 적들에게도 피해를 입힙니다.
-211.name;셰딤 야수
+211.name;셰딤 야만인
 211.text;{combat} - 상대에게 2 피해를 줍니다.
 212.name;피의 시인
 212.text;적 생물이 죽을 때마다 상대에게 피해를 1 줍니다.
@@ -363,7 +363,7 @@
 232.name;산의 심장 가루단
 232.text;{flying}, {charge|2}\n{gift} - 모든 적 생물에게 3 피해를 줍니다.
 233.name;불의 정령
-233.text;{gift} - 산을 만듭니다.
+233.text;{gift} - Create {red}
 234.name;화염결 요정
 234.text;{flying}\n이벤트를 뽑으면 +3/+1과 {ranged_attack}을 얻습니다. (한 번만 적용)
 235.name;버려진 탑
@@ -375,7 +375,7 @@
 238.name;불의 인도자
 238.text;내가 생명력보다 공격력이 높은 생물을 소환할 때 마다 +1/+1을 얻습니다. (덱 또는 손에 있을 때)
 239.name;타오르는 불도마뱀
-239.text;{gift} - 인접한 모든 적 생물과 건물에게 2 피해를 줍니다.
+239.text;{gift} - 인접한 모든 적에게 피해를 2 줍니다.
 240.name;혈석 정령
 240.text;아군 생물이 상대 우물에서 수확할 때마다 상대에게 1 피해를 줍니다.
 241.name;사이퍼의 분노
@@ -411,7 +411,7 @@
 256.name;오라드림 광신도
 256.text;{jump}\n{gift} - 아군 생물 하나를 이동시킬 수 있습니다.
 257.name;데저트 트위스터
-257.text;생물 하나를 내 사막으로 이동합니다.
+257.text;Teleport a creature to a {yellow} you control.
 258.name;바람 관문
 258.text;이 건물 근처에 생물을 소환할 수 있습니다.\n{activate} - 바람 관문을 움직입니다.
 259.name;사악한 영혼
@@ -451,7 +451,7 @@
 288.name;사막의 분노 아자라이
 288.text;{flying}, {charge|2}\n{gift} - 모든 적 생물로부터 공격력을 2 흡수합니다.
 289.name;공기의 정령
-289.text;{flying}\n{gift} - 사막을 만듭니다.
+289.text;{flying}\n{gift} - Create {yellow}
 290.name;태양결 요정
 290.text;{flying}\n이벤트를 뽑으면 +3/+1과 {charge|3}을 얻습니다. (한 번만 적용)
 291.name;신성한 탑
@@ -489,7 +489,7 @@
 307.name;조여오는 모래
 307.text;공격력이 3 이하인 생물 하나를 파괴합니다.
 308.name;둠게이트, 종언의 문
-308.text;When Doomgate has 13 Life or more, destroy it and summon <b>Ostregoth</b> in its place.\n{activate} - Sacrifice a creature, draw a card and Doomgate gains +0/+2.
+308.text;둠게이트가 13 이상의 체력을 가지고 있을 경우, 그것을 파괴하고 <b>오스트레고스</b>를 그 자리에 소환합니다. \n{activate} - 생물 하나를 희생하여 카드를 뽑고 둠게이트가 +0/+2를 얻습니다.
 309.name;모래폭풍 궁수
 309.text;{ranged_attack}\n이벤트를 사용할 때 마다 이번 턴 동안 +1/+0을 얻습니다.
 310.name;모래폭풍 기수
@@ -511,13 +511,13 @@
 335.name;반군 투척수
 335.text;{gift} - 상대에게 2 피해를 줍니다.
 350.name;세가지 소원
-350.text;생명력을 3 회복합니다. 상대방 덱의 맨 위 3장을 복사하고 그 카드의 비용을 {faeria|1} 줄입니다. 단, 세가지 소원으로 세가지 소원을 복사할 수 없습니다.
+350.text;Gain 3 Life. Copy the top 3 cards of your opponent's deck. They cost {faeria|1} less and are {wild}. You cannot wish for more wishes.
 351.name;반군 글라이더
 351.text;{flying}, {dash|2}\n페어리아를 수확할 수 없습니다.
 352.name;제국 비행선 래디언스
 352.text;{flying}, {dash|3}\n이 카드의 비용은 항상 내 생명력과 같습니다.\n{gift} - 손에 있는 카드 수 만큼 생명력을 회복합니다.
 353.name;금단의 도서관
-353.text;{production} - 카드 한 장을 뽑고 {faeria|2} 를 얻습니다. 내가 피해를 2 입습니다.
+353.text;{production} - Draw a card, gain {faeria|1}, and deal 2 damage to yourself.
 354.name;꿈 약탈자
 354.text;{dash|3}\n{gift} - 신 하나의 생명력을 10으로 바꿉니다.
 355.name;거친 코다마
@@ -551,7 +551,7 @@
 369.name;웅장한 환상
 369.text;{charge|2}\n내가 비용이 {faeria|1} 이하인 생물을 소환할 때마다 그 생물의 공격력과 생명력만큼 공격력과 생명력을 얻습니다(손이나 덱에 있는 동안).
 370.name;깊은숲 추적자
-370.text;{gift} - This may fight an enemy creature.
+370.text;{gift} - 적 생물과 싸울 수 있습니다.
 371.name;크로그의 저녁거리
 371.text;내 <b>크로그</b>의 비용이 {faeria|7} 줄어듭니다. 내가 크로그를 소환하면 이 생물을 파괴합니다.\n{gift} - <b>크로그</b>를 덱에서 뽑습니다. <b>크로그</b>가 죽었다면 <b>크로그</b>를 손으로 가져옵니다.
 372.name;이오나의 미소
@@ -579,7 +579,7 @@
 413.name;구름 생성기
 413.text;아군 생물들에게 {flying}, {jump}, +1/+0을 부여합니다.
 414.name;지배의 반지
-414.text;{options|땅을 숲으로 바꿉니다. 그 땅의 소유권을 얻습니다.|땅을 호수로 바꿉니다. 그 땅의 소유권을 얻습니다.|땅을 산으로 바꿉니다. 그 땅의 소유권을 얻습니다.|땅을 사막으로 바꿉니다. 그 땅의 소유권을 얻습니다.}\n땅 하나를 선택한 색으로 바꿉니다. 그 땅의 소유권을 얻습니다.
+414.text;{options|Transform a land to {green}. Gain control of it.|Transform a land to {blue}. Gain control of it.|Transform a land to {red}. Gain control of it.|Transform a land to {yellow}. Gain control of it.}\nTransform a land into the color of your choice. Gain control of it.
 415.name;세계의 눈물
 415.text;이번턴에 상대방 신을 공격한 생물을 10/10의 {flying} 을 가진 <b>하늘을 삼키는자</b> 로 변환 시킵니다.
 416.name;시계태엽 야크
@@ -617,7 +617,7 @@
 432.name;혼돈의 바퀴
 432.text;{options| 점령되지 않은 땅 2개를 파괴합니다.|공격력 5 이하의 생물을 파괴합니다.|생명력을 7 얻습니다.}\n- 점령되지 않은 땅 2개를 파괴합니다.\n- 공격력 5 이하의 생물을 파괴합니다.\n- 생명력을 7 얻습니다.
 433.name;울라니의 훈장
-433.text;아군 생물 하나를 선택합니다. 모든 내 생물이 그 생물의 복사본이 됩니다.
+433.text;Choose a friendly creature. All your other creatures become a copy of it.
 500.name;천재 원숭이
 500.text;{taunt}\n{gift} - 상대의 다음 턴에 적 생물이 페어리아를 수확할 때 마다 +2/+2를 얻습니다.
 501.name;용감한 탐험가
@@ -635,7 +635,7 @@
 507.name;황제 카이오스
 507.text;{production} - 모든 적 생물에게 -1/-0을 줍니다. 그리고 공격력이 0인 모든 적 생물을 파괴합니다.
 508.name;낙원의 씨앗
-508.text;{flying}, {dash|1}\n{gift} - {options|이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 호수를 만듭니다.|이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 숲을 만듭니다.|이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 산을 만듭니다.|이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 사막을 만듭니다.}\n이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 선택한 색의 땅을 만듭니다.\n
+508.text;{flying}, {dash|1}\n{gift} - {options|When this creature harvests over the ocean, it dies and creates {green}|When this creature harvests over the ocean, it dies and creates {blue}|When this creature harvests over the ocean, it dies and creates {red}|When this creature harvests over the ocean, it dies and creates {yellow}}\nWhen this creature harvests over the ocean, it dies and creates a land of the chosen color.\n
 509.name;영생의 나무
 509.text;{production} - 생명력을 7 얻습니다.\n내 손에 있는 무작위 생물에게 +7/+7을 줍니다.
 510.name;라코아의 선물
@@ -661,9 +661,9 @@
 520.name;변신 문어
 520.text;두 번 {options|+2/+0을 얻습니다.|+0/+2를 얻습니다.|{jump}를 얻습니다.|{taunt}을 얻습니다.} 합니다:\n- +2/+0을 얻습니다.\n- +0/+2를 얻습니다.\n- {jump}를 얻습니다.\n- {taunt}를 얻습니다.
 521.name;개구리 투척수
-521.text;{gift} - This fights an enemy creature. Summon a 2/2 <b>Frog</b> with {jump} in a random space adjacent to the target.
+521.text;{gift} - 적 생물과 싸웁니다. {jump}를 가진 2/2 <b>개구리</b>를 싸운 대상과 인접한 무작위 공간에 소환합니다.
 522.name;낙원을 향해
-522.text;{options|숲을 생성 합니다.|호수를 생성 합니다.|산을 생성 합니다.|사막을 생성 합니다.} - 속성 땅을 생성 합니다.\n이번 턴 동안 이 땅에 소환된 첫번째 생물에게 +2/+0를 부여합니다.
+522.text;{options|Create {green}|Create {blue}|Create {red}|Create {yellow}} - Create a special land.\nGive the first creature summoned on it this turn +2/+0.
 523.name;에메랄드 불도마뱀
 523.text;{gift} - 인접한 모든 적 생물들에게 2 피해를 줍니다. 인접한 모든 아군 생물들에게 +2/+2를 줍니다.
 524.name;하늘방패 칼치
@@ -696,7 +696,7 @@
 605.text;{corrupt} - 카드를 한 장 뽑고 {faeria|1} 을 얻습니다.
 606.name;역병을 옮기는 기사
 606.text;이 생물이 받는 피해는 나도 받습니다.
-607.name;어둠결 페어리
+607.name;어둠결 요정
 607.text;{flying}, {charge|2}, {protection}\n{corrupt} - 이벤트 2장을 뽑습니다.
 608.name;이성 잃은 초월체 카이오스
 608.text;{divine}\n카이오스의 공격력은 언제나 생명력과 같습니다.\n{corrupt} - 모든 것에게 피해 1 을 주고 그만큼 생명력을 얻습니다.
@@ -725,7 +725,7 @@
 620.name;솔렘
 620.text;{flying}, {divine}\n{corrupt} - 페어리아 우물 하나를 파괴합니다.
 622.name;야크 군단의 어머니
-622.text;{gift} - {taunt}과 {flying}을 가진 4/4 <b>야크 수비대</b>를 인접한 공간에 소환합니다.\n이번 게임에서 아군 야크가 죽을 때 마다 비용이 {faeria|1} 씩 감소합니다.
+622.text;{gift} - {taunt}과 {flying}을 가진 4/4 <b>야크 수비대</b> 두 마리를 인접한 공간에 소환합니다.\n이번 게임에서 아군 야크가 죽을 때 마다 비용이 {faeria|1} 씩 감소합니다.
 623.name;라코아 투사
 623.text;{dash|2}\n{gift} - 내 전장의 다른 아군 라코아 수 만큼 +1/+1을 얻습니다.
 624.name;어미 여읜 복어
@@ -735,11 +735,11 @@
 626.name;사파이어 야크
 626.text;아군 야크가 상대 우물에서 수확할 때 마다 +2/+2를 얻습니다.
 627.name;추적
-627.text;Give a friendly beast +2/+0. Then it fights an enemy creature.
+627.text;아군 야수에게 +2/+0을 부여합니다. 이후 적 생물 하나와 싸웁니다.
 628.name;에메랄드 야크
 628.text;{gift} - <b>페어리아를 수확할 수 없고</b> {taunt}을 가진 1/1 <b>아기 야크</b>를 내 평원에 소환합니다.
 629.name;영생의 정령 마지나타
-629.text;{protection}, {divine}\n{gift} - A friendly creature swallows Majinata. Give it +5/+5, {flying} and {charge|2}.
+629.text;{protection}, {divine}\n{gift} - 아군 생물이 마지나타를 포식합니다. 그 생물에게 +5/+5, {flying}과 {charge|2}를 부여합니다.
 630.name;용암을 휘감는 우파루파
 630.text;
 640.name;라코아콥터
@@ -777,7 +777,7 @@
 657.name;무지갯빛 오리배 가가나
 657.text;{flying}\n내 손에 있는 카드의 지형 요구치가 전부 {wild}이 됩니다. \n{gift} - 가가나 승무원 한 장을 손으로 가져옵니다. 그 카드의 비용은 {faeria|0}이 됩니다.
 658.name;창공의 재앙 래디언스
-658.text;{flying}\n{gift} - 다음 턴에 적 생물들은 이동하거나 공격할 수 없습니다.
+658.text;{flying}\n{gift} - Enemy creatures can't move next turn.
 659.name;폭발하는 하마
 659.text;{combat} - 인접한 적들에게 피해를 2 줍니다.
 660.name;야수 조련사
@@ -785,62 +785,62 @@
 661.name;코볼트 밀수꾼
 661.text;{corrupt} - 4/3 <b>사이퍼의 화살받이</b>를 근처 무작위 땅 하나에 소환합니다.
 662.name;이그누스의 분노
-662.text;적들에게 4 피해를 무작위로 나누어 입힙니다. \n이번 게임동안 능력 바퀴에서 +{faeria|1}을 선택한 만큼 비용이 {faeria|1} 줄어듭니다.
+662.text;Deal {dynamic_number|0|0} damage randomly split among enemies.\nDeals +1 damage for each time you have selected +{faeria|1} from the power wheel this game (while in your hand or deck).
 663.name;이그누스교 의식술사
 663.text;{gift} - 능력 바퀴를 재생합니다. \n{corrupt} - 능력 바퀴를 재생합니다.
 664.name;불꽃 먹보
 664.text;능력 바퀴에서 +{faeria|1}을 선택할 때마다 이 생물은 +1/+1을 얻습니다.
 665.name;황폐한 하늘의 해충
-665.text;{gift} - This fights your opponent.
+665.text;{gift} - 상대와 싸웁니다.
 666.name;사악한 거대파리
 666.text;{flying}\n{corrupt} - <b>사악한 거대파리</b> 한 장을 손으로 가져옵니다.
-667.name;역병에서 태어난 악령
+667.name;Blightborn Specter
 667.text;{charge|2}\n{production} - 만약 상대방이 손에 카드를 4장 이상 들고 있다면, 이 생물은 +1/+1을 얻습니다.
 668.name;모래먼지 유령
 668.text;{corrupt} - 적이 손에 들고 있는 카드들의 비용을 {faeria|1}만큼 올립니다.
 669.name;황폐한 하늘의 독수리
 669.text;{flying}\n{gift} - 생명력이 1인 생물 하나를 파괴하고 그 공격력을 얻습니다.
 670.name;귀신 들린 껍질
-670.text;{production} - 만약 상대방이 손에 카드를 4장 이상 들고 있다면, 카드를 1장 뽑고 상대방의 생명력을 1 흡수합니다.
-671.name;전기뱀장어
-671.text;{flying}\n{gift} - 생물에게 피해를 2 줍니다. 그 생물이 바다 위에 있다면, 피해를 4 줍니다.
-673.name;Banon, Captain of the Radiance
-673.text;{gift} - If you have no creature left in your deck, shuffle <b>Radiance, Imperial Airship</b> and 10 random neutral creatures into your deck. They gain +2/+2.
-674.name;Ulani, Defender of Oversky
-674.text;{gift} - If Ulani is your only creature, this gains {taunt}, {protection} and {divine}.
-675.name;Llamacorn
-675.text;{combat} - Each player draws a card and gains 2 Life.
-676.name;Roaming Yak
-676.text;{gift} - Create a prairie.\n{dash|1}
-677.name;Yak Shepherd
-677.text;{gift} - Give 2 friendly yaks +2/+0 and {charge|2} until end of turn.
-678.name;Oversky Yak
-678.text;{flying}\nHas +2/+2 while you control 6 prairies.
-679.name;Bloated Toad
-679.text;{jump}\n{last_words} - Summon a 2/2 <b>Frog</b> with {jump} for your opponent in this space.
-680.name;Looking Glass Phantasm
-680.text;{gift} - Transform an enemy creature into a 5/3 <b>msatnahP ssalG gnikooL</b>.
-681.name;Triton Tactician
-681.text;{jump}\n{gift} - Gains +1/+0 for each adjacent friendly triton.
-682.name;Tide Lord
-682.text;{jump}\nCan be summoned adjacent to friendly tritons. If it is, this gets +1/+1.
-683.name;Animated Banquet
-683.text;{dash|1}\nAt the end of your turn, a random adjacent friendly creature swallows this and gains +1/+1.
-684.name;Coral Polliwog
-684.text;This creature can collect the turn you play it.\n{gift} - You may move this creature's land.
-685.name;Chrysalis
-685.text;{gift} - {swallow} a friendly creature.\n{production} - The swallowed creature gains +1/+1.\n{activate} - Destroy this.
-686.name;Verduran Emissary 
-686.text;{last_words} - Give +1/+1 to all creatures in your hand.
-687.name;Priest of Everlife
-687.text;{gift} - Give the next creature you draw +2/+4.
-688.name;Blossoming Kodama
-688.text;{gift} - Create 3 forests.
-689.name;Zephyr Vulpine
-689.text;Whenever this moves into a forest, you may teleport it to a forest you control.
-690.name;Dwordia, Chief of the Bright Fox Tribe
-690.text;Whenever Dwordia moves into a forest, you may teleport him to a forest you control. If you do he gains +1/+1.
-691.name;Victory Celebration
-691.text;For the rest of the game, each player gains {faeria|1} extra each turn.
-692.name;Savior of the Meek
-692.text;{gift} - Give +2/+2 and {divine} to another friendly creature with exactly 1 Attack.
+670.text;At the end of your turn, if your opponent has 4 or more cards in hand, draw 1 card and drain 1 life from your opponent.
+671.name;번개 뱀장어
+671.text;{flying}\n{gift} - You may deal 2 damage to a creature. If it is on an ocean space, deal 4 damage instead.
+673.name;배넌, 래디언스의 선장
+673.text;{gift} - 덱에 생물이 남아있지 않다면, <b>제국 비행선 래디언스</b>와 무작위 중립 생물 10개를 덱에 섞어 넣습니다. 섞인 생물들은 모두 +2/+2를 얻습니다.
+674.name;창공의 수호자 울라니
+674.text;{gift} - 만약 울라니가 유일한 생물이라면 {taunt}, {protection}와 {divine}을 얻습니다.
+675.name;라마콘
+675.text;{combat} - 각 플레이어는 카드를 한 장 뽑고 생명력을 2 얻습니다.
+676.name;방랑 야크
+676.text;{gift} - 평지를 하나 만듭니다. \n{dash|1}
+677.name;야크치기
+677.text;{gift} - 턴 종료시까지 아군 야크 두 마리에게 +2/+0과 {charge|2}를 부여합니다.
+678.name;창공 야크
+678.text;{flying}\n내 평지가 6개면 +2/+2를 얻습니다.
+679.name;배부른 개구리
+679.text;{jump}\nThis enters play with an enemy 2/2 <b>Frog</b> with {jump} swallowed.
+680.name;들여다보이는 환영
+680.text;{gift} - 적 생물 하나를 5/3 <b>영환 는이보다여들</b>로 바꿉니다.
+681.name;트라이튼 전략가
+681.text;{jump}\n{gift} - 인접한 아군 트라이튼 하나당 +1/+0을 얻습니다.
+682.name;파도 군주
+682.text;{jump}\n아군 트라이튼 옆에 소환할 수 있습니다. 그렇게 한 경우 +1/+1을 얻습니다.
+683.name;살아있는 연회
+683.text;{dash|1}\n턴 종료시 인접한 무작위 아군 생물이 살아있는 연회를 포식하고 +1/+1을 얻습니다.
+684.name;산호 달팽이
+684.text;This creature can harvest faeria the turn you play it.\n{gift} - You may move this creature's land.
+685.name;번데기
+685.text;{gift} - 아군 생물 하나를 {swallow}합니다. \n{production} - 포식된 생물이 +1/+1을 얻습니다. \n{activate} - 이 건물을 파괴합니다.
+686.name;신록의 전령
+686.text;{last_words} - 패의 모든 생물들에게 +1/+1을 부여합니다.
+687.name;영생의 사제
+687.text;{gift} - 다음에 뽑는 생물에게 +2/+4를 부여합니다.
+688.name;꽃 피는 코다마
+688.text;{gift} - Create {green}{green}{green} at random.
+689.name;산들바람 여우
+689.text;Whenever this moves into a {green}, you may teleport it to a friendly {green}
+690.name;밝은여우족장 드워디아
+690.text;Whenever Dwordia moves into a {green}, you may teleport him to a friendly {green}. If you do he gains +1/+1.
+691.name;승리의 축제
+691.text;나머지 게임동안 각 플레이어는 매 턴 {faeria|1}을 추가로 얻습니다.
+692.name;약자들의 구원자
+692.text;{gift} - 공격력이 정확히 1인 아군 생물에게 +2/+2와 {divine}을 부여합니다.
