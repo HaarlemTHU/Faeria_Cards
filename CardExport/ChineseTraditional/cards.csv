@@ -99,17 +99,17 @@
 64.name;帝國汲水器
 64.text;靈井停止生產靈力。\n{production}：對此建築造成1點傷害。\n{last_words} ： 重新填滿所有靈井。
 65.name;雨林探險家
-65.text;若您控制2座湖泊則時額外+1/+1，若您控制2座森林時則額外+0/+2。
+65.text;Has +1/+1 while you control {blue}{blue} and +0/+2 while you control {green}{green}
 66.name;火山口探險家
-66.text;若您控制2座湖泊時額外+1/+1，若您控制2座山脈時則額外+0/+2。
+66.text;Has +1/+1 while you control {blue}{blue} and +2/+0 while you control {red}{red}
 67.name;綠洲探險家
-67.text;若您控制2座湖泊時額外+1/+1，若您控制2個沙漠時則額外+1/+1。
+67.text;Has +1/+1 while you control {blue}{blue} and +1/+1 while you control {yellow}{yellow}
 68.name;針葉林探險家
-68.text;若您控制2座山脈時額外+2/+0，若您控制2座森林時則額外+0/+2。
+68.text;Has +2/+0 while you control {red}{red} and +0/+2 while you control {green}{green}
 69.name;莽原探險家
-69.text;若您控制2個沙漠時額外+1/+1，若您控制2座森林時則額外+0/+2。
+69.text;Has +1/+1 while you control {yellow}{yellow} and +0/+2 while you control {green}{green}
 70.name;砂岩探險家
-70.text;若您控制2座山脈時額外+2/+0，若您控制2個沙漠時則額外+1/+1。
+70.text;Has +2/+0 while you control {red}{red} and +1/+1 while you control {yellow}{yellow}
 71.name;紅寶魚
 71.text;{aquatic}
 72.name;知識竊賊
@@ -121,7 +121,7 @@
 75.name;加百列女巫
 75.text;{gift}：指定另一個目標生物，其攻擊力轉化為與其生命值相同。
 76.name;加百列指揮官
-76.text;{aquatic}、{charge|3}\n您下一次抽得原始費用大於等於{faeria|7}的牌時，此生物獲得{flying}和+1/+1。
+76.text;{aquatic}, {charge|2}\nThe first time you draw a card with a base cost of {faeria|7} or higher, this gains +1/+1 and {flying}.
 77.name;加百列典獄長
 77.text;{gift}：目標生物獲得{protection}。
 82.name;湧泉精靈
@@ -153,7 +153,7 @@
 103.name;硬殼海龜
 103.text;{aquatic}
 104.name;貝濡，原初怒濤
-104.text;{aquatic}\n{production}：將所有相鄰的地塊轉化為湖泊。
+104.text;{aquatic}\n{production} - Transform all adjacent lands into {blue}
 105.name;風暴幼體
 105.text;{last_words}：獲得{faeria|10}。
 106.name;老龜講古
@@ -163,7 +163,7 @@
 108.name;歐洛賽，深淵之夢
 108.text;{flying}、{charge|2}\n{gift}：將自身以外的所有友方生物隨機轉化為靈力費用多{faeria|2}的生物。
 109.name;水元素
-109.text;{jump}\n{gift}：創造一座湖泊。
+109.text;{jump}\n{gift} - Create {blue}
 110.name;寶錦仙靈
 110.text;{flying}\n您下一次抽得法術牌時，此生物獲得+2/+2和{charge|2}。
 111.name;沉沒之塔
@@ -213,7 +213,7 @@
 133.name;薩迦密繫魂師
 133.text;{last_words}：隨機一個友方生物獲得+3/+5。
 134.name;薩迦密守林員
-134.text;{gift}：你可以將另一個友方生物指定傳送至一座你所控制的森林。
+134.text;{gift} - You may teleport another friendly creature to a {green} you control.
 135.name;上古馴獸師
 135.text;每當您召喚生命值大於等於5的生物時，給予該生物+1/+1。
 136.name;蓋亞恩賜
@@ -239,9 +239,9 @@
 150.name;泰瑞亞魔像
 150.text;
 151.name;播種者
-151.text;{gift}：隨機創造一座與此生物相鄰的森林。
+151.text;{gift} - Create an adjacent {green} at random.
 152.name;藤蔓之牆
-152.text;{taunt}\n{last_words}：隨機創造一座森林。
+152.text;{taunt}\n{last_words} - Create {green} at random.
 153.name;密林灰熊
 153.text;
 154.name;堤基醫者
@@ -249,25 +249,25 @@
 155.name;茹妮的祭祠
 155.text;{gift}：獲得{faeria|2}。\n{last_words}對手獲得{faeria|2}。
 156.name;橡樹老爹
-156.text;{gift}：您每控制一座森林，則獲得+0/+1。
+156.text;{gift} - This gains +0/+1 for each {green} you control.
 157.name;靈力之樹
 157.text;{production}：此建築獲得+0/+1生命值。\n當此建築的生命值大於等於5時，此建築會自我摧毀並使您獲得{faeria|10}。
 158.name;垂柳樹人
 158.text;{taunt}
 159.name;野性成長
-159.text;隨機創造1座森林。
+159.text;Create {green} at random.
 168.name;遠古巨像
 168.text;您擁有的每座特殊地塊，都會讓此生物的召喚費用減少{faeria|1}(最低費用{faeria|6})。
 169.name;泰斯拉，荒野之魂
 169.text;{flying}、{charge|2}\n{gift}：目標生物獲得 +5/+5。
 170.name;木元素
-170.text;{taunt}\n{gift}：創造一座森林。
+170.text;{taunt}\n{gift} - Create {green}
 171.name;花錦仙靈
 171.text;{flying}\n您下一次抽到法術牌時，此生物獲得+1/+4、{taunt}和{charge|2}。
 172.name;蔓生之塔
 172.text;{activate}：給予目標生物+1/+1，對此建築物造成1點傷害。
 173.name;繁花幽光
-173.text;每當您創造一座森林，此生物獲得+1/+1。
+173.text;Whenever you create {green}, this gains +1/+1.
 174.name;重生精魂
 174.text;每當另一個友方生物死亡，給予您手中隨機一張生物牌+1/+1。
 175.name;密林之擁
@@ -283,7 +283,7 @@
 180.name;垂淚神像
 180.text;每當您受到傷害，獲得{faeria|1}。
 181.name;操地術
-181.text;{options|將一座您控制的地塊轉化為森林|將一座您控制的地塊轉化為湖泊|將一座您控制的地塊轉化為山脈|將一座您控制的地塊轉化為沙漠}\n將一座您控制的地塊轉化為選擇的顏色，並抽一張卡。
+181.text;{options|Transform one of your lands into {green}|Transform one of your lands into {blue}|Transform one of your lands into {red}|Transform one of your lands into {yellow}} color.\nTransform a land you control into the chosen color then draw a card.
 182.name;野性復仇者
 182.text;{taunt}、{dash|2}\n每當您受到傷害，此生物獲得+0/+1。
 183.name;上古野豬
@@ -363,7 +363,7 @@
 232.name;格魯丹，群山之心
 232.text;{flying}、{charge|2}\n{gift}：對所有的敵方生物造成3點傷害。
 233.name;火元素
-233.text;{gift}：創造一座山脈。
+233.text;{gift} - Create {red}
 234.name;炎錦仙靈
 234.text;{flying}\n您下一次抽得法術牌時，此生物獲得+3/+1和{ranged_attack}。
 235.name;無主孤塔
@@ -411,7 +411,7 @@
 256.name;奧拉丁狂信者
 256.text;{jump}\n{gift}：你可以移動一個友方生物。
 257.name;沙漠龍捲風
-257.text;將目標生物傳送到一座您控制的沙漠上。
+257.text;Teleport a creature to a {yellow} you control.
 258.name;風之港
 258.text;您可以將生物召喚於此建築相鄰的地塊上。\n{activate}：移動此建築。
 259.name;惡意精魂
@@ -451,7 +451,7 @@
 288.name;亞札萊，沙漠之怒
 288.text;{flying}、{charge|2}\n{gift}：亞札萊奪取每個敵方生物2點攻擊力。
 289.name;風元素
-289.text;{flying}\n{gift}：創造一座沙漠。
+289.text;{flying}\n{gift} - Create {yellow}
 290.name;日錦仙靈
 290.text;{flying}\n您下一次抽得法術牌時，此生物獲得+3/+1和{charge|3}。
 291.name;天界之塔
@@ -511,13 +511,13 @@
 335.name;叛軍飛刀手
 335.text;{gift}：對敵方主神造成2點傷害。
 350.name;三聖願
-350.text;您獲得3點生命並複製對手牌庫頂端的3張牌，它們的費用減少{faeria|1}。您不能複製別人的<b>三聖願</b>。
+350.text;Gain 3 Life. Copy the top 3 cards of your opponent's deck. They cost {faeria|1} less and are {wild}. You cannot wish for more wishes.
 351.name;叛軍滑翔兵
 351.text;{flying}、{dash|2}\n此生物無法採集靈力。
 352.name;光輝號，帝國飛艇
 352.text;{flying}、{dash|3}\n光輝號的費用等同於您的生命值。\n{gift}：您獲得等同於您手牌數量的生命。
 353.name;禁書典藏館
-353.text;{production}：抽一張牌，獲得{faeria|2}並對您造成2點傷害。
+353.text;{production} - Draw a card, gain {faeria|1}, and deal 2 damage to yourself.
 354.name;掠夢者
 354.text;{dash|3}\n{gift}：將目標主神的生命變為10。
 355.name;野性樹靈
@@ -579,7 +579,7 @@
 413.name;造雲機
 413.text;友方生物擁有{flying}、{jump}和+1/+0。
 414.name;支配之戒
-414.text;{options|將一座地塊轉化為森林，獲得其控制權|將一座地塊轉化為湖泊，獲得其控制權|將一座地塊轉化為山脈，獲得其控制權|將一座地塊轉化為沙漠，獲得其控制權}\n將一座地塊轉化為您選擇的顏色，獲得其控制權。
+414.text;{options|Transform a land to {green}. Gain control of it.|Transform a land to {blue}. Gain control of it.|Transform a land to {red}. Gain control of it.|Transform a land to {yellow}. Gain control of it.}\nTransform a land into the color of your choice. Gain control of it.
 415.name;世界之淚
 415.text;將一個本回合攻擊過主神的生物轉化為具有{flying}的10/10<b>噬天獸</b>。
 416.name;發條氂牛
@@ -617,7 +617,7 @@
 432.name;混沌之輪
 432.text;{options|摧毀2座空曠的地瑰|摧毀一個攻擊力小於等於5的生物|獲得7點生命}\n- 摧毀2座空矌地瑰。\n- 摧毀一個攻擊小於等於5的生物。\n- 獲得7點生命。
 433.name;烏拉妮的徽章
-433.text;選擇目標友方生物。您所有的生物都變成目標生物。
+433.text;Choose a friendly creature. All your other creatures become a copy of it.
 500.name;天才猴子
 500.text;{taunt}\n{gift} - 於對手的下個回合中，對方生物每次採集靈力便會讓此生物獲得+2/+2。
 501.name;無畏探險家
@@ -635,7 +635,7 @@
 507.name;皇帝凱歐思
 507.text;{production} - 所有敵方生物-1/-0。摧毀所有攻擊力低於0的敵方生物。
 508.name;天堂種子
-508.text;{flying}，{dash|1}\n{gift} - {options|當此生物越過海洋採集靈力時，它死去並創造一座湖泊|當此生物越過海洋採集靈力時，它死去並創造一座森林|當此生物越過海洋採集靈力時，它死去並創造一座山脈|當此生物越過海洋採集靈力時，它死去並創造一座沙漠}\n當此生物越過海洋採集靈力時，它死去並創造一座你所選擇的特殊地型。\n
+508.text;{flying}, {dash|1}\n{gift} - {options|When this creature harvests over the ocean, it dies and creates {green}|When this creature harvests over the ocean, it dies and creates {blue}|When this creature harvests over the ocean, it dies and creates {red}|When this creature harvests over the ocean, it dies and creates {yellow}}\nWhen this creature harvests over the ocean, it dies and creates a land of the chosen color.\n
 509.name;永生樹
 509.text;{production} - 獲得7點生命值。\n 隨機一張手牌中的生物獲得+7/+7。
 510.name;瑞寇的禮物
@@ -663,7 +663,7 @@
 521.name;呱呱投手
 521.text;{gift}：此生物與目標生物交戰。 在目標周圍的隨機位置召唤一隻擁有 {jump} 的2/2 <b>青蛙</b>。
 522.name;天堂之徑
-522.text;{options|創造一座森林。|創造一塊湖泊。|創造一座山脈。|創造一個沙漠。}\n- 創造一塊特殊地塊。\n本回合召喚於此地塊上第一個生物獲得+2/+0。
+522.text;{options|Create {green}|Create {blue}|Create {red}|Create {yellow}} - Create a special land.\nGive the first creature summoned on it this turn +2/+0.
 523.name;翡翠火蜥
 523.text;{gift} - 對周圍的敵方生物造成2點傷害。周圍友方生物獲得+2/+2。
 524.name;空之劍魚
@@ -777,7 +777,7 @@
 657.name;嘉迦納，彩虹之船
 657.text;{flying}\n所有你手中的卡片視為{wild}。\n{gift}：新增一個隨機的彩虹之船的操縱手到你的手牌中。它的消費為{faeria|0}。
 658.name;雷迪恩，蒼空之災
-658.text;{flying}\n{gift}：敵方生物下個回合無法移動和攻擊。
+658.text;{flying}\n{gift} - Enemy creatures can't move next turn.
 659.name;爆裂河馬
 659.text;{combat}：對所有相鄰敵方造成2點傷害。
 660.name;野獸訓練師
@@ -785,7 +785,7 @@
 661.name;狗頭人走私者
 661.text;{corrupt}：在相鄰的位置隨機召喚一個4/3的塞弗的飼料。
 662.name;伊努斯之怒
-662.text;造成4點傷害，隨機分給敵方。\n每當你從神力輪選擇+{faeria|1}時，費用減少{faeria|1}。 (當位於您的牌庫或手牌時)
+662.text;Deal {dynamic_number|0|0} damage randomly split among enemies.\nDeals +1 damage for each time you have selected +{faeria|1} from the power wheel this game (while in your hand or deck).
 663.name;伊努斯祭祀
 663.text;{gift}：刷新你的神力輪。\n{corrupt}：刷新你的神力輪。
 664.name;火焰監視者
@@ -794,16 +794,16 @@
 665.text;{gift}：此生物和你的對手交戰。
 666.name;穢蠅
 666.text;{flying}\n{corrupt}：新增一個<b>穢蠅<b>到你的手中。
-667.name;枯萎幽魂
+667.name;Blightborn Specter
 667.text;{charge|2}\n{production}：如果你的對手持有四張以上的手牌，此生物獲得+1/+1。
 668.name;塵埃怨靈
 668.text;{corrupt}：你的對手的所有手牌消費增加{faeria|1}。
 669.name;瘠空禿鷹
 669.text;{flying}\n{gift}：破壞一個生命值為1的生物並獲得它的攻擊力。
 670.name;作祟稻穀
-670.text;{production}：如果你的對手手牌為4張以上，抽1張卡並從你的對手吸取1點生命值。
+670.text;At the end of your turn, if your opponent has 4 or more cards in hand, draw 1 card and drain 1 life from your opponent.
 671.name;霹靂電鰻
-671.text;{flying}\n{gift}：對一個生物造成2點傷害。如果它在海洋上，改為造成4點傷害。
+671.text;{flying}\n{gift} - You may deal 2 damage to a creature. If it is on an ocean space, deal 4 damage instead.
 673.name;班儂，光輝艦長
 673.text;{gift}：如果你的剩餘牌庫中沒有生物，洗入一張<b>光輝號，帝國飛艇<b>和10隻隨機的中立生物到你的牌庫中。他們獲得+2/+2。
 674.name;烏拉妮，蒼空捍衛者
@@ -817,7 +817,7 @@
 678.name;蒼空氂牛
 678.text;{flying}\n當你控制6塊草原時獲得+2/+2。
 679.name;擁腫蟾蜍
-679.text;{jump}\n{last_words}：為你的敵人在這個位置召喚一隻具有{jump}2/2的<b>青蛙<b>。
+679.text;{jump}\nThis enters play with an enemy 2/2 <b>Frog</b> with {jump} swallowed.
 680.name;鏡中幻象
 680.text;{gift}：轉化一隻敵方生物成為5/3的<b>象幻中鏡<b>。
 681.name;崔頓軍師
@@ -827,7 +827,7 @@
 683.name;熱烈宴會
 683.text;{dash|1}\n在你的回合結束時，隨機一個相鄰的友方生物吞噬此並獲得+1/+1。
 684.name;珊瑚蝌蚪
-684.text;此生物可以在被打出的回合收集靈力。\n{gift}：你可以移動此生物的地塊。
+684.text;This creature can harvest faeria the turn you play it.\n{gift} - You may move this creature's land.
 685.name;蛹
 685.text;{gift}：{swallow}一個友方生物。\n{production}：被吞噬的生物獲得+1/+1。\n{activate}：摧毀此建築。
 686.name;蒼綠使徒
@@ -835,11 +835,11 @@
 687.name;永生樹祭司
 687.text;{gift}：給予下一隻你抽到的生物+2/+4。
 688.name;盛開樹靈
-688.text;{gift}：創造3塊森林。
+688.text;{gift} - Create {green}{green}{green} at random.
 689.name;西風之狐
-689.text;當此生物移動到一座森林時，你可以將它傳送到一個你控制的森林。
+689.text;Whenever this moves into a {green}, you may teleport it to a friendly {green}
 690.name;杜迪亞，光輝狐狸部落酋長
-690.text;當杜迪亞移動到一座森林時，你可以將他傳送到一個你控制的森林。如果你這麼做則他獲得+1/+1。
+690.text;Whenever Dwordia moves into a {green}, you may teleport him to a friendly {green}. If you do he gains +1/+1.
 691.name;勝利慶典
 691.text;直到遊戲結束，所有人每回合額外獲得{faeria|1}。
 692.name;溫順者的救主

@@ -139,7 +139,7 @@
 177;GREEN;Verduran Force;creature;;6;;;2;;;7;7;100005;RARE
 178;GREEN;Grove Guardian;creature;beast;5;;;3;;;5;6;101000;RARE
 179;GREEN;Tarum, the Forest World;creature;;15;;;4;;;7;15;101000;LEGENDARY
-180;GREEN;Weeping Idol;structure;;0;;;2;;;;3;101000;EPIC
+180;GREEN;Weeping Idol;structure;;0;;;1;;;;3;101000;EPIC
 181;GREEN;Earthcraft;event;;2;;;1;;;;;101000;EPIC
 182;GREEN;Wild Avenger;creature;;6;;;2;;;5;5;101000;RARE
 183;GREEN;Ancient Boar;creature;beast;5;2;;1;;;4;5;101000;COMMON
@@ -154,7 +154,7 @@
 192;RED;Kobold Warlord;creature;;7;;;;1;;5;7;100013;COMMON
 193;RED;Kobold Warbeast;creature;yak;4;;;;2;;5;4;100014;COMMON
 194;RED;Gift of Steel;event;;4;;;;2;;;;100014;COMMON
-195;RED;Underground Boss;creature;;5;;;;2;;3;4;100013;COMMON
+195;RED;Underground Boss;creature;;5;;;;2;;3;5;100013;COMMON
 196;RED;Architect;creature;;2;1;;;1;;2;2;101000;EPIC
 197;RED;Exalted Ogre;creature;;5;;;;1;;5;5;101000;COMMON
 198;RED;Kobold Barracks;structure;;2;;;;2;;;4;100014;RARE
@@ -230,7 +230,7 @@
 292;YELLOW;Wind Wisp;creature;;4;;;;;1;1;2;101000;RARE
 293;YELLOW;Flash Wind;event;;0;;;;;3;;;100020;RARE
 294;YELLOW;Golden Aviary;structure;;2;;;;;2;;2;101000;EPIC
-295;YELLOW;Zealous Crusader;creature;;4;;;;;2;3;3;101000;RARE
+295;YELLOW;Zealous Crusader;creature;;4;;;;;2;2;2;101000;RARE
 296;YELLOW;Keldran Soldier;creature;;2;;;;;1;3;2;101000;COMMON
 297;YELLOW;Lord of the Wastes;creature;;5;;;;;1;6;4;101000;COMMON
 298;YELLOW;Shaytan Assassin;creature;;3;;;;;2;1;1;101000;EPIC
@@ -245,7 +245,7 @@
 307;YELLOW;Choking Sand;event;;4;;;;;2;;;101000;EPIC
 308;YELLOW;Doomgate, Door to Oblivion;structure;;1;;;;;2;;3;101000;LEGENDARY
 309;YELLOW;Windstorm Archer;creature;;2;;;;;2;1;2;101000;RARE
-310;YELLOW;Windstorm Charger;creature;;4;;;;;2;2;4;101000;COMMON
+310;YELLOW;Windstorm Charger;creature;;3;;;;;2;2;3;101000;COMMON
 311;HUMAN;Apex Predator;creature;beast;7;;3;3;;;3;3;101000;EPIC
 312;HUMAN;Icerock Behemoth;creature;beast;7;;3;;3;;7;7;101000;EPIC
 313;HUMAN;Twinsoul Spirit;creature;;5;;3;;;3;4;3;101000;EPIC
@@ -314,7 +314,7 @@
 503;HUMAN;Yakkapult;creature;;4;6;;;;;2;5;102002;EPIC
 504;HUMAN;Goki, Friendly Miner;creature;triton;2;4;;;;;2;4;102001;LEGENDARY
 505;HUMAN;Mobie, Azure Skywhale;creature;;6;8;;;;;6;6;102002;LEGENDARY
-506;HUMAN;Balloon Fish;creature;;3;2;;;;;3;3;102005;RARE
+506;HUMAN;Balloon Fish;creature;;1;2;;;;;2;2;102005;RARE
 507;HUMAN;Emperor Kaios;creature;;5;6;;;;;3;5;102005;LEGENDARY
 508;GREEN;Seed of Paradise;creature;;2;;;1;;;0;3;102003;EPIC
 509;GREEN;The Tree of Everlife;structure;;7;7;;3;;;;7;102005;LEGENDARY
@@ -338,10 +338,10 @@
 527;HUMAN;Gemshell Tortoise;creature;beast;8;2;2;;2;;5;6;102005;RARE
 528;HUMAN;Flight of the Mantas;event;;2;;2;;;2;;;102003;EPIC
 529;HUMAN;Oversky Towship;creature;;5;;1;;;1;5;5;102004;EPIC
-530;HUMAN;Rakoan Chieftain;creature;rakoan;4;;;;2;2;3;5;102002;RARE
+530;HUMAN;Rakoan Chieftain;creature;rakoan;4;2;;;1;1;4;5;102002;RARE
 531;HUMAN;Sky Anemone;structure;;0;;;;1;1;;3;102004;RARE
 532;HUMAN;Ulani, Oversky Shaman;creature;rakoan;4;;1;1;1;1;2;2;102002;LEGENDARY
-601;HUMAN;Laya, Lady of Sorrows;creature;;4;3;;;;;3;4;102006;LEGENDARY
+601;HUMAN;Laya, Lady of Sorrows;creature;;4;4;;;;;3;4;102006;LEGENDARY
 602;HUMAN;Imperial Drakerider;creature;;5;2;;;;;3;4;102006;RARE
 603;HUMAN;Deranged Monkey;creature;beast;4;2;;;;;0;1;102006;COMMON
 604;HUMAN;Imperial Trooper;creature;;4;3;;;;;4;4;102006;COMMON
@@ -372,12 +372,12 @@
 630;RED;Lavasurge Axolotl;creature;beast;4;3;;;2;;12;3;102007;COMMON
 640;RED;Rakoakopter;creature;rakoan;5;1;;;2;;3;3;102007;RARE
 641;RED;Ruby Yak;creature;yak;5;;;;1;;4;5;102007;RARE
-642;YELLOW;Ghost Dragon;creature;;3;;;;;2;6;0;102007;EPIC
+642;YELLOW;Ghost Dragon;creature;;2;;;;;2;6;0;102007;EPIC
 643;YELLOW;Lion Fish;creature;;3;;;;;1;0;4;102007;COMMON
 644;YELLOW;Topaz Yak;creature;yak;4;;;;;1;4;2;102007;RARE
 645;HUMAN;Rakoan War Machine;creature;rakoan;4;;1;;1;;4;4;102007;COMMON
-646;HUMAN;Rakoan Cannoneer;creature;rakoan;3;;;;1;1;3;2;102007;RARE
-647;HUMAN;Rakoan Illusionist;creature;rakoan;2;;1;;;1;1;1;102007;EPIC
+646;HUMAN;Rakoan Cannoneer;creature;rakoan;2;;;;1;1;2;2;102007;RARE
+647;HUMAN;Rakoan Illusionist;creature;rakoan;1;;1;;;1;1;1;102007;EPIC
 648;HUMAN;Rakoan Shield Mates;creature;rakoan;2;;;1;;1;2;2;102007;COMMON
 649;HUMAN;Rakoan Warleader;creature;rakoan;4;;;1;1;;3;5;102007;RARE
 650;HUMAN;Rakoan Recruiter;creature;rakoan;4;;1;1;;;3;4;102007;COMMON
@@ -391,12 +391,12 @@
 659;RED;Bursting Hippo;creature;beast;6;;;;3;;5;5;102008;RARE
 660;RED;Beast Trainer;creature;;5;2;;;1;;3;3;102008;COMMON
 661;RED;Kobold Smuggler;creature;;5;;;;1;;5;3;102008;RARE
-662;RED;Wrath of Ignus;event;;6;;;;3;;;;102008;EPIC
+662;RED;Wrath of Ignus;event;;3;;;;3;;;;102008;EPIC
 663;RED;Ignusi Ritualist;creature;;4;;;;3;;3;3;102008;RARE
 664;RED;Flamestoker;creature;;5;;;;3;;4;4;102008;COMMON
 665;YELLOW;Barrensky Vermin;creature;beast;1;;;;;2;1;1;102008;COMMON
 666;YELLOW;Vile Bloatfly;creature;;2;;;;;4;3;3;102008;RARE
-667;YELLOW;Blightborn Spectre;creature;;5;;;;;2;3;6;102008;RARE
+667;YELLOW;Blightborn Specter;creature;;5;;;;;2;3;6;102008;RARE
 668;YELLOW;Dustbringer Wraith;creature;;4;1;;;;2;3;6;102008;EPIC
 669;YELLOW;Barrensky Vulture;creature;beast;4;;;;;4;0;3;102008;COMMON
 670;YELLOW;Haunted Husk;structure;;1;;;;;2;;3;102008;EPIC
@@ -405,20 +405,19 @@
 674;HUMAN;Ulani, Defender of Oversky;creature;rakoan;2;4;;;;;2;4;102009;LEGENDARY
 675;HUMAN;Llamacorn;creature;beast;5;2;;;;;5;5;102009;EPIC
 676;HUMAN;Roaming Yak;creature;yak;2;;;;;;1;1;102009;COMMON
-677;HUMAN;Yak Shepherd;creature;;3;3;;;;;2;3;102009;RARE
+677;HUMAN;Yak Shepherd;creature;;3;2;;;;;2;3;102009;RARE
 678;HUMAN;Oversky Yak;creature;yak;4;1;;;;;2;4;102009;COMMON
 679;BLUE;Bloated Toad;creature;triton;1;;2;;;;3;3;102009;RARE
 680;BLUE;Looking Glass Phantasm;creature;;5;;5;;;;3;5;102009;EPIC
 681;BLUE;Triton Tactician;creature;triton;3;;2;;;;2;4;102009;COMMON
 682;BLUE;Tide Lord;creature;triton;5;2;2;;;;5;5;102009;RARE
-683;BLUE;Animated Banquet;creature;;2;;1;;;;2;2;102009;COMMON
+683;BLUE;Animated Banquet;creature;;2;;1;;;;1;1;102009;COMMON
 684;BLUE;Coral Polliwog;creature;beast;7;;2;;;;5;7;102009;RARE
 685;GREEN;Chrysalis;structure;;0;;;1;;;;2;102009;EPIC
 686;GREEN;Verduran Emissary ;creature;;5;;;1;;;4;5;102009;RARE
 687;GREEN;Priest of Everlife;creature;rakoan;3;;;2;;;1;1;102009;COMMON
 688;GREEN;Blossoming Kodama;creature;;6;;;5;;;5;7;102009;COMMON
-689;GREEN;Zephyr Vulpine;creature;beast;3;;;1;;;3;3;102009;COMMON
+689;GREEN;Zephyr Vulpine;creature;beast;3;;;1;;;3;4;102009;COMMON
 690;GREEN;Dwordia, Chief of the Bright Fox Tribe;creature;rakoan;6;;;4;;;6;6;102009;LEGENDARY
 691;HUMAN;Victory Celebration;event;;0;2;1;1;;;;;102009;EPIC
-692;HUMAN;Savior of the Meek;creature;;3;;2;2;;;1;2;102009;COMMON
-
+692;HUMAN;Savior of the Meek;creature;;2;;2;2;;;1;2;102009;COMMON

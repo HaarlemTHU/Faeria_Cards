@@ -99,17 +99,17 @@
 64.name;Říšské čerpadlo
 64.text;Studny faerie jsou prázdné.\n{production} - Udělí této budově 1 poškození.\n{last_words} - Doplňte studny faerie.
 65.name;Průzkumník pralesa
-65.text;Pokud ovládáte alespoň 2 jezera, má +1/+1. Pokud alespoň 2 lesy, má +0/+2.
+65.text;Pokud ovládáte {blue}{blue}, má +1/+1. Pokud {green}{green}, má +0/+2.
 66.name;Průzkumník kaldery
-66.text;Pokud ovládáte alespoň 2 jezera, má +1/+1. Pokud alespoň 2 hory, má +2/+0.
+66.text;Pokud ovládáte {blue}{blue}, má +1/+1. Pokud {red}{red}, má +2/+0.
 67.name;Průzkumník oázy
-67.text;Pokud ovládáte alespoň 2 jezera, má +1/+1. Pokud alespoň 2 pouště, má +1/+1.
+67.text;Pokud ovládáte {blue}{blue}, má +1/+1. Pokud {yellow}{yellow}, má +1/+1.
 68.name;Průzkumník tajgy
-68.text;Pokud ovládáte alespoň 2 hory, má +2/+0. Pokud alespoň 2 lesy, má +0/+2.
+68.text;Pokud ovládáte {red}{red}, má +2/+0. Pokud {green}{green}, má +0/+2.
 69.name;Průzkumník savany
-69.text;Pokud ovládáte alespoň 2 pouště, má +1/+1. Pokud alespoň 2 lesy, má +0/+2.
+69.text;Pokud ovládáte {yellow}{yellow}, má +1/+1. Pokud {green}{green}, má +0/+2.
 70.name;Průzkumník pískovce
-70.text;Pokud ovládáte alespoň 2 hory, má +2/+0. Pokud alespoň 2 pouště, má +1/+1.
+70.text;Pokud ovládáte {red}{red}, má +2/+0. Pokud {yellow}{yellow}, má +1/+1.
 71.name;Rubínová rybka
 71.text;{aquatic}
 72.name;Zloděj pověstí
@@ -121,7 +121,7 @@
 75.name;Gabrijská kouzelnice
 75.text;{gift} - Útok jiné bytosti se stane rovný jejímu životu.
 76.name;Gabrijský velitel
-76.text;{aquatic}, {charge|3}\nPoprvé, kdy si líznete kartu se základní cenou {faeria|7} nebo vyšší, získá tato bytost vlastnost {flying} a +1/+1.
+76.text;{aquatic}, {charge|2}\nPoprvé, kdy si líznete kartu se základní cenou {faeria|7} nebo vyšší, získá tato bytost vlastnost {flying} a +1/+1.
 77.name;Gabrijský ochránce
 77.text;{gift} - Přidá bytosti schopnost {protection}.
 82.name;Pramenní mochi
@@ -153,7 +153,7 @@
 103.name;Robustní krunýř
 103.text;{aquatic}
 104.name;Baeru, první vlna
-104.text;{aquatic}\n{production} - Přemění všechny přilehlé pevniny na jezera.
+104.text;{aquatic}\n{production} - Přemění všechny přilehlé pevniny na {blue}
 105.name;Zplozenec bouře
 105.text;{last_words} - Získáte {faeria|10}.
 106.name;Pohádka staré želvy
@@ -163,7 +163,7 @@
 108.name;Orosei, sen z hlubin
 108.text;{flying}, {charge|2}\n{gift} - Přemění všechny vaše bytosti na bytosti o {faeria|2} dražší.
 109.name;Vodní elementál
-109.text;{jump}\n{gift} - Vytvoří jezero.
+109.text;{jump}\n{gift} - Vytvoří {blue}
 110.name;Křišťálová hedváběnka
 110.text;{flying}\nPoprvé, když si líznete událost, získá tato bytost +2/+2 a {charge|2}.
 111.name;Potopená věž
@@ -213,7 +213,7 @@
 133.name;Duchovní Sagami
 133.text;{last_words} - Přidá náhodné spojenecké bytosti +3/+5.
 134.name;Sagamský vyvolávač háje
-134.text;{gift} - Smíte teleportovat jinou spojeneckou bytost na les pod vaší nadvládou.
+134.text;{gift} - Smíte teleportovat jinou spojeneckou bytost na {green} pod vaší nadvládou.
 135.name;Pradávný pán bestií
 135.text;Každá bytost s 5 a více životy, kterou vyvoláte, získá +1/+1.
 136.name;Gaeina milost
@@ -239,9 +239,9 @@
 150.name;Thyrijský golem
 150.text;
 151.name;Rozsévač semen
-151.text;{gift} - Na náhodném sousedním místě vytvoří les.
+151.text;{gift} - Vytvoří {green} na náhodném přilehlém místě.
 152.name;Stěna révy
-152.text;{taunt}\n{last_words} - Vytvoří na náhodném místě les.
+152.text;{taunt}\n{last_words} - Vytvoří {green} na náhodném místě.
 153.name;Grizzly z hlubin lesa
 153.text;
 154.name;Tikijský léčitel
@@ -249,25 +249,25 @@
 155.name;Ruuninina svatyně
 155.text;{gift} - Získáte {faeria|2}.\n{last_words} - Váš protivník získá {faeria|2}.
 156.name;Otec dubů
-156.text;{gift} - Má +0/+1 za každý les, který ovládáte.
+156.text;{gift} - Má +0/+1 za každý {green}, který ovládáte.
 157.name;Strom faerie
 157.text;{production} - Tato budova získá +0/+1.\nPokud má 5 nebo více životů, je zničena a získáte {faeria|10}.
 158.name;Živá vrba
 158.text;{taunt}
 159.name;Nárůst divočiny
-159.text;Náhodně vytvoří les.
+159.text;Vytvoří {green} na náhodném místě.
 168.name;Prvotní kolos
 168.text;Stojí o tolik {faeria|1} méně, kolik máte speciálních pevnin (minimum: {faeria|6}).
 169.name;Tethra, duše větru
 169.text;{flying}, {charge|2}\n{gift} - Přidá bytosti +5/+5.
 170.name;Lesní elementál
-170.text;{taunt}\n{gift} - Vytvoří les.
+170.text;{taunt}\n{gift} - Vytvoří {green}
 171.name;Květinová hedváběnka
 171.text;{flying}\nZíská +1/+4, {taunt} a {charge|2}, jakmile si líznete první událost.
 172.name;Zarostlá věž
 172.text;{activate} - Přidá bytosti +1/+1. Udělí této budově 1 poškození.
 173.name;Vždykvetoucí bludička
-173.text;Kdykoliv vytvoříte les, získá tato bytost +1/+1.
+173.text;Kdykoliv vytvoříte {green}, získá tato bytost +1/+1.
 174.name;Duch znovuzrození
 174.text;Kdykoliv zemře přátelská bytost, přidá náhodné bytosti ve vaší ruce +1/+1.
 175.name;Objetí Starolesa
@@ -283,7 +283,7 @@
 180.name;Plačící modla
 180.text;Kdykoliv je vám uděleno poškození, ziskáte {faeria|1}
 181.name;Zemětvorba
-181.text;{options|Přemění jednu z vašich pevnin na les|Přemění jednu z vašich pevnin na jezero|Přemění jednu z vašich pevnin na horu|Přemění jednu z vašich pevnin na poušť} color.\nPřemění jednu z vašich pevnin na pevninu zvolené barvy a líznete si kartu.
+181.text;{options|Přemění jednu z vašich pevnin na {green}|Přemění jednu z vašich pevnin na {blue}|Přemění jednu z vašich pevnin na {red}|Přemění jednu z vašich pevnin na {yellow}} barvu.\nPřemění jednu z vašich pevnin na pevninu zvolené barvy a líznete si kartu.
 182.name;Divoký mstitel
 182.text;{taunt}, {dash|2}\nPokaždé, když v této hře utrpíte poškození, získá tato bytost +0/+1.
 183.name;Dávný kanec
@@ -363,7 +363,7 @@
 232.name;Garudan, srdce hory
 232.text;{flying}, {charge|2}\n{gift} - Udělí 3 poškození všem nepřátelským bytostem.
 233.name;Ohnivý elementál
-233.text;{gift} - Vytvoříte horu.
+233.text;{gift} - Vytvoří {red}
 234.name;Plamenná hedváběnka
 234.text;{flying}\nZíská +3/+1 a vlastnost {ranged_attack} ve chvíli, kdy si poprvé líznete událost.
 235.name;Opuštěná věž
@@ -411,7 +411,7 @@
 256.name;Oradrimský fanatik
 256.text;{jump}\n{gift} - Můžete pohnout spojeneckou bytostí.
 257.name;Překroucení pouště
-257.text;Teleportuje bytost na poušť pod vaší vládou.
+257.text;Teleportuje bytost na {yellow} pod vaší nadvládou.
 258.name;Větrná brána
 258.text;Můžete přivolávat bytosti na místa přilehlá k této budově.\n{activate} - Posune Větrnou bránu.
 259.name;Zlomyslný duch
@@ -451,7 +451,7 @@
 288.name;Azarai, hněv pouště
 288.text;{flying}, {charge|2}\n{gift} - Azarai vysaje 2 body útoku z každé nepřátelské bytosti.
 289.name;Vzdušný elementál
-289.text;{flying}\n{gift} - Vytvoří poušť
+289.text;{flying}\n{gift} - Vytvoří {yellow}
 290.name;Sluneční hedváběnka
 290.text;{flying}\nZíská +3/+1 a vlastnost {charge|3}, jakmile si líznete první událost.
 291.name;Nebeská věž
@@ -511,13 +511,13 @@
 335.name;Povstalecký vrhač
 335.text;{gift} - Udělí vašemu protivníku 2 poškození.
 350.name;Tři přání
-350.text;Vylečte si 3 životy. Zkopírujete vrchní 3 karty z balíčku svého protivníka. Získané karty stojí o {faeria|1} méně. Nemůžete si přát mít více přání.
+350.text;Vyléčíte si 3 životy. Zkopírujete 3 vrchní karty ze soupeřova balíčku. Každá taková karta stojí o {faeria|1} a je {wild}. Nelze si přát mít více přání.
 351.name;Povstalecký kluzák
 351.text;{flying}, {dash|2}\nNemůže sklízet faerii.
 352.name;Třpyt, říšská vzducholoď
 352.text;{flying}, {dash|3}\nCena Třpytu se rovná vašemu životu.\n{gift} - Získáte 1 život za každou kartu ve své ruce.
 353.name;Zakázaná knihovna
-353.text;{production} - Líznete si kartu, získáte {faeria|2} a ztratíte 2 životy.
+353.text;{production} - Líznete si kartu, získáte {faeria|1} a budou vám udělena 2 poškození.
 354.name;Plenitel snů
 354.text;{dash|3}\n{gift} - Nastaví život boha na 10.
 355.name;Krvelačná kodama
@@ -579,7 +579,7 @@
 413.name;Stroj na mraky
 413.text;Přátelské bytosti mají +1/+0 a vlastnosti {flying} a {jump}.
 414.name;Prsten nadvlády
-414.text;{options|Získat vládu na pevninou a přetvořit ji v les.|Získat vládu na pevninou a přetvořit ji v jezero.|Získat vládu na pevninou a přetvořit ji v horu.|Získat vládu na pevninou a přetvořit ji v poušť.}\nZískáte vládu nad pevninou a přetvoříte ji na barvu vašeho výběru.
+414.text;{options|Získat vládu na pevninou a přetvořit ji v {green}. |Získat vládu na pevninou a přetvořit ji v {blue}.|Získat vládu na pevninou a přetvořit ji v {red}.|Získat vládu na pevninou a přetvořit ji v {yellow}.}\nZískáte vládu nad pevninou a přetvoříte ji na barvu vašeho výběru.
 415.name;Slza světa
 415.text;Přetvoří bytost, co tento tah zaútočila na boha, na <b>Polykače nebes</b> (10/10) se schopností {flying}.
 416.name;Mechanický jak
@@ -617,7 +617,7 @@
 432.name;Kolo chaosu
 432.text;{options|Zničit 2 neobsazené pevniny|Zničit bytost s útokem 5 nebo méně.|Získat 7 životů.}\n- Zničí 2 neobsazené pevniny.\n- Zničí bytost s útokem 5 nebo méně.\n- Získáte 7 životů.
 433.name;Ulanin medailonek
-433.text;Zvolte si přátelskou bytost. Všechny vaše bytosti se stanou kopií její základní podoby.
+433.text;Zvolte spojeneckou bytost. Všechny vaše zbylé bytosti se stanou její kopií.
 500.name;Opičí génius
 500.text;{taunt}\n{gift} - V soupeřově příštím tahu získá +2/+2 pokaždé, když nepřátelská bytost sklidí faerii.
 501.name;Neohrožený průzkumník
@@ -635,7 +635,7 @@
 507.name;Císař Kaios
 507.text;{production} - Ubere všem nepřátelským bytostem -1/-0. Poté zničí všechny nepřátelské bytosti s útokem 0.
 508.name;Semínko ráje
-508.text;{flying}, {dash|1}\n{gift} - {options|Když tato bytost sklízí nad oceánem, zemře a změní se v les.|Když tato bytost sklízí nad oceánem, zemře a změní se v jezero.|Když tato bytost sklízí nad oceánem, zemře a změní se v horu.|Když tato bytost sklízí nad oceánem, zemře a změní se v poušť.}\nKdyž tato bytost sklízí faerii, zatímco stojí na volném poli, zemře a změní se ve vybraný typ pevniny.\n
+508.text;{flying}, {dash|1}\n{gift} - {options|Když tato bytost sklízí nad oceánem, zemře a změní se v {green}|Když tato bytost sklízí nad oceánem, zemře a změní se v {blue}|Když tato bytost sklízí nad oceánem, zemře a změní se v {red}|Když tato bytost sklízí nad oceánem, zemře a změní se v {yellow}}\nKdyž tato bytost sklízí faerii, zatímco stojí na volném poli, zemře a změní se ve vybraný typ pevniny.\n
 509.name;Strom Nesmrtelna
 509.text;{production} - Získáte 7 životů.\nPřidá náhodné bytosti ve vaší ruce +7/+7.
 510.name;Rakoanský dar
@@ -663,7 +663,7 @@
 521.name;Vrhač žab
 521.text;{gift} - Zaútočí na libovolnou nepřátelskou bytost. Na náhodném místě vedle cíle vyvolá <b>Žábu</b> (2/2) se schopností {jump}.
 522.name;Cesta do ráje
-522.text;{options|Vytvoří les.|Vytvoří jezero.|Vytvoří horu.|Vytvoří poušť.} - Vytvoří speciální pevninu.\nPrvní bytost, která na ní bude vyvolána v tomto tahu, získá +2/+0.
+522.text;{options|Vytvoří {green}|Vytvoří {blue}|Vytvoří {red}|Vytvoří {yellow}} - Vytvoří speciální pevninu.\nPrvní bytost, která na ní bude vyvolána v tomto tahu, získá +2/+0.
 523.name;Smaragdový salamandr
 523.text;{gift} - Udělí 2 poškození přilehlým nepřátelským bytostem. Dá přilehlým přátelským bytostem +2/+2.
 524.name;Nebeský mečoun
@@ -777,7 +777,7 @@
 657.name;Gagana, Duhová ptakoloď
 657.text;{flying}\nKarty ve vaší ruce mají vlastnost {wild}.\n{gift} - Přidá do vaší ruky náhodného člena gaganské posádky. Ten bude stát {faeria|0}.
 658.name;Třpyt, postrach Zánebí
-658.text;{flying}\n{gift} - V příštím tahu se nepřátelské bytosti nemohou pohybovat ani útočit.
+658.text;{flying}\n{gift} - V příštím tahu se nepřátelské bytosti nemohou hýbat.
 659.name;Těkavý hroch
 659.text;{combat} - Udělí 2 poškození všem přilehlým nepřátelům.
 660.name;Krotitel šelem
@@ -785,7 +785,7 @@
 661.name;Pašerácký kobold
 661.text;{corrupt} - Vyvolá na náhodném přilehlém místě Seiferovo krmivo (4/3).
 662.name;Hněv Ignův
-662.text;Udělí 4 poškození náhodně rozdělené mezi nepřátele. \nZatímco je ve vaší ruce nebo balíčku, sníží se jeho cena o {faeria|1} pokaždé, když z kola moci zvolíte +{faeria|1}.
+662.text;Náhodně rozdělí {dynamic_number|0|0} poškození mezi nepřátele.\nDokud je ve vaší ruce nebo v balíčku, zvýší se toto číslo o jedna pokaždé, když si z kola moci zvolíte +{faeria|1}.
 663.name;Uctívač Ignuse
 663.text;{gift} - Smíte znovu použít kolo moci.\n{corrupt} - Smíte znovu použít kolo moci.
 664.name;Topič
@@ -794,16 +794,16 @@
 665.text;{gift} - Zaútočí na vašeho protihráče.
 666.name;Odporná zbobtnalice
 666.text;{flying}\n{corrupt} - Přidá do vaší ruky <b>Odpornou zbobtnalici</b>.
-667.name;Zjevení moru
+667.name;Morový přízrak
 667.text;{charge|2}\n{production} - Získá +1/+1, pokud má váš nepřítel v ruce 4 nebo více karet.
 668.name;Přízračný prášil
 668.text;{corrupt} - Zvýší cenu všech karet v soupeřově ruce o {faeria|1}.
 669.name;Sup ze Zkáznebí
 669.text;{flying}\n{gift} - Zničí bytost s 1 životem a vysaje její útok.
 670.name;Posedlá schránka
-670.text;{production} - Pokud má váš protivník v ruce 4 či více karet, líznete si 1 kartu a vysajete ze svého protivníka 1 život.
+670.text;Pokud má na konci vašeho tahu váš protivník v ruce 4 či více karet, líznete si 1 kartu a vysajete ze svého protivníka 1 život.
 671.name;Hromový úhoř
-671.text;{flying}\n{gift} - Udělí bytosti 2 poškození. Pokud je ona bytost na oceánu, udělí jí 4.
+671.text;{flying}\n{gift} - Smíte bytosti udělit 2 poškození. Pokud je ona bytost na oceánu, udělí jí 4.
 673.name;Banon, kapitán Třpytu
 673.text;{gift} - Pokud již v balíčku nemáte žádné bytosti, zamíchá do něj <b>Třpyt, zánebskou vzducholoď</b> a 10 náhodných neutrálních bytostí. Všichni získají +2/+2.
 674.name;Ulani, ochránkyně Zánebí
@@ -817,7 +817,7 @@
 678.name;Zánebský jak
 678.text;{flying}\nPokud ovládáte 6 prérií, má +2/+2.
 679.name;Nafouklá ropucha
-679.text;{jump}\n{last_words} - Vyvolá pro vašeho protihráče na tomto místě <b>Žábu</b> (2/2) s vlastností {jump}.
+679.text;{jump}\nVstoupí do hry se spolknutou nepřátelskou <b>Žábou</b> (2/2).
 680.name;Přízrak odrazu
 680.text;{gift} - Přemění nepřátelskou bytost na <b>uzardo karzířP</b> (5/3).
 681.name;Tritónský taktik
@@ -835,11 +835,11 @@
 687.name;Kněží Nesmrtelna
 687.text;{gift} - Další bytosti, kterou si líznete, přidá +2/+4.
 688.name;Kvetoucí kodama
-688.text;{gift} - Vytvoří 3 lesy.
+688.text;{gift} - Vytvoří {green}{green}{green} na náhodných místech.
 689.name;Zephyrský lišák
-689.text;Kdykoliv tato bytost vstoupí do lesa, můžete ji teleportovat do lesa, který ovládáte.
+689.text;Kdykoliv tato bytost vstoupí do {green}, můžete ji teleportovat do {green}, který ovládáte.
 690.name;Dwordia, náčelník kmene blyštivých lišek
-690.text;Kdykoliv Dwordia vstoupí do lesa, můžete jej teleportovat do lesa, který ovládáte. V takovém případě získá +1/+1.
+690.text;Kdykoliv Dwordia vstoupí do {green}, můžete jej teleportovat do {green}, který ovládáte. V takovém případě získá +1/+1.
 691.name;Oslava vítězství
 691.text;Až do konce hry všichni hráči získají v každém tahu {faeria|1} navíc.
 692.name;Spasitel slabých
