@@ -121,7 +121,7 @@
 75.name;Encantriz Gabriana
 75.text;{gift} - O ataque de outra criatura se torna igual à vida dela.
 76.name;Comandante Gabriano
-76.text;{aquatic}, {charge|2}\nThe first time you draw a card with a base cost of {faeria|7} or higher, this gains +1/+1 and {flying}.
+76.text;{aquatic}, {charge|2}\nNa primeira vez em que você comprar uma carta com custo base de {faeria|7} ou mais, ganha +1/+1 e {flying}.
 77.name;Guardiã Gabriana
 77.text;{gift} - Dá {protection} a uma criatura.
 82.name;Mochi da Nascente
@@ -353,7 +353,7 @@
 223.name;Atirador de Bombas
 223.text;{gift} - Causa 4 de dano a uma criatura ou estrutura inimiga adjacente.
 224.name;Carregador de Canhão
-224.text;{gift} - Dá {ranged_attack} a uma criatura aliada.
+224.text;{gift} - Lance um Mecha 4/2 em linha reta em qualquer terreno.
 225.name;Explosão de Chamas
 225.text;Causa 3 de dano.
 226.name;Lançador de Chamas
@@ -511,13 +511,13 @@
 335.name;Atirador Rebelde
 335.text;{gift} - Causa 2 de dano ao seu oponente.
 350.name;Três Desejos
-350.text;Gain 3 Life. Copy the top 3 cards of your opponent's deck. They cost {faeria|1} less and are {wild}. You cannot wish for more wishes.
+350.text;Ganha 3 de Vida. Copia as 3 primeiras cartas do topo do baralho de seu oponente. Elas custam menos {faeria|1} e são {wild}. Você não pode desejar mais Três Desejos.
 351.name;Planador Rebelde
 351.text;{flying}, {dash|2}\nNão pode coletar faeria.
 352.name;Esplendor, Aeronave Imperial
 352.text;{flying}, {dash|3}\nO custo de faeria da Esplendor é igual à sua Vida.\n{gift} - Você ganha 1 de Vida para cada carta em sua mão.
 353.name;Biblioteca Proibida
-353.text;{production} - Draw a card, gain {faeria|1}, and deal 2 damage to yourself.
+353.text;{production} - Compre uma carta, ganhe {faeria|1} e cause 2 de dano a você mesmo.
 354.name;Saqueador de Sonhos
 354.text;{dash|3}\n{gift} - Define a vida de um deus em 10.
 355.name;Kodama Feroz
@@ -733,7 +733,7 @@
 625.name;Rapala, o Peixe Dopado
 625.text;{aquatic}\n{gift} - Enche a mão do seu oponente de <b>Peixe-Rubi</b>. Que idiota.
 626.name;Iaque Safira
-626.text;Sempre que um iaque aliado coletar faeria de um poço inimigo, dá ao iaque +2/+2.
+626.text;Sempre que um Iaque aliado coletar faeria de um poço inimigo, dá ao iaque +2/+2.
 627.name;Caçada
 627.text;Dá a uma fera aliada +2/+0. Então ela luta com uma criatura inimiga.
 628.name;Iaque Esmeralda
@@ -755,7 +755,7 @@
 645.name;Máquina de Guerra Rakoana
 645.text;{charge|2}\n{gift} - Se desejar, {swallow} um outro rakoano aliado para ganhar +2/+0.
 646.name;Canhoneiro Rakoano
-646.text;{gift} - Você pode sacrificar outro Rakoano. Se o fizer, cause 3 de dano.
+646.text;{gift} - Você pode sacrificar outro Rakoano. Se o fizer, cause 3 de dano a uma criatura inimiga.
 647.name;Ilusionista Rakoano
 647.text;{gift}- Você pode transformar outro Rakoano aliado em um 4/4 {flying} {charge|2} <b>Dragonete das Dunas</b> até o início de seu próximo turno.
 648.name;Companheiros de Escudo Rakoanos
@@ -785,7 +785,7 @@
 661.name;Contrabandista Kobold
 661.text;{corrupt} - Invoca um 4/3 <b>Forragem de Seifer</b> em um terreno adjacente aleatório.
 662.name;Ira de Ignus
-662.text;Deal {dynamic_number|0|0} damage randomly split among enemies.\nDeals +1 damage for each time you have selected +{faeria|1} from the power wheel this game (while in your hand or deck).
+662.text;Causa {dynamic_number|0|0} de dano dividido aleatoriamente entre os inimigos.\nCausa +1 de dano para cada vez que você selecionou +{faeria|1} na roda do poder este jogo (enquanto na sua mão ou baralho).
 663.name;Ritualista de Ignus
 663.text;{gift} - Renova a sua roda do poder.\n{corrupt} - Renova a sua roda do poder.
 664.name;Fogueirinho
@@ -794,14 +794,14 @@
 665.text;{gift} - Esta criatura luta contra o seu adversário.
 666.name;Mosca Mutante Vil
 666.text;{flying}\n{corrupt} - Adicione uma <b>Mosca Mutante Vil</b> a sua mão.
-667.name;Blightborn Specter
+667.name;Espectro Nascido da Ruína
 667.text;{charge|2}\n{production} - Se o seu oponente tiver 4 ou mais cartas na mão, esta criatura ganha +1/+1.
 668.name;Espectro Emissário da Poeira
 668.text;{corrupt} - Aumenta o custo de cada carta na mão do seu oponente em {faeria|1}.
 669.name;Abutre do Céu Estéril
 669.text;{flying}\n{gift} - Destrói uma criatura com 1 ponto de vida e drena seu ataque.
 670.name;Tronco Assombrado
-670.text;At the end of your turn, if your opponent has 4 or more cards in hand, draw 1 card and drain 1 life from your opponent.
+670.text;No final do seu turno, se o seu oponente tiver 4 ou mais cartas na mão, compre 1 carta e drene 1 ponto de vida do seu oponente.
 671.name;Enguia do Trovão
 671.text;{flying}\n{gift} - Você pode causar 2 de dano a uma criatura. Se ela estiver sobre o oceano, causa 4.
 673.name;Banon, Capitão da Esplendor
@@ -817,7 +817,7 @@
 678.name;Iaque do Céu-Acima
 678.text;{flying}\nTem +2/+2 enquanto você controla 6 pradarias.
 679.name;Sapo Inchado
-679.text;{jump}\nThis enters play with an enemy 2/2 <b>Frog</b> with {jump} swallowed.
+679.text;{jump}\nEsta criatura entra em jogo com um <b>Sapo</b> 2/2 com {jump} engolido.
 680.name;Fantasma do Espelho
 680.text;{gift} - Transforma uma criatura inimiga em um <b>ohlepsE od amsatnaF</b> 5/3.
 681.name;Tritão Estrategista
@@ -844,3 +844,81 @@
 691.text;Pelo resto do jogo, cada jogador ganha {faeria|1} extra a cada turno.
 692.name;Salvador dos Dóceis
 692.text;{gift} - Dá +2/+2 e {divine} a outra criatura aliada com exatamente 1 de Ataque.
+701.name;Bússola de Gagana
+701.text;No final do seu turno, encontre um <b>Mapa do Tesouro</b> no seu baralho e coloque-o no topo. Se o seu baralho não tiver Mapas do Tesouro, embaralhe um nele.
+702.name;Inspiração de Sharra
+702.text;Dê +2/+2 a uma criatura aliada para cada inimigo adjacente.
+703.name;Celeste, Dragão de Cristal
+703.text;{flying}, {charge|2}\n{gift} - Se o seu baralho não tiver cartas repetidas, ganhe {haste} e {protection}.\n{last_words} - Embaralhe Celeste de volta ao seu baralho.
+704.name;Gagana, Caçador de Tesouros
+704.text;{flying}\n{gift} - Para cada carta em sua mão, adicione um <b>Mapa do Tesouro</b> ao seu baralho. Embaralhe sua mão no seu baralho e compre a mesma quantia de cartas.
+705.name;Aventureiro Tritão
+705.text;{jump}\n{gift} - Movimente esta criatura.\nNo final do seu turno, compre uma carta se esta criatura estiver em um terreno inimigo.
+706.name;Mensagem na Garrafa
+706.text;Embaralhe 2 <b>Mapas do Tesouro</b> no seu baralho e compre uma carta.
+707.name;Guardião Casco-Estrelado
+707.text;{gift} - Embaralhe um <b>Mapa do Tesouro</b> no seu baralho e compre uma carta.
+709.name;Tritão Visionário
+709.text;{jump}\n{gift} - Compre 3 cartas. Se qualquer uma delas for um <b>Mapa do Tesouro</b>, esta criatura ganha +2/+2.
+710.name;Fugoro, Capitão do Gagana
+710.text;{jump}\nSempre que você descobre um Tesouro, Fugoro ganha +3/+3.
+711.name;Aventureiro Tiki
+711.text;{dash|1}\nNo final do seu turno, dê +1/+1 a todas as criaturas aliadas adjacentes se esta criatura estiver em um terreno inimigo.
+712.name;Tiki Zoologista
+712.text;{gift} - {discover} uma Fera. Ela se torna {wild}.
+713.name;Defensor de Feras Kodama
+713.text;{jump}\nFeras aliadas adjacentes ganham +2/+0.
+714.name;Procurar Abrigo
+714.text;{discover} uma criatura com {taunt}. Ela se torna {wild} e ganha +0/+3.
+715.name;Mascote Exótico
+715.text;Você pode invocar esta criatura adjacente a uma criatura aliada que não seja verde.
+717.name;Aventureiro Ogro
+717.text;{dash|1}\nNo final do seu turno, reduza {faeria|1} em uma carta de sua mão se esta criatura estiver em um terreno inimigo.
+719.name;Forjadura Instável
+719.text;{production} - Ganha +3/+0.
+720.name;Fragmentador
+720.text;{combat} - Invoca um Mecha 4/2 em um espaço adjacente aleatório.
+721.name;Detonar
+721.text;Todos os mecha aliados causam 2 de dano aos inimigos adjacentes.
+722.name;Junkfeet, o Cabeça de Sucata
+722.text;No final do seu turno, dê +1/+1 a todos os outros Mecha e isto leva 1 de dano.
+723.name;Aventureiro Keldran
+723.text;{dash|1}\nNo final do seu turno, embaralhe 2 <b>Mapas do Tesouro</b> em seu baralho se esta criatura estiver em um terreno inimigo.
+724.name;Mercador Amai
+724.text;{flying}\n{gift} - {discover} uma carta que custa {faeria|5} ou mais. Adicione as 2 cartas que você não pegou na mão do seu oponente. Todas elas se tornam {wild}.
+726.name;Vendedor de Mapas Amai
+726.text;{gift} - Embaralhe um <b>Mapa do Tesouro</b> em seu baralho.
+727.name;Aryana, Alma do Gagana
+727.text;{flying}\n{gift} - Adicione um <b>Mapa do Tesouro</b> ao topo do seu baralho.\n{last_words} - Retorne Aranya à sua mão.
+728.name;Escambo
+728.text;{discover} um evento do baralho de seu oponente. Ele se torna {wild} e custa {faeria|2} a menos.
+729.name;Especiaria Espiritual
+729.text;Dê +3/+3, {charge|3}, e {flying} a uma criatura. Custa {faeria|3} a menos para cada criatura aliada que morreu neste turno.
+730.name;Especiaria de Cristal
+730.text;{discover} 2 cartas não lendárias que custam {faeria|7} ou mais. Elas se tornam {wild}.
+731.name;Robô Voador
+731.text;{flying}, {dash|2}
+732.name;Expedição Thyriana
+732.text;{discover} uma carta com custo total de terreno de 5 ou mais. Ela se torna {wild} e custa {faeria|1} a menos.
+733.name;Plana-Saltador
+733.text;{flying}, {jump}
+734.name;Sorocco, o Imediato
+734.text;{jump}\nCausa 3 de dano a todos os inimigos adjacentes a onde esta criatura pousa.
+735.name;Globo Thyriano
+735.text;{charge|5}, {flying}\n{last_words} Causa 5 de dano a todos os inimigos adjacentes.
+736.name;Gárgula Arcaica
+736.text;{charge|3}, {flying} {gift} - Rasgue todos os <b>Mapas do Tesouro</b> em seu baralho em pedaços e ganhe +1/+1 para cada mapa rasgado.\nMapas a Rasgar:{dynamic_number|0|0}.
+737.name;Cristálida
+737.text;{gift} - {swallow} uma criatura aliada.\n{production} - A criatura engolida ganha +4/+4.\n{activate} - Destrói esta estrutura.
+738.name;Tapete Mágico
+738.text;{flying}, {dash|5}\n{gift} - Preencha sua mão com <b>Ventos Ligeiros</b>. Eles se tornam {wild}.
+739.name;Simulacro da Obediência
+739.text;Cartas em sua mão custam {faeria|1} a menos.
+740.name;Lança dos Guardiões
+740.text;{divine},{flying},{dash|5}\nDeve ser invocado ao lado de uma criatura aliada.
+741.name;Chave dos Elementos
+741.text;{options|{discover} uma criatura verde.|{discover} uma criatura azul.|{discover} uma criatura vermelha.|{discover} uma criatura amarela.}\nEscolha uma cor. {discover} uma criatura da mesma cor. Ela se torna {wild} e custa {faeria|3} a menos.
+742.name;Chave dos Gigantes
+742.text;{discover} uma criatura. Ela ganha +6/+6 e se torna {wild}.
+743.name;Chave dos Guardiões
+743.text;Invoca dois Guardiões 5/5 com {taunt} e {divine}.
