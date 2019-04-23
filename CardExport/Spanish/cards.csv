@@ -283,7 +283,7 @@
 180.name;Ídolo Llorón
 180.text;Cada vez que recibas daño, ganas {faeria|1}.
 181.name;Arte Terrestre
-181.text;{options|Transforma una de tus tierras en un {green}|Transforma una de tus tierras en un {blue}|Transforma una de tus tierras en una {red}|Transforma una de tus tierras en un {yellow}}.\nTransforma una tierra que controles en el color elegido y roba una carta.
+181.text;{options|Transforma una de tus tierras en un {green}|Transforma una de tus tierras en un {blue}|Transforma una de tus tierras en una {red}|Transforma una de tus tierras en un {yellow}} un color.\nTransforma una tierra que controles en el color elegido y roba una carta.
 182.name;Vengador Salvaje
 182.text;{taunt}, {dash|2}\nGana 1 de Vida cada vez que hayas recibido daño durante esta partida.
 183.name;Jabalí Antiguo
@@ -343,7 +343,7 @@
 214.name;Escupellamas
 214.text;{gift} - Inflige 1 de daño a un enemigo.
 215.name;Señor del Terror
-215.text;Cuando un dios recibe daño, esto gana la misma cantidad de Ataque.
+215.text;Cuando un dios recibe daño, esta criatura gana la misma cantidad en Ataque.
 216.name;Alimaña Cruel
 216.text;{gift} - Esto gana +2/+2 si tienes otra criatura con mas Ataque que Vida.
 217.name;Obelisco Sanguinario
@@ -353,7 +353,7 @@
 223.name;Lanzabombas
 223.text;{gift} - Inflige 4 de daño a una criatura o estructura enemiga adyacente.
 224.name;Portador del Cañón
-224.text;{gift} - Otorga\n{ranged_attack} a una criatura amistosa.
+224.text;{gift} - Dispara un Mecha 4/2 a cualquier tierra en una línea recta.
 225.name;Llama Explosiva
 225.text;Inflige 3 de daño.
 226.name;Lanzallamas
@@ -733,7 +733,7 @@
 625.name;Rapala, el Pez Estúpido
 625.text;{aquatic}\n{gift} - Llena la mano de tu oponente con <b>Peces Rubí</b>. Que idiota.
 626.name;Yak Zafiro
-626.text;Cuando un Yak amistoso recolecte Faeria de un pozo enemigo, le otorga +2/+2.
+626.text;Cuando un Yak amistoso recolecta faeria de un pozo enemigo, le otorga +2/+2.
 627.name;Cacería
 627.text;Otorga a una bestia amistosa +2/+0. Luego esta lucha con una criatura enemiga.
 628.name;Yak Esmeralda
@@ -755,7 +755,7 @@
 645.name;Máquina de Guerra Rakoan
 645.text;{charge|2}\n{gift} - Si {swallow} a otro Rakoan amistoso, gana +2/+0.
 646.name;Cañonero Rakoan
-646.text;{gift} - Puedes sacrificar a otro Rakoan. Si lo haces, inflige 3 de daño.
+646.text;{gift} - Puedes sacrificar otro Rakoan. Si lo haces, inflige 3 de daño a una criatura enemiga.
 647.name;Ilusionista Rakoan
 647.text;{gift} - Puedes transformar a otro Rakoan amistoso en un <b>Draco de las Dunas</b> 4/4 con {flying}, {charge|2} hasta el comienzo de tu próximo turno.
 648.name;Compañeros Portaescudos Rakoan
@@ -844,3 +844,81 @@
 691.text;Por el resto de la partida, cada jugador gana {faeria|1} por cada turno extra.
 692.name;Salvador de los Débiles
 692.text;{gift} - Otorga +2/+2 y {divine} a otra criatura amistosa con exactamente 1 de Ataque.
+701.name;Brújula de Gagana
+701.text;Al final de tu turno, encuentras un <b>Mapa del Tesoro</b> en tu mazo y lo colocas encima. Si tu mazo no tiene Mapas del Tesoro metes uno.
+702.name;Inspiración de Sharra
+702.text;Otorga a una criatura amistosa +2/+2 por cada enemigo adyacente.
+703.name;Celeste, Dragón de Cristal
+703.text;{flying}, {charge|2}{gift} - Si tu mazo solo tiene una carta de cada, gana {haste} y {protection}.{last_words} - Mete a Celeste de nuevo en tu mazo.
+704.name;Gagana, Buscadora de Tesoros
+704.text;{flying}\n{gift} - Por cada carta en tu mano, añade un <b>Mapa del Tesoro</b> a tu mazo. Mete tu mano en tu mazo y saca la misma cantidad de cartas.
+705.name;Tritón Aventurero
+705.text;{jump}{gift} - Mueve esta criatura.\nAl final de tu turno, roba una carta si está en tierra enemiga.
+706.name;Mensaje en una botella
+706.text;Mete 2 <b>Mapas del Tesoro</b> en tu mazo y roba una carta.
+707.name;Guardián Conchaestrella
+707.text;{gift} - Mete un <b>Mapas del Tesoro</b> en tu mazo y roba una carta.
+709.name;Tritón Astrónomo
+709.text;{jump}\n{gift} - Roba 3 cartas. Si cualquiera de ellas es un <b>Mapa del Tesoro</b>, esto gana +2/+2.
+710.name;Fugoro, Capitán del Gagana
+710.text;{jump}\nCuando descubres un Tesoro, Fugoro gana +3/+3.
+711.name;Tiki Aventurero
+711.text;{dash|1}\nAl final de tu turno, otorga +1/+1 a todas las criaturas amistosas adyacentes si está en una tierra enemiga.
+712.name;Tiki Zoólogo
+712.text;{gift} - {discover} una Bestia. Se vuelve {wild}.
+713.name;Kodama Cuidador de Bestias
+713.text;{jump}\nLas Bestias amistosas adyacentes ganan +2/+0.
+714.name;Buscar refugio
+714.text;{discover} una criatura con {taunt}. Se vuelve {wild} y gana +0/+3.
+715.name;Mascota exótica
+715.text;Puedes jugar esta carta adyacente a una criatura no verde amistosa.
+717.name;Ogro Aventurero
+717.text;{dash|1}\nAl final de tu turno, reduce el coste de una carta de tu mano {faeria|1} si está en tierra enemiga.
+719.name;Cría de la Forja inestable
+719.text;{production} - Gana +3/+0
+720.name;Fragmentador
+720.text;{combat} - Invoca un Mecha 4/2 en un espacio adyacente aleatorio.
+721.name;Detonar
+721.text;Todos los mecha inflige 2 de daño a todos los enemigos adyacentes.
+722.name;Junkfeet, Cabeza de Chatarra
+722.text;Al final de tu turno, otorga a todos los Mecha amistosos +1/+1 y esto recibe 1 de daño.
+723.name;Keldran Aventurero
+723.text;{dash|1}\nAl final de tu turno, mete 2 <b>Mapas del Tesoro</b> en tu mazo si está en tierra enemiga.
+724.name;Amai Mercader
+724.text;{flying}\n{gift} - {discover} una carta que cueste {faeria|5} o más. Añade las 2 cartas que no hayas cogido a la mano de tu oponente. Todas se vuelven {wild}.
+726.name;Amai Vendedor de Mapas
+726.text;{gift} - Mete un <b>Mapa del Tesoro</b> en tu mazo.
+727.name;Aryana, Alma de Gagana
+727.text;{flying}\n{gift} - Añade un <b>Mapa del Tesoro</b> encima de tu mazo.\n{last_words} - Devuelve a Aryana a tu mano.
+728.name;Trueque
+728.text;{discover} un evento del mazo de tu oponente. Se vuelve {wild} y cuesta {faeria|2} menos.
+729.name;Especias Espirituales
+729.text;Otorga a una criatura +3/+3, {charge|3}, y {flying}. Cuesta {faeria|3} menos por cada criatura amistosa que haya muerto en este turno.
+730.name;Especias Cristalinas
+730.text;{discover} 2 cartas no legendarias que cuesten {faeria|7} o más. Se vuelven {wild}.
+731.name;Dron volador
+731.text;{flying}, {dash|2}
+732.name;Expedición Thyriana
+732.text;{discover} una carta con 5 o más coste de tierras total. Se vuelve {wild} y cuesta {faeria|1} menos.
+733.name;Planeador Saltarín
+733.text;{flying}, {jump}
+734.name;Sorocco, Primer Piloto
+734.text;{jump}\nInflige 3 de daño a todos los enemigos adyacentes a donde aterriza.
+735.name;Globo Thyriano
+735.text;{charge|5}, {flying}\n{last_words} Inflige 5 de daño a todos los enemigos adyacentes.
+736.name;Gárgola Antigua
+736.text;{charge|3}, {flying} {gift} - Destruye todos los <b>Mapas del Tesoro</b> de tu mazo y gana +1/+1 por cada uno.\nMapas destruidos:{dynamic_number|0|0}
+737.name;Cristálida
+737.text;{gift} - {swallow} una criatura amistosa.\n{production} - La criatura devorada gana +4/+4.\n{activate} - Destruye esto.
+738.name;Alfombra Mágica
+738.text;{flying}, {dash|5}\n{gift} - Llena tu mano de <b>Ráfagas</b>. Se vuelven {wild}.
+739.name;Simulacro de Obediencia
+739.text;Las cartas en tu mano cuestan {faeria|1} menos.
+740.name;Lanza de los Guardianes
+740.text;{divine}, {flying}, {dash|5}\nDebe ser invocado adyacente a una criatura amistosa.
+741.name;Llave de los Elementos
+741.text;{options|{discover} una criatura verde.|{discover} una criatura azul.|{discover} una criatura roja.|{discover} una criatura amarilla.}\nEscoge un color. {discover} una criatura del mismo color. Se vuelve {wild} y cuesta {faeria|3} menos.
+742.name;Llave de los Gigantes
+742.text;{discover} una criatura. Gana +6/+6 y se vuelve {wild}.
+743.name;Llave de los Guardianes
+743.text;Invoca dos Guardianes 5/5 con {taunt} y {divine}.
