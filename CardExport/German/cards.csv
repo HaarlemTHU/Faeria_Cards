@@ -257,7 +257,7 @@
 159.name;Wildwuchs
 159.text;Erschaffe {green} auf einem zufälligen Feld.
 168.name;Urzeit-Koloss
-168.text;Kostet {faeria|1} weniger für jedes farbige Land unter deiner Kontrolle. (Minimun: {faeria|6})
+168.text;Kostet {faeria|1} weniger für jedes farbige Land unter deiner Kontrolle. (Minimum: {faeria|6})
 169.name;Tethra, Seele der Wildnis
 169.text;{flying}, {charge|2}\n{gift} - Gib einer Kreatur +5/+5.
 170.name;Holzelementar
@@ -353,7 +353,7 @@
 223.name;Bombenwerfer
 223.text;{gift} - Fügt einer angrenzenden feindlichen Kreatur oder Bauwerk 4 Schaden zu.
 224.name;Kanonenträger
-224.text;{gift} - Gib einer verbündeten Kreatur {ranged_attack}.
+224.text;{gift} - Wirf einen 4/2 Mecha in einer geraden Linie auf ein Land.
 225.name;Flammenexplosion
 225.text;Füge einem Ziel 3 Schaden zu.
 226.name;Flammenwerfer
@@ -733,7 +733,7 @@
 625.name;Rapala, der Dummfisch
 625.text;{aquatic}\n{gift}- Fülle die Hand deines Gegners mit <b>Rubinfisch</b>. Was ein Idiot.
 626.name;Saphiryak
-626.text;Immer wenn ein verbündeter Yak Faeria von einem gegnerischen Brunnen sammelt, gib ihm +2/+2.
+626.text;Immer wenn ein verbündetes Yak Faeria von einem gegnerischen Brunnen sammelt erhält es +2/+2.
 627.name;Erlegen
 627.text;Gib einer verbündeten Bestie +2/+0. Dann bekämpft sie eine gegnerische Kreatur.
 628.name;Smaragdtyak
@@ -755,9 +755,9 @@
 645.name;Rakoan Kriegsmaschine
 645.text;{charge|2}\n{gift} - Diese Kreatur kann einen anderen verbündeten Rakoan {swallow} um +2/+0 zu erhalten.
 646.name;Rakoan Kanonier
-646.text;{gift} - Du kannst einen anderen Rakoan opfern. Wenn du dies tust, füge 3 Schaden zu.
+646.text;{gift} - Du kannst einen verbündeten Rakoan opfern. Falls du dies tust, füge einer gegnerischen Kreatur 3 Schaden zu.
 647.name;Rakoan Illusionist
-647.text;{gift} - Du kannst einen anderen Rakoan, bis zum ende deeines nächsten Zuges, in einen 4/4 {flying} {charge|2} <b>Dune Drake</b> verwandeln.
+647.text;{gift} - Du kannst einen anderen Rakoan, bis zum Ende deines nächsten Zuges, in einen 4/4 {flying} {charge|2} <b>Dünendrache</b> verwandeln.
 648.name;Rakoanische Schildbrüder
 648.text;{last_words} - Beschwöre einen 1/1 Rakoaner an dieser Position.
 649.name;Rakoan Truppführer
@@ -775,7 +775,7 @@
 656.name;Zerstörerische Salve
 656.text;Füge einer Kreatur 2 Schaden zu. Falls es eine {flying} Kreatur ist, füge ihr stattdessen 5 Schaden zu.
 657.name;Gagana, Regenbogen Vogelschiff
-657.text;{flying}\nKarten in deiner Hand sind {wild}.\n{gift} - Nimm ein zufälliges Gagana Mannschaftsmitglied auf die hand. Es kostet {faeria|0}
+657.text;{flying}\nKarten in deiner Hand sind {wild}.\n{gift} - Nimm ein zufälliges Mannschaftsmitglied der Gagana auf die Hand. Es kostet {faeria|0}.
 658.name;Silberstrahl, Geißel der Wolkenwelt
 658.text;{flying}\n{gift} - Gegnerische Kreaturen können sich im nächsten Zug nicht bewegen.
 659.name;Sprenghippo
@@ -844,3 +844,81 @@
 691.text;Für den Rest des Spiels erhält jeder Spieler {faeria|1} mehr pro Runde.
 692.name;Retter der Sanftmütigen
 692.text;{gift} - Gib einer verbündeten Kreatur mit genau 1 Angriff +2/+2 und {divine}.
+701.name;Kompass der Gagana
+701.text;Am Ende deines Zugs, suche eine <b> Schatzkarte </b> in deinem Deck und lege sie obenauf. Wenn dein Deck keine Schatzkarten enthält, mische stattdessen eine hinein.
+702.name;Sharra's Inspiration
+702.text;Gib einer verbündeten Kreatur +2/+2 für jeden angrenzenden Gegner.
+703.name;Celeste, Kristalldrache
+703.text;{flying},{charge|2}\n{gift} - Wenn dein Deck nur eine Kopie jeder Karte enthält, erhält dies {haste} und {protection}.\n{last_words} - Mische Celeste zurück in dein Deck.
+704.name;Gagana, Schatzsucher
+704.text;{flying}\n{gift} - Für jede Karte in deiner Hand, mische eine <b>Schatzkarte</b> in dein Deck. Mische deine Hand in dein Deck und ziehe dieselbe Anzahl Karten.
+705.name;Triton Abenteurer
+705.text;{jump}\n{gift}-Bewege diese Kreatur.\nAm Ende deines Zuges, ziehe eine Karte falls diese Kreatur sich auf einem gegnerischen Land befindet.
+706.name;Flaschenpost
+706.text;Mische 2 <b> Schatzkarte </b> in dein deck und ziehe eine Karte.
+707.name;Sternschalenbewacher
+707.text;{gift} - Mische eine <b> Schatzkarte </b> in dein Deck und ziehe eine Karte.
+709.name;Triton Sternenseher
+709.text;{jump}\n{gift} - Ziehe 3 Karten. Falls mindestens eine von ihnen eine <b>Schatzkarte<> ist, erhält diese Kreatur +2/+2.
+710.name;Fugoro, Captain der Gagana
+710.text;{jump}\n Wann immer du einen Schatz entdeckst, erhält Fugoro +3/+3.
+711.name;Tiki Abenteurer
+711.text;{dash|1}\n Am Ende deines Zuges, falls sich diese Kreatur auf einem gegnerischen Land befindet, gib allen benachbarten, verbündeten Kreaturen +1/+1.
+712.name;Tiki Tierkundler
+712.text;{gift} - {discover} eine Bestie. Sie wird {wild}.
+713.name;Kodama Bestienzähmer
+713.text;{jump}\n Angrenzende verbündete Bestien haben +2/+0.
+714.name;Suche Schutz
+714.text;{discover} eine Kreatur mit {taunt}. Sie wird {wild} und erhält +0/+3.
+715.name;Exotisches Haustier
+715.text;Du kannst diese Kreatur neben einer verbündeten nicht-grünen Kreatur ausspielen.
+717.name;Oger Abenteurer
+717.text;{dash|1}\n Am Ende deines Zuges, reduziere die Kosten einer Karte in deiner Hand um {faeria|1} falls sich diese Kreatur auf einem gegnerischen Land befindet.
+719.name;Instabiler Schmiedling
+719.text;{production} - Erhalte +3/+0.
+720.name;Fragmentierer
+720.text;{combat} - Beschwöre einen 4/2 Mecha auf einem zufälligen benachbarten Feld.
+721.name;Detonieren
+721.text;Alle verbündeten Mecha verursachen 2 Schaden an allen benachbarten Gegnern.
+722.name;Schrottfuß, der Ramschhaufen
+722.text;Am Ende deines Zuges, gib allen anderen verbündeten Mecha +1/+1 und verursache 1 Schaden an dieser Kreatur.
+723.name;Keldran Abenteurer
+723.text;{dash|1}\n Am Ende deines Zuges, falls sich diese Kreatur auf einem gegnerischen Land befindet, mische zwei <b>Schatzkarten</b> in dein Deck.
+724.name;Händler der Amai
+724.text;{flying}\n{gift}-{discover} eine Karte die {faeria|5} oder mehr kostet. Dein Gegner erhält die zwei nicht gewählten Karten auf die Hand. Sie werden alle {wild}.
+726.name;Kartenhändler der Amai
+726.text;{gift} - Mische eine <b>Schatzkarte</b> in dein Deck.
+727.name;Aryana, Seele von Gargana
+727.text;{flying}\n{gift} - Füge eine <b>Schatzkarte</b> oben auf deinem Deck hinzu.\n{last_words} - Gib Aryana in deine Hand zurück.
+728.name;Feilschen
+728.text;{discover} ein Ereignis vom Deck deines Gegners. Es wird {wild} und kostet {faeria|2} weniger.
+729.name;Geistergewürz
+729.text;Gib einer Kreatur +3/+3, {charge|3} und {flying}. Kostet {faeria|3} weniger für jede verbündete Kreatur die in diesem Zug gestorben ist.
+730.name;Kristallgewürz
+730.text;{discover} 2 nichtlegendäre Karten die {faeria|7} oder mehr kosten. Sie werden {wild}.
+731.name;Luftbot
+731.text;{flying}, {dash|2}
+732.name;Thyrianische Expedition
+732.text;{discover} eine Karte mit 5 oder mehr Landkosten. Sie wird {wild} und kostet {faeria|1} weniger.
+733.name;Gleitschirmhüpfer
+733.text;{flying}, {jump}
+734.name;Sorocco, Erster Maat
+734.text;{jump}\nFüge allen benachbarten Gegnern 3 Schaden zu, wenn diese Karte landet.
+735.name;Thyrianischer Globus
+735.text;{charge|5}, {flying}\n{last_words} Verursache 5 Schaden an allen benachbarten Gegnern.
+736.name;Uralter Gargoyle
+736.text;{charge|3}, {flying}{gift} - Zerstöre alle <b>Schatzkarten</b> in deinem Deck und erhalte +1/+1 für jede zerstörte Karte.\nZerstörte Karten:{dynamic_number|0|0}.
+737.name;Krystallis
+737.text;{gift} - {swallow} eine verbündete Kreatur.\n{production} - Die verschluckte Kreatur erhätl +4/+4.\n{activate}-Zerstöre diese Struktur.
+738.name;Magischer Teppich
+738.text;{flying},{dash|5}\n{gift} - Fülle deine Hand mit <b>Plötzlicher Windstoß</b>. Sie werden {wild}.
+739.name;Abbild der Gehorsamkeit
+739.text;Karten in deiner Hand kosten {faeria|1} weniger.
+740.name;Speer der Wächter
+740.text;{divine},{flying},{dash|5}\n Muss neben einer verbündeten Kreatur beschworen werden.
+741.name;Schlüssel der Elemente
+741.text;{options|{discover} eine grüne Kreatur.|{discover} eine blaue Kreatur.|{discover} eine rote Kreatur.|{discover} eine gelbe Kreatur.}\nWähle eine Farbe.{discover} eine Kreatur derselben Farbe. Sie wird {wild} und kostet {faeria|3} weniger.
+742.name;Schlüssel der Riesen
+742.text;{discover} eine Kreatur. Sie erhält +6/+6 und wird {wild}.
+743.name;Schlüssel der Wächter
+743.text;Beschwöre zwei 5/5 Wächter mit {taunt} und {divine}.

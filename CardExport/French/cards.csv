@@ -121,7 +121,7 @@
 75.name;Enchanteresse de Gabria
 75.text;{gift} - L'attaque d'une autre créature devient égale à ses PV.
 76.name;Commandant de Gabria
-76.text;{aquatic}, {charge|2}\nLa première fois que vous piochez une carte coûtant au moins {faeria|7} de base, cette carte gagne +1/+1 et {flying}.
+76.text;{aquatic}, {charge|2}\nGagne +1/+1 et {flying} la première fois que vous piochez une carte coûtant au moins {faeria|7} de base.
 77.name;Protecteur de Gabria
 77.text;{gift} - Donne {protection} à une créature.
 82.name;Mochi de la source
@@ -241,7 +241,7 @@
 151.name;Semeur
 151.text;{gift} - Crée une {green} adjacente aléatoirement.
 152.name;Mur de vignes
-152.text;{taunt}{last_words} - Crée une {green} aléatoirement.
+152.text;{taunt}\n{last_words} - Crée une {green} aléatoirement.
 153.name;Grizzly des Bois Enfouis
 153.text;
 154.name;Guérisseuse Tiki
@@ -353,7 +353,7 @@
 223.name;Lance-bombes
 223.text;{gift} - Inflige 4 points de dégâts à une créature ou structure ennemie adjacente.
 224.name;Cannonier
-224.text;{gift} - Donne {ranged_attack} à une créature alliée.
+224.text;{gift} - Projette un Mecha 4/2 sur un terrain en ligne droite.
 225.name;Explosion de flammes
 225.text;Inflige 3 points de dégâts.
 226.name;Lance-flammes
@@ -733,7 +733,7 @@
 625.name;Rapala, Fêlé du Bocal
 625.text;{aquatic}\n{gift} - Remplit la main de votre adversaire avec des <b>Poisson rubis</b>. Quel idiot.
 626.name;Yak Saphir
-626.text;À chaque fois qu'un Yak allié récolte de la faeria dans un puits adverse, lui donne +2/+2.
+626.text;Quand un Yak allié récolte de la faeria depuis un puits ennemi, lui donne +2/+2.
 627.name;Traque mortelle
 627.text;Donne +2/+0 à une bête alliée puis la fait combattre une créature ennemie.
 628.name;Yak Émeraude
@@ -755,7 +755,7 @@
 645.name;Machine de guerre Rakoan
 645.text;{charge|2}\n{gift} - Gagne +2/+0 s'il {swallow} un Rakoan allié.
 646.name;Canonnier Rakoan
-646.text;{gift} - Vous pouvez infliger 3 points de dégâts si vous sacrifiez un autre Rakoan.
+646.text;{gift} - Vous pouvez sacrifier un autre Rakoan. Si vous le faites, inflige 3 points de dégâts à une créature ennemie.
 647.name;Illusionniste Rakoan
 647.text;{gift} - Vous pouvez transformer un autre Rakoan allié en <b>Drakon des dunes</b> 4/4 avec {flying} et {charge|2} jusqu'au début de votre prochain tour.
 648.name;Compagnons protecteurs Rakoan
@@ -844,3 +844,81 @@
 691.text;Chaque joueur gagne {faeria|1} de plus chaque tour durant le reste de la partie.
 692.name;Sauveur des humbles
 692.text;{gift} - Donne +2/+2 et {divine} à une autre créature alliée avec exactement 1 point d'attaque.
+701.name;Boussole de Gagana
+701.text;À la fin de votre tour, trouve une <b>Carte au Trésor</b> de votre deck et la place au-dessus. S'il n'en contient aucune, en mélange une dedans à la place.
+702.name;Inspiration de Sharra
+702.text;Donne à une créature alliée +2/+2 pour chaque créature ennemie adjacente.
+703.name;Céleste, Dragon de Cristal
+703.text;{flying}, {charge|2}\n{gift} - Si votre deck ne contient que des cartes en un exemplaire, gagne {haste} et {protection}.\n{last_words} - Mélange à nouveau Céleste dans votre deck.
+704.name;Gagana, Chasseur de Trésor
+704.text;{flying}\n{gift} - Pour chaque carte dans votre main, ajoute une <b>Carte au Trésor</b> à votre deck. Mélange les cartes de votre main dans votre deck. Vous en repiochez autant.
+705.name;Aventurier Triton
+705.text;{jump}\n{gift} - Déplacez cette créature.\nÀ la fin de votre tour, si elle est sur un terrain ennemi, piochez une carte.
+706.name;Bouteille à la mer
+706.text;Mélange deux <b>Cartes au Trésor</b> dans votre deck. Vous piochez une carte.
+707.name;Starshell Keeper
+707.text;{gift} - Mélange une <b>Carte au Trésor</b> dans votre deck. Vous piochez une carte.
+709.name;Triton Ouranoscope
+709.text;{jump}\n{gift} - Piochez 3 cartes. Si l'une d'elles est une <b>Carte au Trésor</b>, gagne +2/+2.
+710.name;Fugoro, Capitaine du Gagana
+710.text;{jump}\nÀ chaque fois que vous découvrez un Trésor, Fugoro gagne +3/+3.
+711.name;Aventurier Tiki
+711.text;{dash|1}\nÀ la fin de votre tour, s'il est sur un terrain ennemi, donne +1/+1 à toutes les créatures alliées adjacentes.
+712.name;Zoologiste Tiki
+712.text;{gift} - {discover} une Bête. Elle devient {wild}.
+713.name;Kodama Beast Tender
+713.text;{jump}\nLes Bêtes adjacentes gagnent +2/+0.
+714.name;Seek Shelter
+714.text;{discover} une créature avec {taunt}. Elle devient {wild} et gagne +0/+3.
+715.name;Animal Exotique
+715.text;Vous pouvez jouer cette carte sur un terrain adjacent à une créature alliée non verte.
+717.name;Ogre aventurier
+717.text;{dash|1}\nÀ la fin de votre tour, s'il est sur un terrain ennemi, réduit le coût d'une carte de votre main de {faeria|1}.
+719.name;Forgelin détraqué
+719.text;{production} - Gagne +3/+0.
+720.name;Fragmenteur
+720.text;{combat} - Invoque un Mecha 4/2 sur un terrain adjacent aléatoire.
+721.name;Détonation
+721.text;Tous les Mechas alliés infligent 2 points de dégâts aux ennemis adjacents.
+722.name;Junkfeet, the Scrapheap
+722.text;A la fin de votre tour, donne +1/+1 à tous les Mechas alliés et subit un point de dégâts.
+723.name;Aventurier Keldran
+723.text;{dash|1}\nÀ la fin de votre tour, s'il est sur un terrain ennemi, mélange deux <b>Cartes au Trésor</b> dans votre deck.
+724.name;Marchand Amai
+724.text;{flying}\n{gift} - {discover} une carte coûtant {faeria|5} ou plus. Ajoute les deux cartes que vous n'avez pas choisi à la main de votre adversaire. Ces trois cartes deviennent {wild}.
+726.name;Vendeur de Cartes Amai
+726.text;{gift} - Mélange une <b>Carte au Trésor</b> dans votre deck.
+727.name;Aryana, Âme du Gagana
+727.text;{flying}\n{gift} - Ajoute une <b>Carte au Trésor</b> au dessus de votre pioche.\n{last_words} - Aryana retourne dans votre main.
+728.name;Barter
+728.text;{discover} un événement du deck de votre adversaire. Il devient {wild} et coûte {faeria|2} de moins.
+729.name;Épice spirituelle
+729.text;Donne +3/+3, {charge|3} et {flying} à une créature. Coûte {faeria|3} de moins par créature alliée morte ce tour.
+730.name;Épice cristalline
+730.text;{discover} deux cartes non légendaires coûtant {faeria|7} ou plus. Elles deviennent {wild}.
+731.name;Aérobot
+731.text;{flying}, {dash|2}
+732.name;Expédition thyrianne
+732.text;{discover} une carte coûtant 5 terrains ou plus. Elle devient {wild} et coûte {faeria|1} de moins.
+733.name;Glidehopper
+733.text;{flying}, {jump}
+734.name;Sorocco, Commandant en Second
+734.text;{jump}\nLà où il atterrit, inflige 3 points de dégâts à tous les ennemis adjacents.
+735.name;Globe Thyrian
+735.text;{charge|5}, {flying}\n{last_words} Inflige 5 points de dégâts à tous les ennemis adjacents.
+736.name;Gargouille antique
+736.text;{charge|3}, {flying} {gift} - Déchire en lambeaux toutes les <b>Carte au Trésor</b> de votre deck et gagne +1/+1 pour chaque Carte au Trésor ainsi détruite.\nCartes au Trésor détruites:{dynamic_number|0|0}.
+737.name;Cristalide
+737.text;{gift} - {swallow} une créature alliée.\n{production} - La créature gobée gagne +4/+4.\n{activate} - Détruit cette structure.
+738.name;Tapis Magique
+738.text;{flying}, {dash|5}\n{gift} - Remplit votre main de <b>Vents Éclair</b>. Ils deviennent {wild}.
+739.name;Simulacre d'obéissance
+739.text;Les cartes de votre main coûtent {faeria|1} de moins.
+740.name;Lance des Gardiens
+740.text;{divine},{flying},{dash|5}\nDoit être invoquée à côté d'une créature alliée.
+741.name;Clé des Eléments
+741.text;{options|{discover} une créature verte.|{discover} une créature bleue.|{discover} une créature rouge.|{discover} une créature jaune.}\nChoisissez une couleur. {discover} une créature de la couleur choisie. Elle devient {wild} et coûte {faeria|3} de moins.
+742.name;Clé des Géants
+742.text;{discover} une créature. Elle gagne +6/+6 et devient {wild}.
+743.name;Clé des Gardiens
+743.text;Invoque deux Gardiens +5/+5 avec {taunt} et {divine}.
