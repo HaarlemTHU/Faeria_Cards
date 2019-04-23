@@ -353,7 +353,7 @@
 223.name;Vrhač bomb
 223.text;{gift} - Udelí 4 poškození přilehlé nepřátelské bytosti nebo budově.
 224.name;Nosič kanónu
-224.text;{gift} - Přidá schopnost {ranged_attack} spojenecké bytosti.
+224.text;{gift} - Vystřelí na libovolnou pevninu v přímé linii Mecha (4/2).
 225.name;Výbuch plamene
 225.text;Udelí 3 poškození.
 226.name;Vrhač plamene
@@ -755,7 +755,7 @@
 645.name;Rakoanský válečný stoj
 645.text;{charge|2}\n{gift} - Pokud chcete, {swallow} spojeneckého rakoana a získá +2/+0.
 646.name;Rakoanský kanón
-646.text;{gift} - Můžete obětovat jiného Rakoana, abyste udělili 3 poškození.
+646.text;{gift} - Můžete obětovat jiného Rakoana, abyste udělili 3 poškození nepřátelské bytosti.
 647.name;Rakoanský kejklíř
 647.text;{gift} - Můžete přeměnit jiného přátelského rakoana na <b>Drakóna z duny</b> (4/4, {flying}, {charge|2} ) do začátku vašeho příštího tahu.
 648.name;Rakoanské štíty
@@ -844,3 +844,81 @@
 691.text;Až do konce hry všichni hráči získají v každém tahu {faeria|1} navíc.
 692.name;Spasitel slabých
 692.text;{gift} - Přidá jiné přátelské bytosti, jejíž útok je přesně 1, +2/+2 a vlastnost {divine}.
+701.name;Gaganský kompas
+701.text;Na konci vašeho tahu najde v balíčku <b>Mapu pokladů</b> a umístí ji navrch. Pokud v balíčku žádnou nemáte, namísto toho do něj jednu vmíchá.
+702.name;Shařin vzor
+702.text;Přídá spojenecké bytosti +2/+2 za každého přilehlého nepřítele.
+703.name;Celeste, krystalová saň
+703.text;{flying}, {charge|2}\n{gift} - Pokud se ve vašem balíčku každá karta nachází jen jednou, získá {haste} a {protection}.\n{last_words} - Vmíchá Celeste zpět do balíčku.
+704.name;Gagana, lovec pokladů
+704.text;{flying}\n{gift} - Za každou kartu ve vaší ruce přidá do balíčku <b>Mapu pokladů</b>. Vmíchejte karty z ruky do balíčku a doberte si zpět stejný počet.
+705.name;Tritónský dobrodruh
+705.text;{jump}\n{gift} - Pohněte touto bytostí.\nPokud na konci vašeho tahu stojí na nepřátelském území, líznete si kartu.
+706.name;Vzkaz v lahvi
+706.text;Vmíchá do vašeho balíčku 2 <b>Mapy pokladů</b>. Líznete si kartu.
+707.name;Želhvězdný strážce
+707.text;{gift} - Vmíchá do vašeho balíčku <b>Mapu pokladů</b>. Líznete si kartu.
+709.name;Tritónský hvězdář
+709.text;{jump}\n{gift} - Líznete si 3 karty. Je-li některá z nich <b>Mapa pokladů</b>, získá hvězdář +2/+2.
+710.name;Fugoro, kapitán Gagany
+710.text;{jump}\nVždy, když objevíte poklad, získá Fugoro +3/+3.
+711.name;Tikijský dobrodruh
+711.text;{dash|1}\nPokud je na konci vašeho tahu na nepřátelském území, přidá +1/+1 všem přilehlým spojeneckým bytostem.
+712.name;Tikijský zoolog
+712.text;{gift} - {discover} Šelmu, která bude {wild}.
+713.name;Kodamský chovatel šelem
+713.text;{jump}\nPřilehlé spojenecké Šelmy získají +2/+0.
+714.name;Vyhledat útočiště
+714.text;{discover} bytost s vlastností {taunt}. Získá +0/+3 a bude {wild}.
+715.name;Exotický mazlíček
+715.text;Smíte jej vyvolat vedle spojenecké nezelené bytosti.
+717.name;Zlobří dobrodruh
+717.text;{dash|1}\nPokud je na konci vašeho tahu na nepřátelské pevnině, sníží cenu jedné karty ve vaší ruce o {faeria|1}.
+719.name;Nestálé výhňátko
+719.text;{production} - Získá +3/+0.
+720.name;Členitec
+720.text;{combat} - Vyvolá na náhodné přilehlé pevnině Mecha (4/2).
+721.name;Odpálit
+721.text;Všichni spojenečtí Mechové udělí přilehlým napřátelům 2 poškození.
+722.name;Šrotošlap Smetihlav
+722.text;Na konci vašeho tahu přidá všem ostatním Mechům +1/+1. Poté je mu uděleno 1 poškození.
+723.name;Keldranský dobrodruh
+723.text;{dash|1}\nPokud je na konci vašeho tahu na nepřátelské pevnině, vmíchá do vašeho balíčku 2 <b>Mapy pokladů</b>.
+724.name;Amaiský obchodník
+724.text;{flying}\n{gift} - {discover} kartu s cenou {faeria|5} či více. Zbylé dvě karty přidá do ruky vašeho protihráče. Všechny tři budou {wild}.
+726.name;Amaiský prodavač map
+726.text;{gift} - Vmíchá do vašeho balíčku <b>Mapu pokladů</b>.
+727.name;Aryana, duše Gagany
+727.text;{flying}\n{gift} - Přidá navrch vašeho balíčku <b>Mapu pokladů</b>.\n{last_words} - Vrátí Aryanu do vaší ruky.
+728.name;Směnný obchod
+728.text;{discover} událost z protihráčova balíčku. Bude {wild} a bude stát o {faeria|2} méně.
+729.name;Koření duchů
+729.text;Přidá bytosti +3/+3, {charge|3} a vlastnost {flying}. Stojí o {faeria|3} méně za každou spojeneckou bytost, která v tomto tahu zemřela.
+730.name;Krystalové koření
+730.text;{discover} 2 nelegendární karty s cenou {faeria|7} či více. Každá bude {wild}.
+731.name;Poletucha
+731.text;{flying}, {dash|2}
+732.name;Thyrijská expedice
+732.text;{discover} kartu vyžadující celkem 5 či více pevnin. Bude {wild} a bude stát o {faeria|1} méně.
+733.name;Skokluzák
+733.text;{flying}, {jump}
+734.name;Sorocco, první důstojník
+734.text;{jump}\nUdělí 3 poškození všem nepřátelům přilehlým k místu dopadu.
+735.name;Thyrijský glóbus
+735.text;{charge|5}, {flying}\n{last_words} Udělí 5 poškození přilehlým nepřátelům.
+736.name;Prastarý chrlič
+736.text;{charge|3}, {flying} {gift} - Zničí všechny <b>Mapy pokladů</b> ve vašem balíčku na kousky a za každou získá +1/+1.\nZničené mapy:{dynamic_number|0|0}.
+737.name;Kuklokam
+737.text;{gift} - {swallow} a friendly creature.\n{production} - The swallowed creature gains +4/+4.\n{activate} - Destroy this.
+738.name;Kouzelný koberec
+738.text;{flying}, {dash|5}\n{gift} - Naplní vaši ruku <b>Záblesky větru</b>. Každá z těchto karet bude {wild}.
+739.name;Zpodobnění poddajnosti
+739.text;Karty ve vaší ruce jsou o {faeria|1} levnější.
+740.name;Kopí Strážců
+740.text;{divine},{flying},{dash|5}\nMusí být vyvoláno vedle spojenecké bytosti.
+741.name;Klíč živlů
+741.text;{options|{discover} zelenou bytost.|{discover} modrou bytost.|{discover} červenou bytost.|{discover} žlutou bytost.}\nZvolte si barvu. {discover} bytost dané barvy. Bude {wild} a bude o {faeria|3} levnější.
+742.name;Klíč obrů
+742.text;{discover} bytost, která získá +6/+6 a bude {wild}.
+743.name;Klíč Strážců
+743.text;Vyvolá dva Strážce (5/5) s vlastnostmi {taunt} a {divine}.

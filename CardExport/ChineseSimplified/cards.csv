@@ -353,7 +353,7 @@
 223.name;炸弹投手
 223.text;{gift} - 对一个邻近的敌方生物或建筑造成4点伤害。
 224.name;重炮载体
-224.text;{gift} - 给予一个友方生物{ranged_attack}
+224.text;{gift} - 沿直线发射一个4/2的<b>机人</b>到一个地块上。
 225.name;烈焰冲击
 225.text;造成3点伤害
 226.name;火焰喷射器
@@ -733,7 +733,7 @@
 625.name;拉帕拉，蠢若木鱼
 625.text;{aquatic}\n{gift} - 给对手的手牌塞满<b>红宝石鱼</b>。 真是太蠢了。
 626.name;蓝宝石牦牛
-626.text;每当一个友方牦牛从地方灵泉收集Faeria时，给予其+2/+2。
+626.text;每当一只友方牦牛在敌方灵泉收集faeria时，令其获得+2/+2。
 627.name;追猎
 627.text;给予一只友方野兽+2/+0。然后其与与目标敌方生物交战。
 628.name;翡翠牦牛
@@ -755,7 +755,7 @@
 645.name;瑞寇战争机器
 645.text;{charge|2}\n{gift} - 此生物可以{swallow}另一个友方瑞寇以获得+2/+0。
 646.name;瑞寇炮手
-646.text;{gift} - 你可以牺牲另一个瑞寇。 若这么做的话，造成3点伤害。
+646.text;{gift} - 你可以牺牲另一只瑞寇。当你如此做，该生物对一个敌方生物造成3点伤害。
 647.name;瑞寇幻术师
 647.text;{gift} - 在你的下回合开始为止，你可将另一个友方瑞寇转化为一个拥有{flying}和{charge|2}的4/4<b>沙丘幼龙</b>。
 648.name;瑞寇护盾牌队友
@@ -844,3 +844,81 @@
 691.text;每个玩家在本局游戏接下来的每一回合均获得额外{faeria|1}。
 692.name;弱者的救星
 692.text;{gift} - 给予另一只攻击力为1的友方生物+2/+2和{divine}。
+701.name;嘎嘎娜的罗盘
+701.text;在你的回合结束时，从你的牌库中检索一张<b>藏宝图</b>并将其置于牌库顶。如果你的牌库中没有<b>藏宝图</b>，则改为将一张<b>藏宝图</b>洗入你的牌库。
+702.name;莎拉的奇计
+702.text;每有一个相邻敌人，目标友方生物便获得+2/+2。
+703.name;希莱斯忒，水晶巨龙
+703.text;{flying}，{charge|2}\n{gift} - 如果你的牌组中没有相同的卡牌，则该生物获得{haste}与{protection}。\n{last_words} - 将<b>希莱斯忒</b>洗入你的牌库。
+704.name;嘎嘎娜，寻宝客
+704.text;{flying}\n{gift} - 将等于你手牌数量的<b>藏宝图</b>加入你的牌库。将你的手牌洗入牌库并抓取等量的牌。
+705.name;崔顿冒险家
+705.text;{jump}\n{gift} - 移动该生物。\n回合结束时，如果该生物位于敌方地块，则抓一张牌。
+706.name;瓶中讯息
+706.text;将2张<b>藏宝图</b>洗入你的牌库，抓一张牌。
+707.name;星壳收藏家
+707.text;{gift} - 将1张<b>藏宝图</b>洗入你的牌库，抓一张牌。
+709.name;崔顿观星人
+709.text;{jump}\n{gift} - 抓3张牌。如果其中有任意张<b>藏宝图</b>，则该生物获得+2/+2。
+710.name;福咕噜，嘎嘎娜号船长
+710.text;{jump}\n每当你发现一张宝藏时，福咕噜获得+3/+3。
+711.name;提基冒险家
+711.text;{dash|1}\n在你的回合结束时，如果该生物位于敌方地块，则每有一只相邻友方生物，该生物获得+1/+1。
+712.name;提基动物学家
+712.text;{gift} - {discover}一张野兽。它转化为{wild}。
+713.name;野兽守护灵
+713.text;{jump}\n相邻友方野兽获得+2/+0。
+714.name;寻求庇护
+714.text;{discover}一张具有{taunt}的生物。它转化为{wild}并获得+0/+3。
+715.name;珍奇异宠
+715.text;你可以将其召唤至友方非绿生物周围。
+717.name;食人魔冒险者
+717.text;{dash|1}\n在你的回合结束时，如果该生物位于敌方地块，则将你的一张手牌的消耗减少{faeria|1}。
+719.name;不稳定锻体
+719.text;{production} - 获得+3/+0。
+720.name;碎件拼接体
+720.text;{combat} - 在随机相邻地块召唤一只4/2的<b>机人</b>。
+721.name;引爆
+721.text;所有友方机人对其相邻敌人造成2点伤害。
+722.name;废足，废料堆积体
+722.text;在你的回合结束时，令其他所有友方机人获得+1/+1，并令自身受到1点伤害。
+723.name;科尔丹冒险者
+723.text;{dash|1}\n在你的回合结束时，如果该生物位于敌方地块，将2张<b>藏宝图</b>洗入你的牌库。
+724.name;阿玛伊商人
+724.text;{flying}\n{gift} - {discover}一张至少消耗{faeria|5}的卡牌。将剩余两张你未选择的卡牌置入对手的手牌。这些卡牌均转化为{wild}。
+726.name;阿玛伊地图商
+726.text;{gift} - 将一张<b>藏宝图</b>洗入你的牌库。
+727.name;阿雅纳，嘎嘎娜之魂
+727.text;{flying}\n{gift} - 将一张<b>藏宝图</b>置于你的牌库顶。\n{last_words} - 将阿雅纳放回你的手牌。
+728.name;以物易物
+728.text;{discover}一张你对手牌库中的事件。将其转化为{wild}并令其消耗减少{faeria|2}。
+729.name;灵魂香料
+729.text;给予一个生物+3/+3，{charge|3}和{flying}。本回合每死去一个友方生物，其消耗减少{faeria|3}。
+730.name;水晶香料
+730.text;{discover}两张消耗为{faeria|7}及以上的非传奇卡牌。它们转化为{wild}。
+731.name;空行机
+731.text;{flying}，{dash|2}
+732.name;泰瑞尔探秘
+732.text;{discover}一张地块需求5及以上的卡牌。它的消耗减少{faeria|1}并转化为{wild}。
+733.name;掠翼船员
+733.text;{flying}，{jump}
+734.name;大副索洛科
+734.text;{jump}\n对该生物临近的所有敌人造成3点伤害。
+735.name;泰瑞尔法球
+735.text;{charge|5}，{flying}\n{last_words} - 对相邻所有敌人造成5点伤害。
+736.name;远古石像鬼
+736.text;{charge|3}，{flying}\n{gift} - 撕碎你牌组中所有的<b>藏宝图</b>。每撕碎一张，该生物获得+1/+1。\n可撕碎{dynamic_number|0|0}张。
+737.name;水晶茧
+737.text;{gift} - {swallow} a friendly creature.\n{production} - The swallowed creature gains +4/+4.\n{activate} - Destroy this.
+738.name;魔毯
+738.text;{flying}，{dash|5}\n{gift} - 将你的手牌塞满<b>极速疾风</b>。它们转化为{wild}。
+739.name;顺从虚影
+739.text;你的手牌消耗减少{faeria|1}。
+740.name;守卫者之矛
+740.text;{divine},{flying},{dash|5}\n可以召唤在任意位置。
+741.name;元素之钥
+741.text;{options|{discover}一张绿色生物。|{discover}一张蓝色生物。|{discover}一张红色生物。|{discover}一张黄色生物。}\n选择一个颜色。{discover}一张该颜色的生物。它的消耗减少{faeria|3}并转化为{wild}。
+742.name;巨人之钥
+742.text;{discover}一张生物。它获得+6/+6并转化为{wild}。
+743.name;守卫者之钥
+743.text;召唤两只5/5具有{taunt}和{divine}的<b>守卫者</b>。
